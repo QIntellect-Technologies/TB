@@ -103,7 +103,7 @@ class RAGEngine:
             pdf_filename = "Childhood%20TB%20Training%20Desk%20Guide%20(2019)%20(1).pdf"
             pdf_url = f"{base_url}/static/pdfs/{pdf_filename}#page={pdf_page}"
             
-            return f"\n\n📄 *Reference:* {pdf_name}, Page {book_page}\n🔗 {pdf_url}"
+            return f"\n\n� You can find more details on *Page {book_page}* of the _{pdf_name}_. Tap the link below to open it directly:\n🔗 {pdf_url}"
         
         return None
 
