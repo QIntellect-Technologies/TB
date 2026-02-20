@@ -65,6 +65,8 @@ if __name__ == "__main__":
         ("backend/vector_db_faiss/english_metadata.pkl", True),
         ("backend/vector_db_faiss/urdu_metadata.pkl", True),
         ("backend/tb_expert.db", True),
+        ("backend/models/xray_tb_model/saved_model.pb", True),
+        ("backend/models/xray_tb_model/variables/variables.index", True),
         ("backend/models/xray_tb_model/variables/variables.data-00000-of-00001", True)
     ]
     

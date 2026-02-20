@@ -32,16 +32,39 @@ class XRayClassifier:
             print(f"⚠️ X-Ray Model directory not found: {model_dir}")
 
     def _load_model(self):
-        """Load the SavedModel and extract signatures"""
-        self.model = tf.saved_model.load(self.model_dir)
-        self.concrete_fn = self.model.signatures.get('serving_default')
+        """Load the SavedModel with multiple fallbacks for compatibility"""
+        try:
+            # Try standard SavedModel load first
+            self.model = tf.saved_model.load(self.model_dir)
+            self.concrete_fn = self.model.signatures.get('serving_default')
+        except Exception as e:
+            print(f"⚠️  tf.saved_model.load failed ({e}), trying keras fallback...")
+            try:
+                # Try Keras load_model as fallback (often handles version mismatches better)
+                self.model = tf.keras.models.load_model(self.model_dir)
+                self.concrete_fn = self.model.signatures.get('serving_default')
+            except Exception as e2:
+                print(f"❌ Keras fallback also failed: {e2}")
+                raise e
+
         if self.concrete_fn is None:
-            raise RuntimeError('SavedModel has no serving_default signature')
+            # If load_model worked but didn't provide signatures, it might be a Keras object
+            if hasattr(self.model, 'predict'):
+                # We can use the model directly
+                self.input_shape = self.model.input_shape if hasattr(self.model, 'input_shape') else (None, 224, 224, 3)
+                print("✅ Using Keras model.predict directly")
+                return
+            raise RuntimeError('SavedModel has no serving_default signature and no model.predict')
         
         # Extract input key and shape
-        input_info = self.concrete_fn.structured_input_signature[1]
-        self.input_key = list(input_info.keys())[0]
-        self.input_shape = tuple(list(input_info.values())[0].shape.as_list())
+        try:
+            input_info = self.concrete_fn.structured_input_signature[1]
+            self.input_key = list(input_info.keys())[0]
+            self.input_shape = tuple(list(input_info.values())[0].shape.as_list())
+        except Exception as e:
+            print(f"⚠️  Signature extraction failed: {e}. Using defaults.")
+            self.input_key = "input_1" # Common default
+            self.input_shape = (None, 224, 224, 3)
 
     def preprocess_image(self, img_path: str):
         """Resize and normalize image for model input"""
