@@ -2,3 +2,9 @@ fastapi
 uvicorn[standard]
 pydantic
 sqlite3
+python-dotenv
+python-multipart
+groq
+faiss-cpu
+sentence-transformers
+google-generativeai
