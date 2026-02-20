@@ -992,25 +992,42 @@ Tell me, from all of these which symptoms do you have?"""
     
     def _llm_conversational_reply(self, query: str, intent: str, language: str) -> str:
         """Generate human-like, professional reply for non-medical interactions"""
-        
+        q_lower = query.lower().strip()
+
+        # --- Emotional / Worry detection (cross-intent priority) ---
+        worry_words = ["scared", "worried", "afraid", "nervous", "anxious", "upset", "sad", "depressed",
+                       "پریشان", "ڈر", "خوف", "غم", "پریشانی"]
+        if any(w in q_lower for w in worry_words):
+            if language == "Urdu":
+                return "میں سمجھتا ہوں کہ آپ پریشان ہیں، لیکن گھبرائیں نہیں! مناسب علاج کے ساتھ ٹی بی مکمل قابل علاج ہے۔ مجھے بتائیں کیا مسئلہ ہے، میں آپ کی مدد کرنے کے لیے یہاں ہوں۔ 💙"
+            return "I understand this can feel overwhelming, but please don't worry! TB is completely curable with proper treatment. I'm here to help — tell me what's on your mind. 💙"
+
+        # --- Thank you ---
+        thank_words = ["thank", "thanks", "shukriya", "شکریہ", "جزاک", "great", "helpful", "awesome"]
+        if any(w in q_lower for w in thank_words):
+            if language == "Urdu":
+                return "بہت خوشی ہوئی مدد کر کے! 😊 اگر TB کے بارے میں کوئی اور سوال ہو تو بے جھجھک پوچھیں۔"
+            return "Happy to help! 😊 Feel free to ask me anything else about TB anytime."
+
         if language == "Urdu":
             if intent == "greeting":
-                return "السلام علیکم! میں ٹی بی کا طبی ماہر ہوں۔ ٹی بی کی علامات، تشخیص یا علاج کے بارے میں کیسے مدد کر سکتا ہوں؟"
+                return "السلام علیکم! 😊 میں ٹی بی ایکسپرٹ AI ہوں۔ آپ ٹی بی کی علامات، تشخیص، علاج یا کسی بھی متعلق سوال کے بارے میں مجھ سے پوچھ سکتے ہیں!"
             elif intent == "small_talk":
-                return "میں ٹی بی ایکسپرٹ AI ہوں، صرف تپ دق (TB) سے متعلق سوالات کا جواب دیتا ہوں۔"
+                return "الحمدللہ، بالکل ٹھیک! 😊 میں ہمیشہ ٹی بی کے مریضوں اور خاندانوں کی مدد کے لیے تیار ہوں۔ کیا آپ ٹی بی کے بارے میں کچھ جاننا چاہتے ہیں؟"
             elif intent == "abuse":
-                return "براہ کرم احترام کے ساتھ بات کریں۔ میں صرف ٹی بی سے متعلق طبی سوالات کا جواب دیتا ہوں۔"
+                return "براہ کرم احترام کے ساتھ بات کریں۔ میں ٹی بی سے متعلق ہر سوال کا خوشی سے جواب دوں گا۔"
             else:  # irrelevant
-                return "معذرت، میں صرف تپ دق (TB) کے بارے میں سوالات کا جواب دے سکتا ہوں۔ کوئی TB سے متعلق سوال پوچھیں۔"
+                return "یہ میرے دائرہ کار سے باہر ہے 😊 لیکن اگر ٹی بی، اس کی علامات، علاج یا بچاؤ کے بارے میں کچھ جاننا چاہتے ہیں تو میں حاضر ہوں!"
         else:  # English
             if intent == "greeting":
-                return "Hello! I am the TB Expert AI — a specialist in Tuberculosis. Ask me anything about TB symptoms, diagnosis, treatment, or prevention!"
+                return "Hey there! 👋 I'm the TB Expert AI — your friendly guide on all things Tuberculosis. Ask me about TB symptoms, treatment, diagnosis, or anything TB-related!"
             elif intent == "small_talk":
-                return "I am the TB Expert AI, trained exclusively on Tuberculosis. I can answer questions about TB symptoms, diagnosis, treatment, and clinical management."
+                return "I'm doing great, thanks for asking! 😊 I'm always here and ready to help with any TB-related questions. Is there something about TB you'd like to know?"
             elif intent == "abuse":
-                return "Please keep the conversation respectful. I handle TB-related medical questions only."
+                return "Let's keep things respectful! 😊 I'm here to help with TB questions — feel free to ask anything about symptoms, treatment, or prevention."
             else:  # irrelevant
-                return "I specialize exclusively in Tuberculosis (TB). I cannot answer questions on other topics. Please ask me about TB symptoms, treatment, diagnosis, or prevention! 🫁"
+                return "That's outside my area of expertise 😊 But I'm a TB specialist — if you have any questions about Tuberculosis, symptoms, treatment, or prevention, I'm all ears! 🫁"
+
 
 
     def _merge_similar_content(self, content_list: List[str]) -> List[str]:
