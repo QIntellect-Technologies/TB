@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Query, File, UploadFile
+from fastapi import FastAPI, Query, File, UploadFile, Request
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -6,6 +6,7 @@ import sqlite3
 import os
 import shutil
 import time
+import httpx
 from typing import List, Optional
 from pydantic import BaseModel
 
@@ -339,6 +340,118 @@ def chat_rag(request: ChatRequest):
             "category": "Error",
             "method": "error"
         }
+
+# --- WhatsApp Integration ---
+
+async def send_whatsapp_message(text: str, to: str):
+    """Send an outgoing WhatsApp message via Meta Cloud API"""
+    access_token = os.getenv("WHATSAPP_ACCESS_TOKEN")
+    phone_number_id = os.getenv("WHATSAPP_PHONE_NUMBER_ID")
+    
+    if not access_token or not phone_number_id:
+        print("⚠️ WhatsApp credentials missing (ACCESS_TOKEN or PHONE_NUMBER_ID)")
+        return None
+    
+    url = f"https://graph.facebook.com/v18.0/{phone_number_id}/messages"
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "messaging_product": "whatsapp",
+        "to": to,
+        "type": "text",
+        "text": {"body": text},
+    }
+    
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.post(url, headers=headers, json=payload, timeout=20.0)
+            return response.json()
+    except Exception as e:
+        print(f"❌ Failed to send WhatsApp message: {e}")
+        return None
+
+@app.get("/whatsapp/webhook")
+def verify_whatsapp_webhook(request: Request):
+    """WhatsApp Webhook Verification (Meta Challenge)"""
+    verify_token = os.getenv("WHATSAPP_VERIFY_TOKEN")
+    params = request.query_params
+    
+    mode = params.get("hub.mode")
+    token = params.get("hub.verify_token")
+    challenge = params.get("hub.challenge")
+    
+    if mode == "subscribe" and token == verify_token:
+        print("✅ WhatsApp Webhook Verified Successfully")
+        return int(challenge)
+    
+    print("❌ WhatsApp Webhook Verification Failed")
+    return "Verification failed", 403
+
+@app.post("/whatsapp/webhook")
+async def handle_whatsapp_webhook(request: Request):
+    """Handle incoming WhatsApp messages from Meta"""
+    data = await request.json()
+    
+    # Check if this is a WhatsApp message notification
+    if data.get("object") != "whatsapp_business_account":
+        return {"status": "not a whatsapp notification"}
+        
+    try:
+        entry = data.get("entry", [{}])[0]
+        changes = entry.get("changes", [{}])[0]
+        value = changes.get("value", {})
+        messages = value.get("messages", [])
+        
+        if not messages:
+            return {"status": "no messages"}
+            
+        msg = messages[0]
+        from_number = msg.get("from")
+        body = msg.get("text", {}).get("body", "").strip()
+        
+        if not body:
+            return {"status": "empty/non-text message"}
+            
+        print(f"📱 Upcoming WhatsApp Msg from {from_number}: {body}")
+        
+        # Process via RAG Engine
+        if rag_engine:
+            # Create a virtual session ID for WhatsApp users
+            session_id = f"wa_{from_number}"
+            
+            # Detect language
+            is_urdu_query = any("\u0600" <= c <= "\u06FF" for c in body)
+            detected_lang = "Urdu" if is_urdu_query else "English"
+            
+            # Use conversation context
+            conversation_context = get_conversation_context(session_id, max_messages=5)
+            enhanced_query = rag_engine.enhance_query_with_context(body, conversation_context, detected_lang)
+            
+            # Generate RAG response
+            result = rag_engine.generate_answer(
+                enhanced_query, 
+                language=detected_lang, 
+                original_query=body,
+                conversation_history=conversation_context
+            )
+            
+            reply_text = result['answer']
+            
+            # Add to memory
+            add_to_conversation(session_id, f"Q: {body}")
+            add_to_conversation(session_id, f"A: {reply_text[:200]}")
+            
+            # Send message back to WhatsApp
+            await send_whatsapp_message(reply_text, from_number)
+            print(f"✅ Replied to WhatsApp user {from_number}")
+            
+        return {"status": "success"}
+        
+    except Exception as e:
+        print(f"❌ WhatsApp Webhook Error: {e}")
+        return {"status": "error", "message": str(e)}
 
 class XRayResponse(BaseModel):
     prediction: str

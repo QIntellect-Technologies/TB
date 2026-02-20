@@ -9,3 +9,4 @@ sentence-transformers
 google-generativeai
 tensorflow-cpu
 tf-keras
+httpx
