@@ -381,19 +381,22 @@ async def predict_xray(file: UploadFile = File(...)):
         )
 
 
-# Add this at the end of the file, after all other routes
+# SPA Routing - Catch-all to serve index.html for frontend sub-routes
 @app.get("/{rest_of_path:path}")
 async def serve_frontend(rest_of_path: str):
-    # Check if the requested path is a real file in static/
-    # This prevents the catch-all from intercepting /static/ requests
-    if rest_of_path.startswith("static/") or rest_of_path.startswith("api/"):
-        return None # Let the mounting handle it or return 404
+    # Exclude API and static paths from being caught as SPA routes
+    if rest_of_path.startswith("api/") or rest_of_path.startswith("static/"):
+        return {"detail": "Not Found"}
         
+    # If it looks like a file (has an extension), return not found
+    if "." in rest_of_path.split("/")[-1]:
+         return {"detail": "Not Found"}
+
     frontend_index = os.path.join(BASE_DIR, 'static', 'dist', 'index.html')
     if os.path.exists(frontend_index):
         return FileResponse(frontend_index)
     
-    return {"status": "backend_only", "message": "Frontend build not found. Running in API-only mode."}
+    return {"status": "backend_only", "message": "Frontend build not found."}
 
 if __name__ == "__main__":
     import uvicorn
