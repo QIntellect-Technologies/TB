@@ -73,8 +73,13 @@ if XRAY_AVAILABLE:
 UPLOAD_DIR = os.path.join(BASE_DIR, 'static', 'uploads')
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-# Mount static files for images
+# Mount static files for images and uploads
 app.mount("/static", StaticFiles(directory=os.path.join(BASE_DIR, 'static')), name="static")
+
+# Mount frontend assets if they exist
+FRONTEND_DIST = os.path.join(BASE_DIR, 'static', 'dist')
+if os.path.exists(os.path.join(FRONTEND_DIST, 'assets')):
+    app.mount("/assets", StaticFiles(directory=os.path.join(FRONTEND_DIST, 'assets')), name="assets")
 
 def get_conversation_context(session_id: str, max_messages: int = 5) -> List[str]:
     """Get last N messages from conversation history"""
@@ -100,8 +105,8 @@ class QAResponse(BaseModel):
     answer: str
     score: float
 
-@app.get("/")
-def home():
+@app.get("/api/health")
+def health():
     return {"status": "online", "message": "TB Expert Search API is running"}
 
 @app.get("/search", response_model=List[QAResponse])
@@ -381,22 +386,20 @@ async def predict_xray(file: UploadFile = File(...)):
         )
 
 
-# SPA Routing - Catch-all to serve index.html for frontend sub-routes
+# SPA Routing - Catch-all to serve index.html for root and frontend sub-routes
 @app.get("/{rest_of_path:path}")
 async def serve_frontend(rest_of_path: str):
-    # Exclude API and static paths from being caught as SPA routes
-    if rest_of_path.startswith("api/") or rest_of_path.startswith("static/"):
+    # Exclude API and recognized static paths from being caught
+    if rest_of_path.startswith("api/") or rest_of_path.startswith("static/") or rest_of_path.startswith("assets/"):
         return {"detail": "Not Found"}
         
-    # If it looks like a file (has an extension), return not found
-    if "." in rest_of_path.split("/")[-1]:
-         return {"detail": "Not Found"}
-
+    # Serve index.html for root or potential SPA routes
     frontend_index = os.path.join(BASE_DIR, 'static', 'dist', 'index.html')
     if os.path.exists(frontend_index):
         return FileResponse(frontend_index)
     
-    return {"status": "backend_only", "message": "Frontend build not found."}
+    # Fallback if frontend is missing
+    return {"status": "api_only", "message": "TB Expert API is running. Frontend assets not found."}
 
 if __name__ == "__main__":
     import uvicorn

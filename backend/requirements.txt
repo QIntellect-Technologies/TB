@@ -7,3 +7,4 @@ groq
 faiss-cpu
 sentence-transformers
 google-generativeai
+tensorflow-cpu
