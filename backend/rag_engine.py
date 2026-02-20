@@ -994,39 +994,45 @@ Tell me, from all of these which symptoms do you have?"""
         """Generate human-like, professional reply for non-medical interactions"""
         q_lower = query.lower().strip()
 
-        # --- Emotional / Worry detection (cross-intent priority) ---
-        worry_words = ["scared", "worried", "afraid", "nervous", "anxious", "upset", "sad", "depressed",
-                       "پریشان", "ڈر", "خوف", "غم", "پریشانی"]
-        if any(w in q_lower for w in worry_words):
+        # --- Abuse: hard static response ---
+        if intent == "abuse":
             if language == "Urdu":
-                return "میں سمجھتا ہوں کہ آپ پریشان ہیں، لیکن گھبرائیں نہیں! مناسب علاج کے ساتھ ٹی بی مکمل قابل علاج ہے۔ مجھے بتائیں کیا مسئلہ ہے، میں آپ کی مدد کرنے کے لیے یہاں ہوں۔ 💙"
-            return "I understand this can feel overwhelming, but please don't worry! TB is completely curable with proper treatment. I'm here to help — tell me what's on your mind. 💙"
+                return "براہ کرم احترام کے ساتھ بات کریں۔ میں ٹی بی سے متعلق ہر سوال کا خوشی سے جواب دوں گا۔ �"
+            return "Let's keep things respectful! 😊 I'm here to help with TB questions — just ask anything about symptoms, treatment, or prevention."
 
-        # --- Thank you ---
-        thank_words = ["thank", "thanks", "shukriya", "شکریہ", "جزاک", "great", "helpful", "awesome"]
-        if any(w in q_lower for w in thank_words):
+        # --- Irrelevant topic: hard static refusal, no LLM ---
+        if intent == "irrelevant":
             if language == "Urdu":
-                return "بہت خوشی ہوئی مدد کر کے! 😊 اگر TB کے بارے میں کوئی اور سوال ہو تو بے جھجھک پوچھیں۔"
-            return "Happy to help! 😊 Feel free to ask me anything else about TB anytime."
-
-        if language == "Urdu":
-            if intent == "greeting":
-                return "السلام علیکم! 😊 میں ٹی بی ایکسپرٹ AI ہوں۔ آپ ٹی بی کی علامات، تشخیص، علاج یا کسی بھی متعلق سوال کے بارے میں مجھ سے پوچھ سکتے ہیں!"
-            elif intent == "small_talk":
-                return "الحمدللہ، بالکل ٹھیک! 😊 میں ہمیشہ ٹی بی کے مریضوں اور خاندانوں کی مدد کے لیے تیار ہوں۔ کیا آپ ٹی بی کے بارے میں کچھ جاننا چاہتے ہیں؟"
-            elif intent == "abuse":
-                return "براہ کرم احترام کے ساتھ بات کریں۔ میں ٹی بی سے متعلق ہر سوال کا خوشی سے جواب دوں گا۔"
-            else:  # irrelevant
                 return "یہ میرے دائرہ کار سے باہر ہے 😊 لیکن اگر ٹی بی، اس کی علامات، علاج یا بچاؤ کے بارے میں کچھ جاننا چاہتے ہیں تو میں حاضر ہوں!"
-        else:  # English
-            if intent == "greeting":
-                return "Hey there! 👋 I'm the TB Expert AI — your friendly guide on all things Tuberculosis. Ask me about TB symptoms, treatment, diagnosis, or anything TB-related!"
-            elif intent == "small_talk":
-                return "I'm doing great, thanks for asking! 😊 I'm always here and ready to help with any TB-related questions. Is there something about TB you'd like to know?"
-            elif intent == "abuse":
-                return "Let's keep things respectful! 😊 I'm here to help with TB questions — feel free to ask anything about symptoms, treatment, or prevention."
-            else:  # irrelevant
-                return "That's outside my area of expertise 😊 But I'm a TB specialist — if you have any questions about Tuberculosis, symptoms, treatment, or prevention, I'm all ears! 🫁"
+            return "That's outside my area of expertise 😊 But I'm a TB specialist — if you have any questions about Tuberculosis, symptoms, treatment, or prevention, I'm all ears! 🫁"
+
+        # --- Greeting & Small Talk: let LLM respond warmly and naturally ---
+        lang_note = "Reply in Urdu." if language == "Urdu" else "Reply in English."
+        system_instruction = (
+            "You are TB Expert AI — a warm, friendly, and knowledgeable Tuberculosis specialist assistant. "
+            "You speak like a supportive friend who also happens to be a TB doctor. "
+            "For casual conversation (greetings, how are you, thank you, emotional support), respond naturally and warmly. "
+            "If someone is scared or worried about TB, reassure them with empathy and hope. "
+            "You may briefly mention you're here for TB questions, but do NOT lecture or be robotic. "
+            "Keep responses short (1-3 sentences max), friendly, and human. "
+            f"{lang_note}"
+        )
+
+        result = self._call_llm_with_failover(
+            query,
+            system_instruction=system_instruction,
+            temperature=0.7,
+            max_tokens=120
+        )
+
+        if result:
+            return result
+
+        # Fallback if LLM fails
+        if language == "Urdu":
+            return "السلام علیکم! 😊 ٹی بی کے بارے میں کوئی سوال ہو تو پوچھیں، میں حاضر ہوں!"
+        return "Hey! 😊 I'm here to help with anything TB-related. What would you like to know?"
+
 
 
 
