@@ -1,0 +1,570 @@
+{
+  "pdf_name": "Childhood TB Training Desk Guide (2019)",
+  "pdf_path": "E:\\Imran Projects\\QIntellect Projects\\TB\\Childhood TB Training Desk Guide (2019) (1).pdf",
+  "publisher": "National Tuberculosis Control Programme, Government of Pakistan",
+  "note": "pdf_page = actual PDF file page number | book_page = printed page number in the document content",
+  "page_mappings": [
+    {
+      "pdf_page": 4,
+      "book_page": 3,
+      "section": "Identifying Presumptive TB in Children",
+      "keywords": [
+        "presumptive",
+        "symptoms",
+        "identify",
+        "children",
+        "cough",
+        "fever",
+        "lymph nodes",
+        "failure to thrive",
+        "meningitis",
+        "BCG",
+        "contact"
+      ],
+      "possible_questions": [
+        "How to identify presumptive TB in children?",
+        "What are the symptoms of TB in children?",
+        "When should a child be assessed for TB?",
+        "What is prolonged illness in children?",
+        "What are signs of presumptive TB?",
+        "What symptoms indicate TB in children under 14?",
+        "What is failure to thrive in TB?",
+        "What are cervical lymph nodes symptoms?",
+        "What are meningitis symptoms in TB children?",
+        "What is BCG scar significance?",
+        "What are systemic symptoms of childhood TB?",
+        "What is night sweating in children?",
+        "What is malnutrition in TB children?",
+        "When to suspect TB in HIV infected child?",
+        "What are chest symptoms in childhood TB?",
+        "What is unilateral wheeze in TB?"
+      ]
+    },
+    {
+      "pdf_page": 5,
+      "book_page": 4,
+      "section": "Investigate and Interpret - Evaluation Algorithm",
+      "keywords": [
+        "investigation",
+        "evaluate",
+        "algorithm",
+        "TST",
+        "tuberculin",
+        "x-ray",
+        "bacteriological",
+        "PPA scoring",
+        "INH prophylaxis"
+      ],
+      "possible_questions": [
+        "How to investigate TB in children?",
+        "What is the evaluation algorithm for presumptive TB?",
+        "What is PPA scoring chart?",
+        "When to give INH prophylaxis?",
+        "What investigations are needed for child TB?",
+        "How to interpret TB investigations in children?",
+        "When to refer severely ill TB child?",
+        "What is bacteriological confirmation in children?",
+        "When to start TB treatment in children?",
+        "What is the flowchart for TB diagnosis?"
+      ]
+    },
+    {
+      "pdf_page": 6,
+      "book_page": 5,
+      "section": "Flow Diagram for Pulmonary TB Diagnosis",
+      "keywords": [
+        "pulmonary",
+        "diagnosis",
+        "flow diagram",
+        "algorithm"
+      ],
+      "possible_questions": [
+        "What is the flow diagram for pulmonary TB diagnosis?",
+        "How to diagnose pulmonary TB in children?",
+        "What is the diagnostic algorithm for childhood pulmonary TB?"
+      ]
+    },
+    {
+      "pdf_page": 7,
+      "book_page": 6,
+      "section": "Algorithm for Pulmonary TB Diagnosis - History and Examination",
+      "keywords": [
+        "history",
+        "presenting illness",
+        "physical examination",
+        "symptoms",
+        "contact history",
+        "weight",
+        "fever",
+        "respiratory"
+      ],
+      "possible_questions": [
+        "What history to take for TB diagnosis in children?",
+        "What are presenting symptoms of TB?",
+        "How to do physical examination for TB?",
+        "What is contact history in TB?",
+        "How to check for TB contact in children?",
+        "What temperature indicates fever in TB?",
+        "How to check weight in TB children?",
+        "What is respiratory examination for TB?",
+        "What are abnormal findings in extra-pulmonary TB?"
+      ]
+    },
+    {
+      "pdf_page": 8,
+      "book_page": 7,
+      "section": "Investigations - TST, Gene Xpert, Sputum Microscopy, Chest X-ray",
+      "keywords": [
+        "TST",
+        "tuberculin skin test",
+        "gene xpert",
+        "xpert",
+        "sputum",
+        "microscopy",
+        "chest x-ray",
+        "gastric lavage",
+        "AFB",
+        "culture"
+      ],
+      "possible_questions": [
+        "What is tuberculin skin test?",
+        "How to read TST results?",
+        "What is Gene Xpert test?",
+        "What is Xpert MTB/RIF?",
+        "How long does Gene Xpert take?",
+        "What is rifampicin resistance testing?",
+        "What is sputum smear microscopy?",
+        "What is gastric lavage?",
+        "How to collect sputum in children?",
+        "What is TB05 form?",
+        "What does chest x-ray show in TB?",
+        "What is miliary mottling?",
+        "What is lymphadenopathy in chest x-ray?",
+        "What is consolidation in TB?",
+        "How long does culture take for TB?"
+      ]
+    },
+    {
+      "pdf_page": 9,
+      "book_page": 8,
+      "section": "Decide the Diagnosis - PPA Scoring Chart",
+      "keywords": [
+        "diagnosis",
+        "PPA",
+        "scoring",
+        "histology",
+        "granuloma",
+        "CSF",
+        "biopsy"
+      ],
+      "possible_questions": [
+        "How to decide TB diagnosis in children?",
+        "What is PPA Scoring Chart 2016?",
+        "What is histology in TB diagnosis?",
+        "What is granuloma?",
+        "What is caseating granulomatous lesion?",
+        "When to do CSF test for TB?",
+        "What is abdominal aspirate for TB?",
+        "When to do biopsy for TB?"
+      ]
+    },
+    {
+      "pdf_page": 10,
+      "book_page": 9,
+      "section": "PPA Scoring Chart Table - Criteria",
+      "keywords": [
+        "PPA",
+        "scoring",
+        "age",
+        "contact",
+        "PEM",
+        "SAM",
+        "HIV",
+        "immunocompromised",
+        "clinical manifestation",
+        "xpert",
+        "granuloma"
+      ],
+      "possible_questions": [
+        "What is Pakistan Pediatrics Association Scoring Chart?",
+        "How to use PPA scoring chart?",
+        "What is close contact scoring in PPA?",
+        "What is PEM in TB?",
+        "What is SAM in TB?",
+        "What is severe acute malnutrition?",
+        "How does HIV affect TB scoring?",
+        "What is immunocompromised status in TB?",
+        "What are clinical manifestations in PPA chart?",
+        "What is radio diagnostic imaging scoring?",
+        "How to score tuberculin skin test?",
+        "What is Xpert test scoring?"
+      ]
+    },
+    {
+      "pdf_page": 11,
+      "book_page": 10,
+      "section": "PPA Interpretation and TB Case Definitions",
+      "keywords": [
+        "interpretation",
+        "score",
+        "unlikely",
+        "possible",
+        "probable",
+        "new case",
+        "previously treated",
+        "relapse",
+        "failure"
+      ],
+      "possible_questions": [
+        "How to interpret PPA scoring chart?",
+        "What does score 0-2 mean?",
+        "What does score 3-4 mean?",
+        "What does score 5-6 mean?",
+        "What does score 7 or more mean?",
+        "What is unlikely TB?",
+        "What is possible TB?",
+        "What is probable TB?",
+        "What is new TB case?",
+        "What is previously treated TB case?",
+        "What is relapse in TB?",
+        "What is treatment after failure?",
+        "What is lost to follow-up in TB?"
+      ]
+    },
+    {
+      "pdf_page": 12,
+      "book_page": 11,
+      "section": "Prescribing Drugs and Treatment Regimen",
+      "keywords": [
+        "drugs",
+        "dosage",
+        "isoniazid",
+        "rifampicin",
+        "pyrazinamide",
+        "ethambutol",
+        "HRZE",
+        "treatment",
+        "regimen"
+      ],
+      "possible_questions": [
+        "What are TB drugs for children?",
+        "What is the dose of isoniazid?",
+        "What is the dose of rifampicin?",
+        "What is the dose of pyrazinamide?",
+        "What is the dose of ethambutol?",
+        "What is HRZE regimen?",
+        "What is the treatment regimen for children?",
+        "What is intensive phase treatment?",
+        "What is continuation phase treatment?",
+        "How long is TB treatment for children?",
+        "What is 2HRZ regimen?",
+        "What is 4HR regimen?",
+        "What is 2HRZE regimen?"
+      ]
+    },
+    {
+      "pdf_page": 13,
+      "book_page": 12,
+      "section": "Treatment Regimen Details",
+      "keywords": [
+        "meningitis",
+        "osteoarticular",
+        "bone",
+        "joint",
+        "smear negative",
+        "smear positive",
+        "lymph node"
+      ],
+      "possible_questions": [
+        "What is treatment for TB meningitis?",
+        "What is treatment for bone TB?",
+        "What is treatment for joint TB?",
+        "What is osteoarticular TB treatment?",
+        "How long to treat TB meningitis?",
+        "What is 10HR regimen?",
+        "What is treatment for smear negative TB?",
+        "What is treatment for smear positive TB?",
+        "What is treatment for lymph node TB?",
+        "What is intrathoracic lymph node TB treatment?"
+      ]
+    },
+    {
+      "pdf_page": 14,
+      "book_page": 13,
+      "section": "Educate, Register Patient and Manage Household Contacts",
+      "keywords": [
+        "educate",
+        "register",
+        "TB01",
+        "TB02",
+        "TB03",
+        "DOTS",
+        "contacts",
+        "screening",
+        "household",
+        "IPT",
+        "INH prophylaxis"
+      ],
+      "possible_questions": [
+        "How to educate TB patient parents?",
+        "How to register TB patient?",
+        "What is TB01 form?",
+        "What is TB02 card?",
+        "What is TB03 register?",
+        "What is DOTS?",
+        "How to manage household contacts?",
+        "Who should be screened for TB contact?",
+        "What is contact screening protocol?",
+        "What is IPT?",
+        "What is INH prophylaxis?",
+        "Who needs INH prophylaxis?",
+        "What is the dose of INH prophylaxis?",
+        "How long is INH prophylaxis given?",
+        "Can breastfeeding continue during TB treatment?"
+      ]
+    },
+    {
+      "pdf_page": 15,
+      "book_page": 14,
+      "section": "Managing Adverse Effects - Major Side Effects",
+      "keywords": [
+        "adverse effects",
+        "side effects",
+        "skin reaction",
+        "hepatitis",
+        "gastritis",
+        "peripheral neuritis",
+        "visual impairment",
+        "arthritis"
+      ],
+      "possible_questions": [
+        "What are adverse effects of TB drugs?",
+        "What are major side effects of TB treatment?",
+        "What is skin reaction in TB treatment?",
+        "What is hepatitis from TB drugs?",
+        "What is gastritis from TB drugs?",
+        "What is peripheral neuritis?",
+        "What causes visual impairment in TB treatment?",
+        "What drug causes optic neuritis?",
+        "What is arthritis from TB drugs?",
+        "When to stop TB drugs?",
+        "What is thrombocytopenic purpura?",
+        "What is acute renal failure from TB drugs?"
+      ]
+    },
+    {
+      "pdf_page": 16,
+      "book_page": 15,
+      "section": "Managing Minor Side Effects",
+      "keywords": [
+        "minor side effects",
+        "anorexia",
+        "nausea",
+        "joint pains",
+        "itching",
+        "burning",
+        "numbness",
+        "drowsiness",
+        "orange urine",
+        "pyridoxine"
+      ],
+      "possible_questions": [
+        "What are minor side effects of TB drugs?",
+        "How to manage nausea from TB drugs?",
+        "How to manage anorexia in TB treatment?",
+        "What causes joint pains in TB treatment?",
+        "What is itching from TB drugs?",
+        "What is burning sensation from isoniazid?",
+        "What is numbness from TB drugs?",
+        "What is pyridoxine used for?",
+        "Why is urine orange in TB treatment?",
+        "What causes drowsiness in TB treatment?",
+        "What is flu syndrome from rifampicin?",
+        "Can TB treatment continue with minor side effects?"
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "book_page": 16,
+      "section": "Monthly Follow-up Visit",
+      "keywords": [
+        "follow-up",
+        "monthly visit",
+        "2 month",
+        "5 month",
+        "6 month",
+        "smear",
+        "symptoms",
+        "weight gain",
+        "continuation phase"
+      ],
+      "possible_questions": [
+        "What is monthly follow-up for TB?",
+        "When is follow-up visit for TB patients?",
+        "What to check at 2 month follow-up?",
+        "What to check at 5 month follow-up?",
+        "What to check at 6 month follow-up?",
+        "When to do smear at follow-up?",
+        "What if smear is positive at 2 months?",
+        "When to start continuation phase?",
+        "What if symptoms don't improve?",
+        "How to check treatment compliance?",
+        "What is visual acuity check in TB?"
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "book_page": 17,
+      "section": "Retrieve Delayed Patients and Treatment Outcomes",
+      "keywords": [
+        "retrieve",
+        "delayed",
+        "lost to follow-up",
+        "outcome",
+        "cured",
+        "treatment completed",
+        "failure",
+        "died"
+      ],
+      "possible_questions": [
+        "How to retrieve delayed TB patients?",
+        "What is patient retrieval in TB?",
+        "How to contact delayed patients?",
+        "What are treatment outcomes in TB?",
+        "What is cured in TB?",
+        "What is treatment completed?",
+        "What is treatment failure?",
+        "What is lost to follow-up?",
+        "What is died outcome in TB?",
+        "What is not evaluated outcome?"
+      ]
+    },
+    {
+      "pdf_page": 19,
+      "book_page": 18,
+      "section": "Recording and Reporting",
+      "keywords": [
+        "recording",
+        "reporting",
+        "TB04",
+        "TB07",
+        "TB09",
+        "laboratory register",
+        "performance indicators",
+        "DOT review"
+      ],
+      "possible_questions": [
+        "What is recording in TB program?",
+        "What is reporting in TB program?",
+        "What is TB04 register?",
+        "What is TB07 report?",
+        "What is TB09 report?",
+        "What is laboratory register?",
+        "What are performance indicators in TB?",
+        "What is DOT review meeting?",
+        "How to ensure quality in TB program?",
+        "What is treatment success rate?",
+        "What is bacteriological confirmation rate?",
+        "What is DST coverage?"
+      ]
+    },
+    {
+      "pdf_page": 20,
+      "book_page": 19,
+      "section": "Latent TB Infection",
+      "keywords": [
+        "latent TB",
+        "LTBI",
+        "infection",
+        "prophylaxis",
+        "preventive treatment",
+        "skin test",
+        "blood test"
+      ],
+      "possible_questions": [
+        "What is latent TB infection?",
+        "What is LTBI?",
+        "What is difference between latent TB and TB disease?",
+        "What are symptoms of latent TB?",
+        "Can latent TB spread?",
+        "How to diagnose latent TB?",
+        "What is treatment for latent TB?",
+        "Who needs preventive treatment for TB?",
+        "What is prophylaxis treatment for TB?",
+        "Do HIV patients need TB prophylaxis?",
+        "What is skin test for latent TB?"
+      ]
+    },
+    {
+      "pdf_page": 21,
+      "book_page": 20,
+      "section": "Drug Resistant Tuberculosis",
+      "keywords": [
+        "drug resistant",
+        "DRTB",
+        "MDR-TB",
+        "rifampicin resistant",
+        "RRTB",
+        "Xpert MTB/RIF",
+        "PMDT",
+        "second line drugs"
+      ],
+      "possible_questions": [
+        "What is drug resistant TB?",
+        "What is MDR-TB?",
+        "What is rifampicin resistant TB?",
+        "What is RRTB?",
+        "What is multi-drug resistant TB?",
+        "How to diagnose drug resistant TB?",
+        "What is Xpert MTB/RIF test?",
+        "What is PMDT site?",
+        "What are second line drugs?",
+        "What is RR rate in Pakistan?",
+        "How to manage drug resistant TB?",
+        "When to refer to PMDT?",
+        "What is contact screening for DRTB?"
+      ]
+    },
+    {
+      "pdf_page": 22,
+      "book_page": 21,
+      "section": "Annexure I - Administration of PPD for TST",
+      "keywords": [
+        "PPD",
+        "tuberculin",
+        "TST",
+        "administration",
+        "injection",
+        "intradermal"
+      ],
+      "possible_questions": [
+        "How to administer PPD?",
+        "What is PPD administration procedure?",
+        "How to give tuberculin skin test?",
+        "What is intradermal injection for TST?",
+        "How to inject PPD?"
+      ]
+    },
+    {
+      "pdf_page": 23,
+      "book_page": 22,
+      "section": "Annexure II - CXR in Children with TB",
+      "keywords": [
+        "chest x-ray",
+        "CXR",
+        "hilar",
+        "lymph gland",
+        "mediastinal",
+        "infiltration"
+      ],
+      "possible_questions": [
+        "What does chest x-ray show in childhood TB?",
+        "What is hilar lymph gland enlargement?",
+        "What is mediastinal lymph gland enlargement?",
+        "What is lung infiltration in TB?",
+        "What are typical CXR findings in children with TB?"
+      ]
+    }
+  ],
+  "total_pages": 26
+}

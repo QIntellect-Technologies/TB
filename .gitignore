@@ -9,18 +9,18 @@ __pycache__/
 .env
 
 # Datasets and Large Files
-dataset/
+# [KEEP] Specific Large folders are excluded, but we'll allow JSONs
 XRAY_TB/
-PDF Data/
+"PDF Data/"
 tb_text_Dataset/
 *.zip
 *.pdf
-*.jsonl
 *.db
 *.sqlite3
+
+# BLOAT: Exclude these strictly
 backend/vector_db_chromadb_backup/
-backend/vector_db_faiss/
-backend/models/
+backend/vector_db_faiss/*.index
 backend/tb_expert.db
 
 # Editor files

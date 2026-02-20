@@ -3,7 +3,7 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, Activity, User, Bot, Trash2, ShieldCheck, Info, Image, AlertCircle, CheckCircle2 } from 'lucide-react';
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = ""; // Empty for production to use relative paths
 
 function App() {
   const [input, setInput] = useState("");
@@ -22,7 +22,7 @@ function App() {
 
   const fetchStats = async () => {
     try {
-      const res = await axios.get(`${API_BASE}/stats`);
+      const res = await axios.get(`/stats`);
       setStats(res.data);
     } catch (err) { console.error("Stats fail"); }
   };
@@ -45,7 +45,7 @@ function App() {
 
     try {
       // Use RAG endpoint if enabled, otherwise use standard chat
-      const endpoint = ragMode ? `${API_BASE}/chat-rag` : `${API_BASE}/chat`;
+      const endpoint = ragMode ? `/chat-rag` : `/chat`;
       const res = await axios.post(endpoint, { message: currentInput });
 
       const botMsg = {
@@ -84,7 +84,7 @@ function App() {
     }]);
 
     try {
-      const res = await axios.post(`${API_BASE}/predict-xray`, formData);
+      const res = await axios.post(`/predict-xray`, formData); // Changed from `${API_BASE}/predict-xray`
 
       const botMsg = {
         id: Date.now() + 1,
@@ -93,7 +93,7 @@ function App() {
         text: res.data.message,
         prediction: res.data.prediction,
         confidence: res.data.confidence,
-        imageUrl: `${API_BASE}${res.data.image_url}`,
+        imageUrl: res.data.image_url, // Changed from `${API_BASE}${res.data.image_url}`
         lang: 'English'
       };
       setMessages(prev => [...prev, botMsg]);

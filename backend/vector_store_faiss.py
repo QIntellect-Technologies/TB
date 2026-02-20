@@ -46,25 +46,46 @@ class FAISSVectorStore:
         self._load_indices()
     
     def _load_indices(self):
-        """Load existing FAISS indices from disk"""
+        """Load existing FAISS indices from disk or build from fallout datasets"""
         en_index_path = os.path.join(self.persist_directory, "english.index")
         ur_index_path = os.path.join(self.persist_directory, "urdu.index")
         en_meta_path = os.path.join(self.persist_directory, "english_metadata.pkl")
         ur_meta_path = os.path.join(self.persist_directory, "urdu_metadata.pkl")
         
+        # Base directory for relative dataset paths
+        # Assuming we are in /app/backend
+        root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        dataset_dir = os.path.join(root_dir, "dataset")
+        
+        # Load English
         if os.path.exists(en_index_path):
             print("📂 Loading existing English index...")
             self.en_index = faiss.read_index(en_index_path)
             with open(en_meta_path, 'rb') as f:
                 self.en_metadata = pickle.load(f)
             print(f"✅ Loaded {len(self.en_metadata)} English documents")
+        else:
+            print("⚠️ English index not found. Checking for dataset to re-index...")
+            en_json = os.path.join(dataset_dir, "TB_QA_DATASET_ENGLISH.json")
+            if os.path.exists(en_json):
+                self.index_dataset(en_json, "English")
+            else:
+                print(f"❌ English dataset not found at {en_json}")
         
+        # Load Urdu
         if os.path.exists(ur_index_path):
             print("📂 Loading existing Urdu index...")
             self.ur_index = faiss.read_index(ur_index_path)
             with open(ur_meta_path, 'rb') as f:
                 self.ur_metadata = pickle.load(f)
             print(f"✅ Loaded {len(self.ur_metadata)} Urdu documents")
+        else:
+            print("⚠️ Urdu index not found. Checking for dataset to re-index...")
+            ur_json = os.path.join(dataset_dir, "TB_QA_DATASET_URDU_100K.json")
+            if os.path.exists(ur_json):
+                 self.index_dataset(ur_json, "Urdu")
+            else:
+                print(f"❌ Urdu dataset not found at {ur_json}")
     
     def generate_embeddings(self, texts: List[str], batch_size: int = 32) -> np.ndarray:
         """Generate embeddings with batching"""

@@ -1,0 +1,13 @@
+# Exclude ONLY massive raw datasets
+XRAY_TB/
+"PDF Data/"
+# Exclude raw text but keep JSONs
+dataset/*.txt
+dataset/*.zip
+*.sqlite3
+*.db
+node_modules
+frontend/node_modules
+backend/__pycache__
+.git
+.env
