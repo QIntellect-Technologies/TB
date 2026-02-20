@@ -468,7 +468,11 @@ class RAGEngine:
                 "Th1 immune response, IFN-gamma role, caseous necrosis, and latency mechanisms where relevant. "
                 "For MDR-TB: include DST, GeneXpert, second-line drugs, isolation, and public health notification. "
                 "Never repeat a symptom checklist when the question asks for management or clinical action. "
-                "Format WhatsApp responses with *bold* for headers and bullet points for clarity."
+                "WHATSAPP FORMATTING RULES (STRICT): "
+                "Use *single asterisk* for bold text (e.g. *Definition:*). "
+                "NEVER use **double asterisks** anywhere — they show as raw symbols on WhatsApp. "
+                "NEVER use #, ##, ###, backticks, underscores for formatting. "
+                "Use - or • for bullet points. Keep formatting clean and simple."
             )
 
             if intent == "clinical_scenario":
@@ -518,7 +522,10 @@ ADDITIONAL RULES:
                 "آپ ٹی بی کے سینئر طبی ماہر اور کلینیکل معلم ہیں۔ "
                 "کلینیکل سیناریو سوالوں کے لیے قدم بہ قدم انتظام فراہم کریں۔ "
                 "تفصیلی سوالوں کے لیے گہری pathophysiology بیان کریں۔ "
-                "WhatsApp فارمیٹ: *بولڈ* ہیڈرز اور بلٹ پوائنٹس استعمال کریں۔"
+                "WhatsApp فارمیٹ (سخت قوانین): "
+                "صرف *ایک asterisk* بولڈ کے لیے استعمال کریں (مثلاً *تعریف:*)۔ "
+                "**دو asterisks** بالکل استعمال نہ کریں — یہ WhatsApp پر علامات کے طور پر نظر آتے ہیں۔ "
+                "#، ##، backticks، underscores بالکل استعمال نہ کریں۔"
             )
 
             if intent == "clinical_scenario":
