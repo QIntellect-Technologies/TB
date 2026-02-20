@@ -1,7 +1,7 @@
 import os
 import glob
 
-def split_file(filepath, chunk_size_mb=45):
+def split_file(filepath, chunk_size_mb=45, force_split=False):
     """Split a large file into smaller chunks for GitHub."""
     if not os.path.exists(filepath):
         print(f"File not found: {filepath}")
@@ -10,11 +10,12 @@ def split_file(filepath, chunk_size_mb=45):
     file_size = os.path.getsize(filepath)
     chunk_size = chunk_size_mb * 1024 * 1024
     
-    if file_size <= chunk_size:
+    # Force split even if small, to bypass potential LFS pointer issues in repo
+    if file_size <= chunk_size and not force_split:
         print(f"File {filepath} is small enough ({file_size/1024/1024:.1f}MB). No splitting needed.")
         return []
 
-    print(f"Splitting {filepath} ({file_size/1024/1024:.1f}MB) into {chunk_size_mb}MB chunks...")
+    print(f"Splitting {filepath} ({file_size/1024/1024:.1f}MB) into chunks...")
     
     chunks = []
     with open(filepath, 'rb') as f:
@@ -40,13 +41,12 @@ def join_files(original_path):
     chunks = sorted(glob.glob(chunk_pattern), key=lambda x: int(x.split('.part')[-1]))
     
     if not chunks:
+        # If the file already exists and is large enough, it might be fine
+        if os.path.exists(original_path) and os.path.getsize(original_path) > 1 * 1024 * 1024:
+            return True
         return False
     
-    # If the original file already exists and has size > 0, we don't need to join
-    # but on Railway, if LFS failed, the file might exist but be a pointer file (size < 1KB)
-    if os.path.exists(original_path) and os.path.getsize(original_path) > 1024 * 1024:
-        return True
-
+    # ALWAYS reassemble if chunks exist, to overwrite potential LFS pointer files
     print(f"Reassembling {original_path} from {len(chunks)} chunks...")
     with open(original_path, 'wb') as output_file:
         for chunk_path in chunks:
@@ -58,13 +58,16 @@ def join_files(original_path):
 
 if __name__ == "__main__":
     # Files to split locally before pushing
+    # We force split even smaller ones to ensure they aren't pushed as LFS pointers
     files_to_split = [
-        "backend/vector_db_faiss/english.index",
-        "backend/vector_db_faiss/urdu.index",
-        "backend/tb_expert.db",
-        "backend/vector_db_faiss/urdu_metadata.pkl"
+        ("backend/vector_db_faiss/english.index", True),
+        ("backend/vector_db_faiss/urdu.index", True),
+        ("backend/vector_db_faiss/english_metadata.pkl", True),
+        ("backend/vector_db_faiss/urdu_metadata.pkl", True),
+        ("backend/tb_expert.db", True),
+        ("backend/models/xray_tb_model/variables/variables.data-00000-of-00001", True)
     ]
     
-    for f in files_to_split:
+    for f, force in files_to_split:
         if os.path.exists(f):
-            split_file(f)
+            split_file(f, force_split=force)

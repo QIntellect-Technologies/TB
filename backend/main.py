@@ -68,6 +68,8 @@ xray_classifier = None
 if XRAY_AVAILABLE:
     try:
         model_path = os.path.join(BASE_DIR, 'models', 'xray_tb_model')
+        weights_path = os.path.join(model_path, 'variables', 'variables.data-00000-of-00001')
+        join_files(weights_path)
         xray_classifier = XRayClassifier(model_path)
     except Exception as e:
         print(f"⚠️  X-Ray initialization failed: {e}")
