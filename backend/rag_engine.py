@@ -211,15 +211,25 @@ class RAGEngine:
         return topics
     
     def _detect_query_intent(self, query: str, language: str = "English") -> str:
-        """Detect if user wants short answer or detailed explanation"""
+        """Detect if user wants short answer, detailed explanation, or clinical reasoning"""
         query_lower = query.lower().strip()
         
+        # Keywords that indicate a CLINICAL SCENARIO or MANAGEMENT question
+        scenario_keywords_en = [
+            "patient", "child exposed", "case", "scenario", "manage", "management",
+            "what should be done", "what would you do", "how would you", "approach",
+            "stopped medication", "missed dose", "contact", "exposed", "suspected",
+            "risk", "risks", "what happens if", "consequences", "protocol",
+            "steps", "guideline", "workup", "evaluate", "assessment"
+        ]
+
         # Keywords that indicate user wants DETAILED explanation
         detail_keywords_en = [
             "explain", "describe", "tell me about", "elaborate", "in detail",
             "detailed", "comprehensive", "thoroughly", "extensively",
             "how does", "how do", "why does", "why do", "mechanism",
-            "process", "step by step", "break down", "walk me through"
+            "process", "step by step", "break down", "walk me through",
+            "pathophysiology", "immunology", "pathogenesis", "role of"
         ]
         
         detail_keywords_ur = [
@@ -231,7 +241,7 @@ class RAGEngine:
         brief_keywords_en = [
             "what is", "what are", "define", "definition", "meaning",
             "briefly", "short", "quick", "simple", "in short",
-            "summarize", "summary", "overview", "?", "kya hai"
+            "summarize", "summary", "overview", "kya hai"
         ]
         
         brief_keywords_ur = [
@@ -239,8 +249,10 @@ class RAGEngine:
             "سادہ", "آسان", "فوری"
         ]
         
-        # Check for detail keywords
+        # Check clinical scenario first (highest priority)
         if language == "English":
+            if any(keyword in query_lower for keyword in scenario_keywords_en):
+                return "clinical_scenario"
             if any(keyword in query_lower for keyword in detail_keywords_en):
                 return "detailed"
             elif any(keyword in query_lower for keyword in brief_keywords_en):
@@ -252,7 +264,6 @@ class RAGEngine:
                 return "brief"
         
         # Default: if query is very short (< 5 words), assume brief
-        # If longer, assume they want more detail
         word_count = len(query.split())
         if word_count <= 5:
             return "brief"
@@ -416,65 +427,109 @@ class RAGEngine:
         return None
 
     def _llm_synthesize_groq(self, query: str, context: List[Dict], language: str) -> str:
-        """Synthesize answer with strict brevity or adaptive detail"""
+        """Synthesize answer with clinical reasoning, depth, and scenario handling"""
         
-        # Check for emotional cues
+        # Detect query intent
+        intent = self._detect_query_intent(query, language)
         is_scared = any(w in query.lower() for w in ["scared", "diagnosed", "afraid", "worried", "preshan", "dar", "خوف", "پریشان"])
         
-        # Check if user explicitly asked for more detail
-        detail_keywords = ["detail", "more info", "explain more", "tell me more", "explain briefly", "تفصیل", "زیادہ بتائیں"]
-        detailed_request = any(w in query.lower() for w in detail_keywords)
+        # Adaptive token limits per intent
+        if intent == "clinical_scenario":
+            max_output_tokens = 900
+        elif intent == "detailed":
+            max_output_tokens = 800
+        else:
+            max_output_tokens = 200
         
-        # Adaptive token limit
-        max_output_tokens = 500 if detailed_request else 150
-        
-        # Prepare context (top 3 documents)
+        # Prepare context (top 5 documents for complex queries)
+        top_k = 5 if intent in ["detailed", "clinical_scenario"] else 3
         context_text = "\n\n".join([
             f"Doc {i+1}: {doc.get('answer', '')}"
-            for i, doc in enumerate(context[:3])
+            for i, doc in enumerate(context[:top_k])
         ])
         
-        if len(context_text) > 4000:
-            context_text = context_text[:4000]
+        if len(context_text) > 6000:
+            context_text = context_text[:6000]
         
         if language == "English":
-            system_instruction = "Senior TB Specialist Assistant. Very clinical and clear tone. Ultra-concise."
-            empathy_clause = '1. **Conditional Empathy:** If the user is scared, briefly reassure them using: "With proper treatment, most people fully recover and return to normal life."' if is_scared else '1. **Direct Answer:** Start directly with the medical fact.'
-            
-            length_instruction = "5. **Length:** Provide a detailed professional explanation." if detailed_request else "5. **Strict Length:** Exactly 1-2 short sentences only. Be extremely concise."
-            
-            prompt = f"""Context:
+            system_instruction = (
+                "You are a Senior TB Specialist and Clinical Educator with 20+ years of experience. "
+                "You think like a clinician, not just an information retriever. "
+                "For scenario-based questions: provide step-by-step clinical management. "
+                "For 'explain' questions: provide in-depth pathophysiology including granuloma formation, "
+                "Th1 immune response, IFN-gamma role, caseous necrosis, and latency mechanisms where relevant. "
+                "For MDR-TB: include DST, GeneXpert, second-line drugs, isolation, and public health notification. "
+                "Never repeat a symptom checklist when the question asks for management or clinical action. "
+                "Format WhatsApp responses with *bold* for headers and bullet points for clarity."
+            )
+
+            if intent == "clinical_scenario":
+                approach_instruction = (
+                    "CLINICAL SCENARIO RULES:\n"
+                    "- Identify the clinical problem clearly\n"
+                    "- Provide a structured management plan with numbered steps\n"
+                    "- Include investigations (Mantoux, IGRA, GeneXpert, CXR, sputum smear etc.) where relevant\n"
+                    "- Include treatment options (IPT, standard regimen, second-line etc.) where relevant\n"
+                    "- Mention risks, drug resistance concerns, and public health aspects if applicable\n"
+                    "- DO NOT list generic TB symptoms — answer the management question directly"
+                )
+            elif intent == "detailed":
+                approach_instruction = (
+                    "DETAILED EXPLANATION RULES:\n"
+                    "- Provide a thorough, multi-paragraph explanation\n"
+                    "- Include mechanism, pathophysiology, or immunology as relevant\n"
+                    "- For immune response: cover Th1, macrophage activation, IFN-gamma, granuloma, TNF-alpha, latency\n"
+                    "- For MDR-TB management: cover DST, GeneXpert, second-line drugs, isolation protocols\n"
+                    "- Use medical terminology with brief explanations for clarity"
+                )
+            else:
+                approach_instruction = (
+                    "BRIEF ANSWER RULES:\n"
+                    "- Answer in 1-3 sentences maximum\n"
+                    "- Be direct, medically accurate, and clear"
+                )
+
+            empathy_note = "Begin with brief reassurance: 'With proper treatment, most people fully recover.' before the clinical answer." if is_scared else ""
+
+            prompt = f"""MEDICAL KNOWLEDGE BASE:
 {context_text}
 
-Question: {query}
+CLINICAL QUESTION: {query}
 
-Instructions:
-2. **Relevance First:** Answer the specific question. If the query is about feelings or basic facts, IGNORE noisy drug regimens or side effects in the context.
-3. **Strict Treatment Rule:** Never suggest MDR-TB specific treatments (like BPaL, BPaLM, or Linezolid) unless the user specifically mentions "MDR" or "Drug-Resistant". For general TB diagnosis, stick to "standard treatment".
-4. **Comprehensive Types (OPTIONAL):** Mention Pulmonary, Extrapulmonary, Latent, and MDR-TB ONLY if the query is "what is tb" or asks for "types". Otherwise, stay focused on one topic.
-5. **Variety:** Use varied terms for precautions.
-{length_instruction}
+{approach_instruction}
+{empathy_note}
+
+ADDITIONAL RULES:
+- Never suggest MDR-TB drugs (BPaL, BPaLM, Linezolid) unless MDR is explicitly mentioned
+- For general TB, refer to 'standard 6-month HRZE/HR regimen'
+- Cite specific investigations and management steps for clinical scenarios
+- Format clearly for WhatsApp using *bold* headers and bullet points
 """
-        else: # Urdu
-            system_instruction = "ٹی بی کے سینئر طبی ماہر۔ انتہائی کلینیکل، واضح اور پیشہ ورانہ آواز۔"
-            empathy_clause = '1۔ **ہمدردی:** اگر صارف پریشان ہے تو یہ جملہ شامل کریں: "مناسب علاج کے ساتھ، زیادہ تر لوگ مکمل طور پر صحت یاب ہو جاتے ہیں اور معمول کی زندگی میں واپس آ جاتے ہیں۔"' if is_scared else '1۔ براہ راست جواب دیں۔'
-            
-            length_instruction = "4۔ **طوالت:** تفصیلی جواب دیں۔" if detailed_request else "4۔ **طوالت:** صرف 1-2 مختصر جملے لکھیں۔"
-            
-            prompt = f"""معلومات:
+        else:  # Urdu
+            system_instruction = (
+                "آپ ٹی بی کے سینئر طبی ماہر اور کلینیکل معلم ہیں۔ "
+                "کلینیکل سیناریو سوالوں کے لیے قدم بہ قدم انتظام فراہم کریں۔ "
+                "تفصیلی سوالوں کے لیے گہری pathophysiology بیان کریں۔ "
+                "WhatsApp فارمیٹ: *بولڈ* ہیڈرز اور بلٹ پوائنٹس استعمال کریں۔"
+            )
+
+            if intent == "clinical_scenario":
+                approach_instruction = "یہ ایک کلینیکل کیس ہے۔ قدم بہ قدم انتظامی منصوبہ دیں، جانچ اور علاج شامل کریں۔"
+            elif intent == "detailed":
+                approach_instruction = "تفصیلی وضاحت دیں، بشمول میکانزم، pathophysiology اور طبی پہلو۔"
+            else:
+                approach_instruction = "صرف 1-2 مختصر جملوں میں جواب دیں۔"
+
+            prompt = f"""طبی معلومات:
 {context_text}
 
 سوال: {query}
 
-ہدایات:
-{empathy_clause}
-2۔ **مطابقت:** صرف وہ جواب دیں جو پوچھا گیا ہے۔ اگر فراہم کردہ معلومات ادویات یا سائیڈ ایفیکٹس کے بارے میں ہیں لیکن سوال عام ہے، تو انہیں بالکل نظر انداز کریں۔
-3۔ **علاج کی پابندی:** جب تک صارف "MDR" یا "دواؤں کے خلاف مزاحمت" کا ذکر نہ کرے، "BPaL" یا خاص MDR ادویات کا مشورہ ہرگز نہ دیں۔ عام ٹی بی کے لیے صرف "معیاری علاج" (standard treatment) کا لفظ استعمال کریں۔
-4۔ **ٹی بی کی اقسام (اختیاری):** صرف اس صورت میں اقسام کا ذکر کریں جب سوال "ٹی بی کیا ہے" یا اقسام کے بارے میں ہو۔
-{length_instruction}
+ہدایت: {approach_instruction}
+علاج: صرف اس وقت MDR ادویات کا ذکر کریں جب صارف MDR کا ذکر کرے۔
 """
 
-        result = self._call_llm_with_failover(prompt, system_instruction=system_instruction, max_tokens=max_output_tokens)
+        result = self._call_llm_with_failover(prompt, system_instruction=system_instruction, max_tokens=max_output_tokens, temperature=0.4)
         return result if result else self._synthesize_answer(query, context, language)
     
     def build_prompt(self, query: str, context: List[Dict], language: str = "English") -> str:
@@ -813,17 +868,25 @@ Which other symptoms from the list are you experiencing?""" if language == "Engl
         return advice_text
     
     def _is_symptom_query(self, query: str) -> bool:
-        """Detect if user is asking about TB symptoms"""
+        """Detect if user is asking about TB symptoms (not clinical scenarios or management)"""
         q_lower = query.lower().strip()
         
+        # CRITICAL: Clinical scenario/management queries must NOT trigger symptom template
+        scenario_override = [
+            "patient", "child exposed", "exposed", "stopped", "missed dose",
+            "what should", "how would", "manage", "management", "approach",
+            "risk", "risks", "consequences", "contact", "suspected",
+            "case", "scenario", "protocol", "steps", "workup"
+        ]
+        if any(word in q_lower for word in scenario_override):
+            return False
+
         # Exclude queries asking about types, causes, treatment, etc.
         exclude_keywords = [
             "type", "types", "kind", "kinds", "category", "categories",
             "cause", "causes", "treatment", "cure", "medicine", "drug",
             "test", "diagnosis", "prevent", "vaccination"
         ]
-        
-        # If query is about types or other topics, not symptoms
         if any(word in q_lower for word in exclude_keywords):
             return False
         
