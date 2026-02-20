@@ -15,15 +15,15 @@ XRAY_TB/
 tb_text_Dataset/
 *.zip
 *.pdf
-*.zip
-*.db
-*.sqlite3
+# [KEEP] We want the .part chunks to stay
+!*.part*
 
-# BLOAT: Exclude these strictly
+# [IGNORE] Ignore the raw large binaries that stay in local
+# They will be reassembled on Railway from .part files
+backend/vector_db_faiss/*.index
+backend/vector_db_faiss/*.pkl
+backend/tb_expert.db
 backend/vector_db_chromadb_backup/
-# LFS will handle these now:
-# backend/vector_db_faiss/*.index
-# backend/tb_expert.db
 
 # Editor files
 .vscode/

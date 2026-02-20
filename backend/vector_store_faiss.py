@@ -1,14 +1,11 @@
-"""
-FAISS-Based Vector Store for TB Expert RAG System
-GPU-accelerated, optimized for Windows, faster indexing
-"""
 import json
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
-from typing import List, Dict
+from typing import List, Dict, Optional
 import os
 import pickle
+from split_manager import join_files
 
 class FAISSVectorStore:
     def __init__(self, persist_directory=None):
@@ -51,6 +48,12 @@ class FAISSVectorStore:
         ur_index_path = os.path.join(self.persist_directory, "urdu.index")
         en_meta_path = os.path.join(self.persist_directory, "english_metadata.pkl")
         ur_meta_path = os.path.join(self.persist_directory, "urdu_metadata.pkl")
+        
+        # Try joining chunks before loading
+        join_files(en_index_path)
+        join_files(ur_index_path)
+        join_files(en_meta_path)
+        join_files(ur_meta_path)
         
         # Base directory for relative dataset paths
         # Assuming we are in /app/backend

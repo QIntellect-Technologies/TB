@@ -1,4 +1,0 @@
-backend/vector_db_faiss/*.index filter=lfs diff=lfs merge=lfs -text
-backend/vector_db_faiss/*.pkl filter=lfs diff=lfs merge=lfs -text
-backend/tb_expert.db filter=lfs diff=lfs merge=lfs -text
-backend/models/xray_tb_model/variables/variables.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text

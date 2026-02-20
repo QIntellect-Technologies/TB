@@ -13,6 +13,8 @@ from pydantic import BaseModel
 from dotenv import load_dotenv
 load_dotenv()
 
+from split_manager import join_files
+
 # RAG System Import
 try:
     from rag_engine import RAGEngine
@@ -43,6 +45,7 @@ app.add_middleware(
 # Resolve relative path correctly regardless of execution dir
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, 'tb_expert.db')
+join_files(DB_PATH)
 
 # Conversation memory storage (session-based)
 # In production, use Redis or database. For now, in-memory dict
