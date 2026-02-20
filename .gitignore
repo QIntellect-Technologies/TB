@@ -15,6 +15,9 @@ XRAY_TB/
 tb_text_Dataset/
 *.zip
 *.pdf
+!backend/static/pdfs/*.pdf
+!backend/static/documents/*.pdf
+
 # [KEEP] We want the .part chunks to stay
 !*.part*
 
