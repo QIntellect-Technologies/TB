@@ -32,39 +32,40 @@ class XRayClassifier:
             print(f"⚠️ X-Ray Model directory not found: {model_dir}")
 
     def _load_model(self):
-        """Load the SavedModel with multiple fallbacks for compatibility"""
+        """Load the SavedModel with Keras 3 / TFSMLayer compatibility fallbacks"""
         try:
-            # Try standard SavedModel load first
-            self.model = tf.saved_model.load(self.model_dir)
-            self.concrete_fn = self.model.signatures.get('serving_default')
+            # 1. Try tf_keras (Legacy Keras 2 support) - Most likely to work with existing model
+            import tf_keras
+            self.model = tf_keras.models.load_model(self.model_dir)
+            print("✅ X-Ray Model loaded via tf_keras (Legacy)")
         except Exception as e:
-            print(f"⚠️  tf.saved_model.load failed ({e}), trying keras fallback...")
+            print(f"⚠️  tf_keras load failed ({e}), trying TFSMLayer...")
             try:
-                # Try Keras load_model as fallback (often handles version mismatches better)
-                self.model = tf.keras.models.load_model(self.model_dir)
-                self.concrete_fn = self.model.signatures.get('serving_default')
+                # 2. Try Keras 3 TFSMLayer (Official way to load TF SavedModels in Keras 3)
+                self.model = tf.keras.layers.TFSMLayer(self.model_dir, call_endpoint='serving_default')
+                print("✅ X-Ray Model loaded via Keras 3 TFSMLayer")
             except Exception as e2:
-                print(f"❌ Keras fallback also failed: {e2}")
-                raise e
+                print(f"⚠️  TFSMLayer failed ({e2}), trying standard SavedModel load...")
+                try:
+                    # 3. Last resort: Standard tf.saved_model.load
+                    self.model = tf.saved_model.load(self.model_dir)
+                    self.concrete_fn = self.model.signatures.get('serving_default')
+                    print("✅ X-Ray Model loaded via tf.saved_model.load")
+                except Exception as e3:
+                    print(f"❌ All loading methods failed. Final error: {e3}")
+                    raise e3
 
-        if self.concrete_fn is None:
-            # If load_model worked but didn't provide signatures, it might be a Keras object
-            if hasattr(self.model, 'predict'):
-                # We can use the model directly
-                self.input_shape = self.model.input_shape if hasattr(self.model, 'input_shape') else (None, 224, 224, 3)
-                print("✅ Using Keras model.predict directly")
-                return
-            raise RuntimeError('SavedModel has no serving_default signature and no model.predict')
-        
-        # Extract input key and shape
-        try:
-            input_info = self.concrete_fn.structured_input_signature[1]
-            self.input_key = list(input_info.keys())[0]
-            self.input_shape = tuple(list(input_info.values())[0].shape.as_list())
-        except Exception as e:
-            print(f"⚠️  Signature extraction failed: {e}. Using defaults.")
-            self.input_key = "input_1" # Common default
-            self.input_shape = (None, 224, 224, 3)
+        # Resolve Inference Function
+        if hasattr(self.model, 'predict'):
+            self.inference_fn = self.model.predict
+        elif hasattr(self.model, 'signatures'):
+            self.inference_fn = self.model.signatures.get('serving_default')
+        else:
+            self.inference_fn = self.model  # TFSMLayer is callable
+
+        # Set Input Metadata (Confirmed 28x28 from local logs)
+        self.input_key = "input_1"
+        self.input_shape = (None, 28, 28, 3)
 
     def preprocess_image(self, img_path: str):
         """Resize and normalize image for model input"""
@@ -95,30 +96,38 @@ class XRayClassifier:
             
         try:
             x = self.preprocess_image(img_path)
-            tensor_x = tf.convert_to_tensor(x)
             
-            # Run inference
-            output = self.concrete_fn(**{self.input_key: tensor_x})
+            # Using our resolved inference function
+            if hasattr(self.inference_fn, '__call__'):
+                # Handle dictionary input if it's a concrete function or TFSMLayer
+                if not hasattr(self.model, 'predict'):
+                    output = self.inference_fn(**{self.input_key: tf.convert_to_tensor(x)})
+                else:
+                    output = self.inference_fn(x)
+            else:
+                return "Inference Error: No callable found", 0.0
             
-            # Handle dictionary output
+            # Extract output array
             if isinstance(output, dict):
                 output = next(iter(output.values()))
             
-            # Get numpy array
             if hasattr(output, 'numpy'):
                 y = output.numpy()
             else:
-                y = output # Fallback
+                y = output
                 
-            # Interpret results
+            # Handle class results based on local log: (None, 28, 28, 3) -> (None, 2)
             if y.shape[-1] == 2:
-                # Softmax case
-                probs = tf.nn.softmax(y, axis=-1).numpy()[0]
+                # Many models output logits or probabilities for (Normal, TB)
+                probs = y[0] 
+                # If these are logits, apply softmax
+                if np.max(probs) > 1.0 or np.min(probs) < 0.0:
+                    probs = tf.nn.softmax(y, axis=-1).numpy()[0]
+                
                 idx = int(np.argmax(probs))
                 conf = float(np.max(probs))
                 return self.classes[idx], conf
             elif y.shape[-1] == 1:
-                # Sigmoid case
                 prob_tb = float(tf.sigmoid(y)[0, 0].numpy())
                 if prob_tb >= 0.5:
                     return 'Tuberculosis', prob_tb
