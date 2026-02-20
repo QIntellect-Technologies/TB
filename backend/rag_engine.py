@@ -96,9 +96,17 @@ class RAGEngine:
         if best_match and max_keyword_matches >= 1:
             book_page = best_match.get('book_page', best_match.get('page', '?'))
             pdf_page = best_match.get('pdf_page', '?')
-            return f"\n\n📄 Reference: {self.pdf_references['pdf_name']}, Page {book_page} (PDF Page {pdf_page})"
+            pdf_name = self.pdf_references.get('pdf_name', 'TB Guide')
+            
+            # Build clickable PDF URL pointing to the specific page
+            base_url = "https://tb-production-e244.up.railway.app"
+            pdf_filename = "Childhood%20TB%20Training%20Desk%20Guide%20(2019)%20(1).pdf"
+            pdf_url = f"{base_url}/static/pdfs/{pdf_filename}#page={pdf_page}"
+            
+            return f"\n\n📄 *Reference:* {pdf_name}, Page {book_page}\n🔗 {pdf_url}"
         
         return None
+
     
     def _parallel_performance_audit(self):
         """Ping all keys in parallel and rank by latency"""

@@ -48,6 +48,11 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, 'tb_expert.db')
 join_files(DB_PATH)
 
+# Serve static files (PDFs, documents, uploads)
+static_dir = os.path.join(BASE_DIR, 'static')
+if os.path.exists(static_dir):
+    app.mount("/static", StaticFiles(directory=static_dir), name="static")
+
 # Conversation memory storage (session-based)
 # In production, use Redis or database. For now, in-memory dict
 conversation_history = {}  # {session_id: [messages]}
