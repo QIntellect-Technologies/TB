@@ -15,13 +15,15 @@ XRAY_TB/
 tb_text_Dataset/
 *.zip
 *.pdf
+*.zip
 *.db
 *.sqlite3
 
 # BLOAT: Exclude these strictly
 backend/vector_db_chromadb_backup/
-backend/vector_db_faiss/*.index
-backend/tb_expert.db
+# LFS will handle these now:
+# backend/vector_db_faiss/*.index
+# backend/tb_expert.db
 
 # Editor files
 .vscode/
