@@ -696,23 +696,14 @@ Answer:"""
         if any(bad in q_lower for bad in profanity):
             return "abuse"
             
-        # 2. Irrelevant / Personal / Off-topic
-        irrelevant = [
-            "love you", "miss you", "marry", "kiss", "date", 
-            "python", "java", "code", "programming", "weather", "football", 
-            "cricket", "politics", "pizza", "laptop", "assignment", "song", "movie"
-        ]
-        if any(w in q_lower for w in irrelevant):
-            return "irrelevant"
-
-        # 3. Greetings & Starters
+        # 2. Greetings & Starters
         greetings = ["hi", "hello", "hey", "salam", "assalam", "good morning", 
-                     "listen", "excuse me", "?", "start", "yo", "listen"]
+                     "listen", "excuse me", "start", "yo"]
         if q_lower in greetings or q_lower.replace("?","").strip() in greetings:
             return "greeting"
             
-        # 4. Small Talk / Persona / Identity
-        identity_phrases = ["who are you", "who r u", "who i am", "who am i", "your name", "what are you", "what can you do", "help me with"]
+        # 3. Small Talk / Persona / Identity
+        identity_phrases = ["who are you", "who r u", "your name", "what are you", "what can you do", "help me with"]
         if any(phrase in q_lower for phrase in identity_phrases):
             return "small_talk"
             
@@ -720,19 +711,39 @@ Answer:"""
         if any(phrase in q_lower for phrase in small_talk):
             return "small_talk"
 
-        # 5. Check for MEDICAL keywords
-        medical_keywords = [
-            "tb", "tuberculosis", "cough", "blood", "fever", "sweate", "weight", 
-            "treatment", "medicine", "drug", "symptom", "pain", "doctor", "cure", "curable", "recover",
-            "hospital", "test", "x-ray", "mantoux", "vaccine", "bcg",
-            "rifampicin", "isoniazid", "ethambutol", "pyrazinamide",
-            "تپ دق", "کھانسی", "بخار", "علاج", "دوائی", "صحت", "شفاء"
+        # 4. Check for TB / medical keywords — ONLY these get through to RAG
+        tb_medical_keywords = [
+            # Core TB
+            "tb", "tuberculosis", "tuberculos", "mycobacterium", "تپ دق",
+            # Symptoms
+            "cough", "fever", "sweat", "weight loss", "haemoptysis", "hemoptysis",
+            "fatigue", "night sweat", "chest pain", "shortness of breath",
+            "کھانسی", "بخار", "پسینہ", "وزن",
+            # Diagnosis
+            "mantoux", "igra", "sputum", "x-ray", "xray", "chest", "genexpert",
+            "culture", "smear", "dst", "microscopy", "biopsy",
+            # Treatment
+            "rifampicin", "isoniazid", "ethambutol", "pyrazinamide", "hrze",
+            "streptomycin", "moxifloxacin", "linezolid", "bedaquiline", "bpal",
+            "treatment", "therapy", "regimen", "drug", "medicine", "علاج", "دوائی",
+            # Types
+            "mdr", "xdr", "latent", "active", "pulmonary", "extrapulmonary",
+            "miliary", "pleural", "meningitis", "spinal", "pott",
+            # Prevention
+            "bcg", "vaccine", "vaccination", "isoniazid prophylaxis", "ipt",
+            "prevention", "infection control", "isolation",
+            # Clinical
+            "immune", "immunity", "granuloma", "macrophage", "interferon", "cytokine",
+            "lymph", "antibody", "pathogen", "bacteria", "infection",
+            "doctor", "hospital", "clinic", "patient", "صحت", "شفاء",
+            # Common medical crossover
+            "cure", "recover", "diagnosis", "symptom", "sign", "test",
         ]
-        if any(w in q_lower for w in medical_keywords):
+        if any(w in q_lower for w in tb_medical_keywords):
             return "medical"
             
-        # Default to medical (let RAG try, it will likely return fallback)
-        return "medical"
+        # 5. DEFAULT: everything else is IRRELEVANT — do NOT let LLM answer it
+        return "irrelevant"
 
     def _check_symptom_response(self, query: str, conversation_history: List[str], language: str) -> Optional[Dict]:
         """Check if user is responding to the symptom question"""
@@ -982,27 +993,24 @@ Tell me, from all of these which symptoms do you have?"""
     def _llm_conversational_reply(self, query: str, intent: str, language: str) -> str:
         """Generate human-like, professional reply for non-medical interactions"""
         
-        system_instruction = ""
-        
-        if intent == "greeting":
-            system_instruction = "Senior TB Medical Specialist Assistant. Greeting only. Exactly 1 short sentence."
-        elif intent == "small_talk":
-            system_instruction = "Senior TB Medical Specialist Assistant. Identity: You are the Senior TB Medical Specialist Assistant. Exactly 1 short sentence. No personal life talk."
-        elif intent == "abuse":
-            system_instruction = "Senior TB Medical Specialist Assistant. User offensive. 1 sentence: state you handle medical queries only."
-        else: # irrelevant
-            system_instruction = "Senior TB Medical Specialist Assistant. Identity: Senior TB Medical Specialist Assistant. Refuse non-TB topic politely. 1 sentence only."
-            
-        if language != "English":
-            system_instruction += " Reply in Urdu."
-
-        result = self._call_llm_with_failover(query, system_instruction=system_instruction, temperature=0.3, max_tokens=60)
-        
-        if result:
-            return result
-            
-        # Hard Fallback
-        return "I am a Tuberculosis (TB) specialist. I can only assist with questions related to TB symptoms, treatment, and protocols."
+        if language == "Urdu":
+            if intent == "greeting":
+                return "السلام علیکم! میں ٹی بی کا طبی ماہر ہوں۔ ٹی بی کی علامات، تشخیص یا علاج کے بارے میں کیسے مدد کر سکتا ہوں؟"
+            elif intent == "small_talk":
+                return "میں ٹی بی ایکسپرٹ AI ہوں، صرف تپ دق (TB) سے متعلق سوالات کا جواب دیتا ہوں۔"
+            elif intent == "abuse":
+                return "براہ کرم احترام کے ساتھ بات کریں۔ میں صرف ٹی بی سے متعلق طبی سوالات کا جواب دیتا ہوں۔"
+            else:  # irrelevant
+                return "معذرت، میں صرف تپ دق (TB) کے بارے میں سوالات کا جواب دے سکتا ہوں۔ کوئی TB سے متعلق سوال پوچھیں۔"
+        else:  # English
+            if intent == "greeting":
+                return "Hello! I am the TB Expert AI — a specialist in Tuberculosis. Ask me anything about TB symptoms, diagnosis, treatment, or prevention!"
+            elif intent == "small_talk":
+                return "I am the TB Expert AI, trained exclusively on Tuberculosis. I can answer questions about TB symptoms, diagnosis, treatment, and clinical management."
+            elif intent == "abuse":
+                return "Please keep the conversation respectful. I handle TB-related medical questions only."
+            else:  # irrelevant
+                return "I specialize exclusively in Tuberculosis (TB). I cannot answer questions on other topics. Please ask me about TB symptoms, treatment, diagnosis, or prevention! 🫁"
 
 
     def _merge_similar_content(self, content_list: List[str]) -> List[str]:
