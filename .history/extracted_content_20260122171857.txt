@@ -1,0 +1,4088 @@
+BASIC TUBERCULOSIS
+(TB) TRAINING MANUAL
+PARTICIPANT
+2024
+Naonal Department of Health
+Switchboard: 012 395 9150
+Physical address: DR AB Xuma Building
+1112 Voortrekker Road
+Pretoria Townlands 351-JR Pretoria
+0187
+Postal address: Private Bag X828
+Pretoria
+0001
+Published by the Department of Health, Private Bag X828, Pretoria, 0001, South Africa
+Copyright: © Department of Health, Republic of South Africa
+2024
+www.doh.gov.za
+I
+Acknowledgements
+The Naonal Ministry of Health would like to thank all the individuals and organisaons
+that have contributed to the development of this training manual. Our thanks also go to
+the provinces that parcipated in the pilot training, i.e. Eastern Cape, Free State,
+Gauteng and Northern Cape.
+II
+TABLE OF CONTENTS
+TABLE OF CONTENTS 1
+1. AETIOLOGY AND TRANSMISSION OF TB 2
+1.1 Aeology of TB 2
+1.2. TB Transmission 3
+1.3. Types of TB Disease 5
+1.4. TB Infecon vs TB Disease 6
+1.5. Risk factors for progression to TB disease 7
+2. PREVENTION OF TB 8
+2.1. TB Prevenon measures in health 8
+2.2. TB Risk assessment 15
+2.3. Contact management 16
+2.4. TB outbreak response 18
+2.5. BCG 18
+2.6. Treatment of Latent TB Infecon (LTBI) 21
+3. CLINICAL PRESENTATION OF PULMONARY AND EXTRA-PULMONARY 34
+3.1. Pulmonary TB 34
+3.2. Extra-Pulmonary TB (EPTB) 36
+4. DIAGNOSIS OF TB 39
+4.1. Priority groups for TB tesng 39
+4.2. Specimen for tesng 40
+5. TB DIAGNOSTIC TESTS 46
+5.1. Smear Microscopy 46
+5.2. TB Culture 46
+5.3. Drug Suscepbility Tesng (DST) Definion 47
+5.4. TB NUCLEIC ACID AMPLIICATION TESTS (TB NAATs) 47
+5.5 Who must be tested for TB? 49
+5.6 Process of invesgang TB in clinical specimens 49
+5.7 Interpretaon of results and acon to be taken 51
+5.8 Urine lateral flow Lipoarabinomannan Assay (Urine LF-LAM) 65
+5.9 Tuberculin Skin Test 75
+6. TREATMENT, SIDE EFFECTS AND DRUG INTERACTION 76
+6.1. Baseline clinical evaluaon 76
+6.2. Properes of TB treatment 76
+6.3. Standardised treatment/drug regimen for DS-TB 77
+6.4. Drug Interacon 81
+7. PATIENT EDUCATION AND ADHERENCE TO TREATMENT 84
+7.1. Paent Educaon Definion 84
+7.2 Adherence counselling session 85
+8. MONITORING RESPONSE TO TREATMENT 87
+8.1. Monitoring response to treatment 87
+8.2. Management of treatment interrupters 90
+Appendix 1: PHC Risk Assessment Tool 91
+Annexure 2: Iniaon Counselling Guide 96
+Annexure 1: Paent Adherence Plan 99
+1
+1. AETIOLOGY AND TRANSMISSION OF TB
+Module overview:
+This module provides an overview of the aeology and transmission of TB, TB infecon, TB disease, and risk
+factors associated with TB. It serves as a foundaon for other topics to follow and it is important that Healthcare
+Workers (HCWs) have a comprehensive understanding of these basics.
+Learning Outcomes:
+By the end of this session, parcipants should be able to:
+- Explain the aeology of TB.
+- Describe the transmission and pathogenesis of TB.
+- Explain the difference between TB infecon and TB disease.
+- Explain risk factors and condions associated with TB.
+1.1. Aeology of TB
+The stages of TB
+Definion of TB
+Tuberculosis (TB) is an infecous disease caused by a micro-organism (also referred to as a bacillus), called
+Mycobacterium tuberculosis (MTB). This bacillus belongs to a group of bacteria, Mycobacterium tuberculosis
+complex. Other agents include:
+- Mycobacterium bovis (transmied through contaminated milk and milk products)
+- Mycobacterium Africanum, (causes human TB in West Africa, where it accounts for up to
+50% of cases), Macro (Rodents are reservoir hosts for M. micro)
+- In rare situaons Mycobacteria other than TB (MOTT) may cause a disease similar to typical
+TB and is common in HIV infected individuals
+Mycobacterium: A large family of bacteria that have unusually waxy cell walls that are resistant to digeson.
+The consequences of the cell wall structure are that:
+It protects the bacilli against the host anbodies.
+Commonly used anbiocs (e.g. penicillin) cannot penetrate this
+waxy layer, therefore there is a need for special TB medicines.
+Special staining methods are needed because with the usual
+staining methods, the stain cannot penetrate the waxy layer. The
+mycobacterium is acid-fast rod-shaped bacterium. Acid- fast bacilli
+(AFB): When the mycobacterium is stained, it retains colour even
+aer they have been washed in an acid or alcohol soluon. The
+mycobacteria are usually slow-growing organism.
+TB
+EXPOSURE
+TB
+INFECTION TB DESEASE
+TREAT or
+DEVELOP
+COMPLICATION
+S INCLUDING
+DEATH
+2
+1.2. TB Transmission
+1.2.1. How is TB transmied?
+ Exposure to TB bacilli
+TB is an airborne infecous disease and is transmied through airborne route. When a person with pulmonary or
+laryngeal tuberculosis coughs, sneezes, talks, laughs or sings, the small droplets of tubercle bacilli are spread into the
+air in ny droplets. Droplet nuclei can also be produced by aerosol which produces invesgaons such as sputum
+inducon, bronchoscopy and through manipulaon of the lesion. Other people can breathe in these droplets and
+become infected.
+TB transmission mostly occurs indoors, in dark and poorly venlated spaces where the droplet nuclei stay for a
+long me. Prolonged exposure to the TB bacteria is normally necessary for infecon to occur. The large pool of
+paents with infecous TB leads to a high risk of exposure to the general populaon. Paents with pulmonary TB
+present the main source of TB transmission. Close contact and prolonged exposure increase the risk of
+transmission.
+1.2.2. Risk of infecon and disease. Factors that determine the likelihood of transmission:
+a) Concentraon of the bacilli
+Bacilli in the index paent
+Transmission of TB depends on the number of bacilli expelled into the air:
+Talking (0– 210)
+Coughing (3500)
+Sneezing (1 000 000)
+Smear posive paents are more infecous than smear negave paents, due to the high concentraon of bacilli.
+Smear negave paents are expected to have reduced number of bacilli but can also transmit TB bacilli.
+b) Length of exposure to TB bacilli
+The length of me an exposed person breaths the contaminated air. Close contact and prolong ed exposure
+increase the risk of transmission. Close contacts of paents with infecous TB including household contacts are at
+a higher risk of becoming infected with TB.
+c) Immune status of the exposed individual
+Immuno-compromised paents are at risk of developing TB and progression from latent TB to acve TB (HIV,
+immunosuppressive condions and drugs, malnutrion, alcohol). The risk of developing TB is higher in children
+under the age of 5 years, elderly, miners, inmates in prisons, healthcare workers people sharing residenal
+accommodaon with TB paents.
+One cough can produce 3 000 droplet nuclei which can remain suspended
+in the air for many hours.
+3
+d) Environmental factors
+Concentraon of the organisms in the air, space and venlaon. The concentraon of organisms in the air is
+determined by the volume of space and the venlaon.
+1.2.3. Progression of TB disease
+Once infected, the progression to acve disease is dependent on the immune status of the individual. In those
+with normal immunity, 90% will not progress to acve disease and only 10% will develop acve disease. People
+with suppressed immunity are more likely to develop acve TB than those with normal immunity.
+1.2.4. Congenital TB
+Congenital TB is transmied from an infected pregnant mother through the placenta, aspiraon of infected
+amnioc fluid, or ingeson of infected material during passage through the birth canal. Mortality from congenital
+TB is high, esmated at 50%. Early diagnosis and commencement of treatment significantly improve survival.
+1.2.5. People at risk of developing TB
+Most at risk individuals include:
+· Contacts
+Household or close contacts are more at risk because of exposure to an index paent.
+– A household contacts is someone who shared the same enclosed living space for one or more nights
+or for extended periods of up to 8 hours during the day with the index paent during the 3 months
+before the start of current treatment.
+– A close contact is a person who is not in the household but shared an enclosed space, such as a social
+gathering place, workplace or facility, for extended periods during the day with the index paent
+during the 3 months before commencement of the current treatment episode
+· Children < 5 years
+· People living with HIV
+Infecon with HIV increases the risk of progression of recent M. tuberculosis infecon and of reacvaon
+of latent M. tuberculosis infecon by 5 - 15% annually. It also increases the rate of relapse and reinfecon.
+· Healthcare workers, inmates in Correconal Centres, and miners
+· People with condions/ on medicaons which suppress immunity such as, diabetes mellitus, silicosis,
+prolonged use of corcosteroids, chemotherapy. In children, the following condions can increase the
+risk of progression to TB disease, malnutrion, measles, whooping cough.
+· The elderly >65 years
+· Smokers
+Smoking is a risk factor for TB, independent of alcohol use and other socioeconomic factors. The risk is
+higher in children exposed to passive smoking. Acve smoking is associated with recurrent TB disease
+and death due to TB disease. The possible biological mechanisms for the associaon between tobacco
+smoke and TB are that tobacco smoke results in: (a) impaired clearance of mucosal secreons in the
+tracheo-bronchial tree. This allows the M TB to reach the alveoli; (b) impaired funconing of the
+pulmonary alveolar macrophages, resulng in lower levels of cytokines being secreted; (c) decreased
+intracellular tumour necrosis factor- αproducon leading to impaired intracellular killing of M TB.
+4
+· Alcohol consumpon
+Excessive alcohol consumpon (with or without an alcohol use disorder) is associated with three-fold risk of
+developing TB. Low to medium alcohol consumpon is not associated with an increased risk of TB disease.
+Alcohol use disorders are associated with clinical condions that may impair the immune system and alcohol
+has a direct toxic effect on the immune system. Excessive alcohol use is also associated with poor TB
+treatment adherence and several studies have found higher relapse rate among heavy drinkers and those
+with alcohol use-related health disorders
+1.3. Types of TB Disease
+1.3.1. Pulmonary TB disease
+Pulmonary TB disease involves the lung parenchyma/ssue. A paent with both a parenchymal lesion in the lungs
+(PTB) and extra-pulmonary TB is classified as PTB.
+1.3.2. Extra-pulmonary TB (EPTB) disease
+EPTB disease involves organs other than the lungs. Intrathoracic TB such as mediasnal or hilar lymphadenopathy
+or pleural effusion without a parenchymal lesion in the lungs, is classified as extra- pulmonary TB. Where several
+sites are affected, the site represenng the most severe form of disease determines the case definion of extrapulmonary TB.
+The organs that are commonly affected in EPTB are: pleural TB (the lining covering the lungs), TB Meningis
+(central nervous system), bone and joints, lymph nodes, abdominal TB (where the liver, spleen and the intesnes
+can be affected), and urogenital TB (kidney and bladder, as well as blood).
+TB can be further classified as either drug suscepble TB or drug resistant TB:
+Drug suscepble TB is a disease caused by MTB strain that is fully sensive to the first line TB medicines. This
+means that all first line TB medicines will be effecve if they are taken properly.
+5
+Drug Resistant TB is a disease caused by MTB strain that is resistant to one or more of the TB medicines. Paents
+with drug resistant TB are categorised by the resistance paern of MTB strain.
+Types of DR-TB
+1.4. TB Infecon vs TB Disease
+Infecon is the invasion of an organism's body ssues by disease-causing agents, their mulplicaon, and
+reacon of host ssues to these organisms and the toxins they produce. Infecons are caused by infecous agents
+including bacteria, viruses, parasites, fungi, etc.
+Disease is an impairment of normal physiological funcon affecng all or part of an organism. It is a medical
+condion, associated with signs and symptoms. It may be caused by factors originally from an external source,
+such as infecous disease, or it may be caused by internal dysfuncons, such as autoimmune diseases.
+Communicable disease refers to a disease resulng from an infecon due to pathogenic agents or toxins
+generated by the infecon, following the direct or indirect transmission of the agents from the source to the host.
+The pathogenic agent is also referred to as an infecous agent.
+Table1.1: Difference between latent TB infecon and TB disease
+Rifampicin Resistant TB (RR-TB) TB caused by MTB strains that are resistant to
+Rifampicin, with or without resistance to other TB drugs.
+Multi-Drug Resistant
+(MDR-TB)
+TB caused by MTB strains that are resistant to at least
+both Rifampicin and Isoniazid.
+Pre-Extensive Drug Resistant (PreXDRTB)
+TB caused by MTB strains that are MDR/ RR-TB and
+resistant to any of the fluoroquinolones.
+Extensive Drug Resistant
+(XDR-TB)
+TB caused by MTB strains that is MDR/ RR-TB, resistant
+to any of the fluoroquinolones and at least one of the
+medications used in the newly recommended regimens
+including resistance to bedaquiline, clofazimine,
+delamanid and /or linezolid.
+Isoniazid Resistant TB Resistance to Isoniazid with or without resistance to other
+TB medicines (excluding Rifampicin).
+Latent TB infection TB disease
+TB bacilli remain in the body but are inactive The bacilli actively divide and spread in the body
+The individual has no symptoms and signs of TB The person has symptoms and signs of TB
+such as a cough, fever, night sweats, weight loss
+Cannot spread TB bacilli to other people (not
+infectious)
+The TB disease may or may not be infectious. If
+PTB and coughing the person will spread the
+infection to other people
+Usually has a positiveTB skin test result indicating
+TB infection
+Usually has a positive TB diagnostic test result
+indicating TB disease
+Treatment for latent TB infection must be offered
+to high-risk groups. This will prevent development
+of disease
+Treatment for TB disease must be started. This
+will prevent death resulting from TB disease
+Type Definition
+6
+1.5. Risk factors for progression to TB disease
+Factors/ condions that increase the risk of progression from TB infecon to disease include:
+- HIV infecon
+- Immuno-suppressive condions such as cancers, diabetes mellitus etc.
+- Immuno-suppressive therapy such as corcosteroid therapy, chemotherapy etc.
+- Silica dust
+- Substance abuse (alcohol, tobacco smoking, drugs)
+- Low body weight
+- Age
+7
+2. PREVENTION OF TB
+Module overview:
+This module provides an overview of tuberculosis prevenon in health facilies and in the community, including
+prevenon for people at risk of tuberculosis.
+Learning Outcomes:
+At the end of this module, parcipants should be able to:
+- Explain TB prevenon methods.
+- Explain the 7 steps for prevenon of TB transmission in health facilies.
+- Discuss the hierarchy of infecon control measures.
+Explain TB contact invesgaon.
+- Explain acons to be taken during TB outbreak.
+- Describe the treatment of LTBI.
+2.1. TB Prevenon measures in health facilies
+Raonale for TB infecon prevenon and control
+TB is a communicable disease and is spread from person to person. The high number of people with undiagnosed,
+untreated and potenally contagious TB are seen in health facilies and somemes missed. The high number of
+HIV posive paents seen in facilies are parcularly vulnerable to TB. This creates the potenal for high level of
+nosocomial transmission of TB. It is the responsibility of management to minimise the risk of TB transmission in
+health facilies. Infecon control measures should be established to reduce the risk of TB transmission to general
+populaon and healthcare workers. Infecon prevenon and control measures should be implemented in
+primary healthcare facilies, hospitals, congregated sengs and community
+TB prevenon measures include:
+- Infecon Prevenon and Control in healthcare facilies
+- Contact Invesgaon; outbreak response
+- BCG vaccine
+- Treatment of Latent TB Infecon (LTBI)
+2.1.1. Managerial control measures
+Managers provide leadership by providing a culture of safety and advocang for necessary resources to conduct
+infecon control measures. The managerial control provides a framework for the implementaon of the infecon
+prevenon and control measures. Facility level managerial acvies include:
+- establishing an infecon and control commiee for the facility
+- appointment of an IPC officer
+- conducng facility TB risk assessments annually
+- developing and reviewing infecon control plan
+- monitoring the number of health staff diagnosed with TB monthly
+- train and educate health workers on infecon prevenon and control measures
+- ensuring availability of appropriate commodies for TB IPC
+- conducng IPC audits to monitor the implementaon of TB infecon Prevenon and
+control intervenon
+8
+The TB infecon control program should be based on a three-level hierarchy of control
+measures and include:
+- Administrave control measures
+- Environmental measures
+- Personal protecve equipment (PPE)
+2.1.2. Administrave control measures
+Administrave control measures aim to reduce droplet nuclei containing MTB in healthcare facilies
+and thus to reduce the exposure of staff and paents. These measures have the greater impact in TB
+control and should be priorised.
+The seven steps to reduce droplet nuclei and TB transmission in healthcare sengs are listed below.
+Table 2.1: Seven steps for patient management to prevent transmission of TB
+Step Action Description
+1. Screening -
+- Assign staff member/s to screen patients for TB and COVID-19
+symptoms.
+- All patients presenting with symptoms must be triaged to
+testing.
+- Specimens for COVID-19 (if applicable) and TB testing must be
+collected.
+- Where available, chest x-rays should be used to screen asymptomatic
+patients for TB.
+- Healthcare workers should clinically assess all patients who present with
+TB symptoms other than cough.
+Early recognition of patients with TB symptoms.
+2. Educate on
+cough
+hygiene
+-
+- Ensure that all patients wear face masks on entry and during the stay in
+the health facility.
+-
+-
+Educate patients on cough hygiene and the use of face
+masks.
+Provide bins for safe disposal of tissues and masks.
+Ensure access to hand washing facilities for patients.
+3. Separation
+and isolation
+-
+-
+Establish separate waiting areas for patients who cough.
+Separate clients with TB symptoms from other patients.
+- Separate new patients with TB from patients who are at various stages
+of TB Treatment in a TB ward.
+4. Fast-track - Place symptomatic patients at the front of the line for services they are
+seeking to reduce the amount of the time that others are exposed to
+them.
+5. Investigate
+patients with
+symptoms for
+TB
+- Collect sputum for testing from all patients with a cough in designated
+sputum collection area.
+- Diagnostic tests should be done, onsite (hospital) or referred to the
+nearest laboratory (PHC).
+9
+- All patients with TB symptoms should be offered provider-initiated
+counselling and testing.
+- Laboratory results should be followed up within 2 days.
+6. Prompt
+Treatment
+- Appropriate TB treatment should be initiated at the earliest time possible
+(within 2 days).
+- ART should be initiated in all HIV/TB co-infected patients.
+7. Discharge
+plan
+- For inpatient settings, discharge planning should be conducted jointly
+with the patient
+- Linkage with community healthcare workers to conduct comprehensive
+infection prevention and control home assessment.
+Prevenon of TB transmission in hospitals
+Hospitals are implemenng FAST strategy. FAST is a focused approach to stopping TB spread in congregate
+sengs. FAST stands for Finding paents with TB Acvely, Separang safely, and Treang effecvely. FAST focuses
+aenon on implemenng and monitoring the administrave processes and procedures necessary to find and
+rapidly diagnose unsuspected infecous TB and drug resistant TB paents, so that TB treatment may start within
+days, not weeks or months of presentaon.
+· Finding people with TB acvely
+The most infecous people are those with undiagnosed TB. Undiagnosed TB paents present in
+outpaent/casualty departments and may end up admied in the wards for other medical/surgical problems. In
+most cases they wait long periods of me in crowded and poorly venlated waing areas. The consulng rooms
+where they are seen may be poorly venlated and without any measures in place to prevent transmission of
+infecon.
+· Paents at OPD/Casualty
+Rounely asking paents about TB symptoms, such as cough, fever, night sweats and weight loss can lead to the
+idenficaon of people with symptoms for tesng. Those found to have TB symptoms should be fast-tracked for
+sputum collecon and laboratory tesng – TB NAAT. Laboratory results must be followed up to ensure treatment
+iniaon prior to client leaving the facility.
+· In-paents
+Paents admied should be screened, tested on admission. Results should be followed up within 24 hours.
+· Separate safely
+Whilst waing for the laboratory results paents with TB symptoms should be educated on cough hygiene which
+should include the importance of using surgical masks and separaon. They must be provided with surgical masks
+and take their posion in the waing area or where feasible they can wait in a separate adequately venlated
+waing area.
+In the hospital wards paents with TB symptoms must be isolated in a side ward or provided with a surgical mask
+where separaon is not feasible.
+· Treat effecvely
+Effecve treatment is the most important step in prevenng the spread of TB to others. On receiving the results of
+the paent, those found to have TB disease must be iniated on effecve treatment for DS-TB or DR-TB. Educaon
+and counselling of the paents must be conducted on treatment iniaon and during follow-up.
+10
+2.1.3. Environmental control measures
+The environmental controls are second defence in prevenng the spread of TB. They are effecve if administrave
+controls are in place. These include:
+2.1.3.1. Venlaon (Natural and Mechanical) allows the movement of air through a building so that it is
+replaced by air from outside.
+· Natural venlaon: Natural venlaon relies on
+open doors and windows. There should be adequate
+number of windows and doors opening to the
+outside and windows on opposite sides of the room
+allow good venlaon. Venlaon can be assisted by
+propeller fans mounted on the ceiling, desk, floor or
+window.
+· Assisted natural venlaon
+Fans may be used to assist in air distribuon and
+direcng the flow. Fans are inexpensive, increase
+natural venlaon effecveness, mix air in a room,
+reduce concentraon of parcles, and assist in
+direcng air movement.
+· Mechanical venlaon
+It is used in areas where there may be high concentraons of infecous droplets. Exhaust venlaon
+systems allows for exchange of air in the room as well as extracon of the air to the outside and fresh air is
+drawn into the room. Use in areas where natural venlaon is not feasible or inadequate. It should
+facilitate air entry into, and exhaust from, the room or area and direct air movement so that aerosols from
+paent are directed away from others. Direconal air flow should be from a “clean” area, across the
+paent, and to the outside.
+2.1.3.2. Ultraviolet germicidal irradiaon (UVGI)
+Ultraviolet germicidal irradiaon (UVGI) may be used as an adjuncve measure or where natural venlaon is not
+feasible, UVGI may be a useful alternave. They require ongoing maintenance and monitoring.
+The airborne pathogens are killed once they receive an appropriate amount of UV energy. For this to be effecve
+air circulaon is important to ensure that the droplets must come into contact with the UV rays in the disinfecon
+zone natural venlaon, fans or other mechanical methods may be considered to facilitate air circulaon.
+11
+2.1.4. Personal Protecve Equipment (PPE)
+Personal protecon refers to the use of respirators that contain a special filter material to protect the wearer from
+inhaling the TB bacilli. N95 or FFP 2 are recommended for use in healthcare sengs. PPE should be used together
+with other control measures to protect users against high-risk exposure. Healthcare workers must be trained on
+the proper use and storage of the respirators.
+2.1.4.1. Types of respirators
+· N95 respirator
+N95 is parculate filtraon respirator face piece used for protecon against airborne infecons such as
+tuberculosis. It is NIOSH (Naonal Instute for Occupaonal Safety and Health – part of U.S. Centers for Disease
+Control and Prevenon) cerfied and has capacity to filter out 0.3-micron parcles at 95% efficiency.
+· FFP2 respirator
+FFP2 parculate respirator face piece used for protecon against airborne infecons such as tuberculosis. It is a
+conformity standard of Europe. The “filtering face piece” score (FFP) comes from EN standard 149:2001. It has
+capacity to filter out 0.3-micron parcles at 94% efficiency.
+2.1.4.2. Donning of the respirator
+Healthcare workers must ensure that, the respirators cover the nose, mouth and chin provide a ght seal around
+the edge.
+Ultraviolet kills the bacilli. For
+this to be effecve it must come
+into contact with the rays,
+therefore circulaon of the air
+is important.
+12
+- Wash your hands using soap and water or clean with hand sanizer
+- Inspect the mask to ensure that it is not damaged
+- Cup the respirator in your hand with the nosepiece at your fingerps,
+ allowing the headbands to hang freely below your hand
+- Separate the elasc straps
+- Posion the respirator under the chin with the nosepiece up
+- Pull the top strap over the head resng it high at the back of the head.
+- Pull the boom strap over the head and posion it around the
+ neck below your ears
+Place fingerps of both hands at the top of the metal nosepiece.
+Mould the nosepiece (using two fingers of each hand)
+to the shape of your nose.
+2.1.4.3. Doffing/ Removal of respirator
+- Li the boom strap around the neck up and over the head
+- Li the top strap around the crown of your head over
+- Make sure not to touch the respirator
+- Store the respirator in a marked paper bag
+2.1.4.4. Seal check
+- Seal check is a procedure conducted to determine if the respirator is properly worn.
+- A seal check must be performed by lightly covering the respirator with both hands and forcefully
+inhaling and exhaling
+- If respirator collapses inwards on inhaling without air leaks between face and
+respirator = Negave seal check
+- If respirator expands/ air build up felt on exhaling without air leaks between face
+and respirator = Posive seal check
+2.1.4.5. Use and storage of respirators
+A respirator extensively used should be discarded aer 7 days. N95 respirators must be stored in a clean,
+dry, venlated place. Deterioraon of respirator efficiency occurs with humidity, dirt and crushing,
+therefore the condion of the respirator must be checked before re-use. Respirators are disposed as “so
+waste” and do not need to be disinfected before being discarded.
+13
+2.1.4.6. Fit tesng
+Fit tesng must be performed on all health care workers to determine which type or size of respirator fits properly.
+It makes use of a noxious substance that is sprayed in a hood covering the
+head
+- If the individual can smell the substance, it means the respirator does not fit
+well
+- If the individual cannot smell the substance, it means the respirator fits well
+Once the correct type and size has been determined for an individual, fit tesng
+does not need to be repeated.
+2.1.4.7. Surgical masks
+Surgical masks are meant to prevent the spread of droplet nuclei into the air by capturing the expelled parcles
+near the source (mouth). They do not provide adequate protecon from inhaling infecous droplet nuclei in the
+air because they are not sealed and have limited filtraon capacity. They should be worn by paents who are
+coughing.
+Use of face masks
+Table 2.2: Mask vs Respirator
+MASK RESPIRATOR
+Purpose To reduce transmission To reduce exposure
+Who should
+wear it
+Patients with infectious PTB
+People with cough
+Health facility staff
+Visitors to the TB isolation wards
+Community Healthcare workers
+Where should
+it be used
+Waiting rooms, consulting rooms
+and isolation wards
+During transportation i.e.
+ambulance, patient transport
+vehicles or other
+At home if isolation is not
+possible, ventilation inadequate
+TB isolation wards
+Sputum collection/ induction areas
+Other high-risk areas based on the risk
+assessment
+During transportation especially when
+sharing the vehicle with a person who
+has infectious TB visits to homes of
+patient with infectious TB
+14
+2.2. TB Risk assessment
+Risk assessment should be undertaken to idenfy potenal risk areas for infecon transmission so that proper IPC
+measures can be implemented. The TB risk assessment determines:
+a) The risk of nosocomial transmission of TB by looking at several factors: –
+b) incidence of TB in the community
+c) number of paents with TB disease seen at the facility
+d) melines of idenficaon, isolaon, tesng and treatment of people with TB symptoms
+e) evidence of transmission at the facility
+f) types of control implemented in the facility
+g) The types of administrave, environmental and respiratory protecon controls that need to be
+implemented in the facility.
+Risk assessment also serve as a tool for ongoing evaluaon of the quality of TB infecon control measures and the
+need to strengthen them. A TB risk assessment for healthcare facilies must be conducted and documented at
+least annually. The TB risk assessment tool (Annexure 1) may be used as a guide for conducng a risk assessment
+for a Primary Healthcare facility.
+The idenfied risks from the risk assessments serve as the basis for the TB infecon prevenon and control plan.
+Every facility must have a wrien TB IPC plan based on the risk assessment conducted. The plan must contain
+informaon about how the facility:
+a) defines employees who are at high risk of occupaonal TB exposure
+b) idenfies paents with presumpve TB
+c) isolates or controls exposures when a suspected or confirmed TB paent is idenfied
+d) minimises the risk of exposure for employees
+e) alerts the employees to hazards
+f) screens employees for TB
+g) uses and maintains environmental controls implemented to reduce risk of exposure
+h) uses respiratory protecon
+i) trains employees on TB
+j) monitors the implementaon of the facility TB IPC
+15
+2.3. Contact management
+TB Contact invesgaon
+It is systemac idenficaon of people with undiagnosed TB disease and TB infecon among the people who have
+been recently exposed to the index TB paent in the household and in other sengs where transmission of
+infecon is likely to occur (significant TB exposure). This includes idenficaon, tracing, clinical evaluaon, tesng
+and provision of appropriate TB treatment. Household and close contacts of people with acve PTB are at
+increased risk of acquiring infecon.
+Recent TB exposure: Contact with a person diagnosed with pulmonary TB in the last 12 months. Significant TB
+exposure: Known exposure to a person (adult or adolescent) with pulmonary TB who shared the same
+enclosed space for one or more nights or for frequent or extended dayme periods during the three months
+before the index paent starng their TB treatment. Significant TB exposure can occur in any seng, e.g., the
+household, workplace, place of learning or care.
+Objecves of contact tracing
+The objecves of contact tracing are to:
+- conduct TB tesng as an entry point to treatment (treatment of TB disease and
+treatment of LTBI)
+- idenfy contacts with acve TB disease and iniate treatment early to reduce
+transmission in the communies
+- idenfy those infected with TB and at high risk of developing acve tuberculosis for TB
+prevenve treatment to prevent progression to TB disease
+Definion of a TB contact
+A person who has been in close contact sharing the same environment with the index paent.
+Two types of contacts
+Close contact: A person who is not in the household but shared an enclosed space, such as a social gathering
+place, workplace or facility, for extended periods during the day with the index paent, during the 3 months
+before commencement of the current treatment episode
+Household contact: A person who shared the same enclosed living space for one or more nights or for frequent or
+extended periods of up to 8 hours during the day with the index paent during the three months before the start of
+current treatment
+Note: The above definion extends household contacts to include sleep overs. This is an important fact for sexual
+partners especially HIV posive partners.
+Objecves of contact invesgaon
+- to reduce morbidity and mortality due to TB
+- to arrest further transmission by early detecon of paents with TB
+- to prevent future cases of TB in the populaon by early detecon, providing prevenon therapy to
+high-risk contacts:
+a) Children under the age of 5 years
+b) People living with HIV
+Benefits of contact tracing
+Contact invesgaon offers an opportunity to:
+a) provide individual and family educaon on TB disease and infecon prevenon measures
+b) conduct interview with the paent promptly to assess the need for urgent contact tracing and
+invesgaon
+16
+Table 2.3: Determinants of risk of TB infection
+Factors that determines the risk of TB infection
+1. Infectiousness of
+the index patient
+2. Closeness and
+duration of
+exposure
+3. Environment in
+which the exposure
+is suspected to
+have occurred
+4. Specific settings
+presumed to
+increase the risk of
+TB transmission
+such as OPD,
+general/ TB wards
+and during sputum
+inducing
+procedures
+5. Frequent and
+intense contact of
+less than 8 hours
+may be considered
+to pose similar risk.
+All and
+contacts
+Screen
+for TB
+Investigate
+for TB
+Priority contacts
+The urgency of contact invesgaon depends on a number of factors with include:
+a) The infecousness of the index paent, Where the index paent is "sputum smear-posive" have
+the highest potenal of being transmiers
+b) The immunity of contacts (children <5 years, immuno-compromised people)
+Conducng contact invesgaon
+Household contacts of paents with acve TB must be listed in the TB treatment record of the index paent. All
+contact should be screened. Where available chest x-rays maybe conducted to screen for TB. Contacts should be
+tested for TB, regardless of TB symptoms (Sputum specimen collected for TB NAAT tesng). Those diagnosed with
+TB must be iniated on treatment. Those without TB should be iniated on treatment for latent TB infecon,
+known as TB prevenve treatment.
+Contact invesgaon in children under 5 years
+Efforts should be made to obtain sputum. If sputum cannot be obtained and the child is asymptomac, iniate
+TPT. TST is not required in well asymptomac children.
+Records used for contacts
+- TB Treatment record (index paent)
+Contacts must be documented at the back of the paent TB Treatment Record (GW20/12).
+- TB Idenficaon register
+All contacts invesgated for TB should appear on the TB Idenficaon Register. People eligible and started on TPT
+must be documented in the TB Idenficaon Register.
+- TB treatment record (Newly diagnosed paent)
+Those that are diagnosed with TB, a paent folder must be opened.
+17
+Confidenality, during contact invesgaons must be maintained. Legal and ethical issues can be resolved by
+obtaining informed consent for disclosure of informaon from the paent. Refusal to grant consent pose threat to
+public health and requires documentaon and legal opinion to be sought for determining acceptable
+intervenons. Obtain consent from the paent to disclose to the household and close contacts.Contact
+household and close contacts through phone call, use of contact slip and conducng home visits. Interview the
+contacts, inform them about possible exposure to TB and the need for screening and tesng for TB disease. Obtain
+addional informaon about possible risk of exposure. Conduct medical evaluaon. Medical evaluaon includes
+symptom review, sputum examinaon, skin test and chest X-ray.
+Contact diagnosed with TB should be treated for acve TB disease. Contacts with no acve TB disease should be
+treated for Latent TB infecon (TPT). Determine if invesgaon needs to be expanded based on evidence of
+disease transmission and addional contacts and sengs idenfied. Expand contact screening unl no evidence
+of new transmission.
+2.4. TB outbreak response
+TB outbreak is an observaon of more TB paents than expected in a geographic area or populaon during a
+parcular me, with evidence of recent transmission of MTB among those paents. It involves mulple TB
+paents with several overlapping contacts.
+TB outbreak response is a process of invesgang, planning and implemenng intervenons to manage the
+outbreak following suspicion of an outbreak.
+TB outbreaks can be detected through laboratory data analysis and geo-mapping of confirmed TB cases, roune
+TB data analysis at facility to monitor trends in TB noficaons, roune review of the contact invesgaon results,
+and observaons by community members.
+Confirming an outbreak involves reviewing clinical findings and laboratory results for each case, to confirm that
+they had TB. Where inconsistencies exist between clinical findings for cases with laboratory results, further
+informaon may be required to confirm TB disease.
+Epidemiologic links among cases assist in confirming an outbreak. These are shared characteriscs between index
+cases and contacts that explain where and when TB could have been transmied between them. Some contact
+invesgaon findings are evidence of recent transmission, which can indicate a potenal TB outbreak.
+The goal of TB outbreak response is to interrupt ongoing transmission of MTB. Contacts can be exposed to more
+than one index case or can be interrelated through mulple connecons. Outbreak response requires a mul-
+sectoral response including partners and stakeholders, a robust communicaon strategy, collaboraon with
+community leadership and financial resources. The provincial TB Programme Manager aer consultaon with
+CDC district coordinator and the district management team can declare a TB outbreak and iniate an outbreak
+response.
+2.5. BCG
+Bacille Calmee-Guerin (BCG) is a vaccine for TB disease. It is a live aenuated form of Mycobacterium Bovis (part
+of MTB complex) which provides children with a degree of protecon against disseminated and severe forms of
+TB. In South Africa, it is given as part of Expanded Programme on Immunisaon (EPI) schedule. BCG is given
+immediately aer birth or in the first year of life and not recommended aer one year.
+18
+2.5.1. BCG AND HIV
+It is recommended that asymptomac HIV exposed neonates should be given BCG. It should not be given to
+symptomac HIV exposed neonates born to mothers with TB. Children given BCG should be closely monitored for
+disseminated BCG disease.
+2.5.2. BCG and TPT in infants
+- Defer BCG vaccinaon in infant starng TPT to aer TPT compleon since TB drugs impair
+the effect of live BCG vaccine.
+- For HIV-posive infants who have just had BCG and are not TB-exposed, TPT should be
+deferred for 14 weeks as INH impairs the effect of live BCG vaccine.
+Management of infants born to mothers with TB or with significant TB exposure
+Infants have a high risk of developing severe or disseminated TB if exposed to TB and not treated. TB
+exposed infants are those:
+- born to mothers diagnosed with TB in the last two months of pregnancy, at birth or aer
+birth, or
+- born to mothers who are sll infecous (smear/ culture posive) at the me of birth, or
+- born to mothers who are not clinically responding to TB treatment at the me the baby is
+born.
+Infants may also be exposed to another person with TB inside or outside the household. In infants, TB disease
+should be excluded through clinical evaluaon of the baby, including respiratory and abdominal examinaon;
+collecon of an appropriate specimen for TB NAAT tesng or culture. CXR should be done where required.
+Abdominal ultrasound may be required in case of abnormal clinical findings such as abdominal distension or
+hepatomegaly.
+The infant should be managed according to the algorithm outlined in the figure below. Unwell TB- exposed
+neonate or infant should be referred immediately for further invesgaon given the high risk of TB and nonspecific clinical presentaon of TB in infants.
+BCG vaccinaon should be deferred in an infant starng treatment for TB infecon unl treatment is completed
+since TB drugs impair the effect of live BCG (M. bovis BCG) vaccine.
+19
+Assess the infant for symptoms and signs of TB
+TB symptoms and signs present No TB symptoms and signs
+Refer the infant to hospital for
+appropriate invesgaons to exclude
+TB
+Mother on treatment for >2months AND
+responding well to treatment AND has
+smear converted (non-infectious)
+Give BCG Yes No
+If infant is HIV posive on ART
+OR
+If infant is HIV exposed on PEP
+(NVP)
+If infant has not been exposed
+to HIV
+OR
+If infant is HIV exposed but not
+infected and not on PEP
+If infant is DR-TB
+exposed
+Treat with Isoniazid for 6
+months
+Treat with Rifampicin and
+Isoniazid for 3 months Refer immediately to
+DR-TB Treatment site.
+Monitor for treatment adherence, side effects, TB symptoms, weight
+gain and ensure adequate dosing
+- The clinical assessment for TB must include examinaon of lungs,
+abdomen and central nervous system and take into consideraon low
+birth weight/prematurity.
+- BCG must be given two weeks aer compleon of TB infecon in all TB
+exposed infants.
+- If TB disease is diagnosed, TB treatment must be started, and BCG given
+2 weeks aer compleon of treatment .
+Figure 1: Algorithm to assess the infant for symptoms and signs of TB
+20
+2.6. Treatment of Latent TB Infection (LTBI)
+Table 2.5: What is Latent TB Infection?
+TST Positive Positive Usually, positive
+TB NAAT Negative Usually, negative Positive or negative
+Culture Negative Intermittently positive Positive
+Infectious No Sporadically Yes
+Symptoms None Mild or none Mild to severe
+Preferred treatment TB preventive treatment TB treatment TB treatment
+Latent TB
+Infecon
+Subclinical TB
+disease
+Acve TB
+Disease
+The table above depicts the changes in tests, symptoms and infecousness as the paent progresses from latent
+TB infecon to acve TB disease.
+Latent TB Infecon (LTBI) is a condion where a person is infected with TB mycobacteria but does not become sick
+or develop TB disease. This happens when the body can fight and contain the infecon. The bacilli remain dormant
+and can be reacvated over me or when the immune system is suppressed. As a result, the person will not have
+TB symptoms and cannot spread the infecon to others. The only evidence of infecon is a posive TB skin test.
+Treang LTBI reduces the risk of developing TB disease in high-risk groups. It is much easier to treat TB infecon
+than disease because the bacillary load is much lower and requires fewer medicines.
+Treatment of LTBI
+Treatment of LTBI also known as TB Prevenve Treatment (TPT), consists of a course of one or more an-
+tuberculosis medicines given with the intenon to prevent the progression from TB infecon to acve TB disease.
+Treatment of LTBI should be offered to all people aer significant TB exposure (regardless of age and HIV status)
+and those who are immune compromised (regardless of known exposure), e.g. PLHIV, people with silicosis, aer
+TB disease has been ruled out.
+NB: TPT does not prevent TB infecon.
+2.6.1. Who is eligible for TPT?
+HIV Posive
+- All HIV-infected non-pregnant adults, adolescents and children who have not completed a course of
+TPT before, irrespecve of exposure.
+Contacts
+- Child contacts irrespecve of HIV status and age
+- Adolescent and adult contacts irrespecve of HIV status
+- Inmates who are contacts in Correconal Services facilies
+People living with silicosis
+Healthcare workers
+21
+2.6.2. Exclusion criteria
+The following paents are not eligible for TPT
+- Paents with confirmed TB disease or on TB treatment
+- Paents with symptoms and signs of severe peripheral neuropathy
+- People with acve acute or chronic liver disease
+- Paents with a history of adverse reacon to any of the medicaons used for TPT
+- Paents with alcohol use disorders (excessive alcohol use) and unwilling or unable to
+scale down use:
+a) For men: more than 5 standard drinks on any day or 15 drinks per week
+b) For women: more than 4 standard drinks on any day or 8 drinks per week
+Treatment should be deferred in paents diagnosed with TB disease, unl compleon of treatment. Paents with
+acute liver disease should be assessed for eligibility aer treatment compleon and liver funcon test back to
+normal.
+Iniaon of TPT should be deferred in all pregnant women unl aer delivery. Pregnant women should be
+screened for TB at every visit.
+Table 2.4: Estimated standard drink for alcohol
+Table 2.5: Excluding TB before TPT initiation
+Beer/wine coolers ≈5% alcohol 360ml
+Malt liquor approximately≈7% alcohol 240-270ml
+Cider about ≈ 6% alcohol 300ml
+Wine Table wine is≈ 12% alcohol 150ml
+Fortified wines e.g. sherry or port 90-120ml
+Spirits and liqueur whiskey, gin, vodka, or brandy≈ 40% 45ml
+Cordial or aperitif 60 -90ml
+A shot is filled to about 45ml 45ml
+Type of alcoholic drinks Examples Standard drink
+Old guidelines New guideline
+5 years and older Exclude TB through:
+- Symptom screen
+- If negative screen, initiate
+TPT
+Exclude TB through:
+- Symptoms screen
+- Chest x-ray screening only if available on
+site*
+- TB NAAT testing
+Under 5 years Exclude TB through:
+- Symptom Screen
+- If negative screen, initiate
+TPT
+Exclude TB through:
+- Symptom screen
+- TB NAAT testing if a sample can be
+obtained for testing
+- If no TB/asymptomatic, initiate TPT
+* Chest x-ray screening is not recommended for children under 15 years
+TB NAAT testing, TST and chest x-rays are not a requirement for TPT initiation in children under 5
+years.
+22
+2.6.3. Treatment opons for treang LTBI:
+- 3HP: 3 months of Isoniazid and rifapenne given once weekly
+- 3RH: 3 months of daily rifampicin and Isoniazid
+- 6H: 6 months of daily Isoniazid
+- 12H: 12 months of daily Isoniazid
+- 4R: 4 months of daily rifampicin
+The 4-month rifampicin regiment can only be considered for use in people who cannot tolerate Isoniazid.
+Where possible shorter TPT regimens should be priorised.
+Figure 2.1: General algorithm for provision of TB preventive therapy in HIV negative individuals
+1
+st evaluaon of all adults,
+adolescents and children
+Living with HIV
+All household and
+other close TB
+contacts
+1
+st evaluation of other
+high risk groups
+Evaluate for TB disease
+- Symptom screen
+- Clinical examinaon (including weight)
+- Sputum tesng (Xpert) if can produce sputum
+- Chest radiograph (CXR), if available onsite (or sputum not obtained)
+Offer counselling and tesng for HIV if recent HIV status is unknown
+No TB disease TB disease
+Offer TB prevenve
+therapy
+Start TB treatment
+Follow up for adherence support, weight check, dose adjustment,
+safety, and new symptoms or signs of TB
+23
+- If a CXR has already been done recently in a child who presented with no signs or
+symptoms, do not repeat the CXR.
+- Tests of TB infecon (tuberculin skin test/TST) are not required to iniate TPT in children
+who are TB contacts.
+2.6.4. TPT eligibility in children < 25kg
+- All children living with HIV (irrespecve of significant TB exposure)
+- New TB exposure irrespecve of history of TPT or TB treatment
+- Infants born to mothers diagnosed with TB:
+· in the last two months of pregnancy or at/aer birth, or
+· who are sll infecous (smear posive), or
+· who are not clinically responding to TB treatment at the me the baby is born, are classified as
+TB exposed
+2.6.5. Exclusion of TB disease in children <25kg
+Exclusion of TB disease in infants:
+- Clinical evaluaon - respiratory and abdominal examinaon
+- Gastric aspirates for TB NAAT, mycobacterial culture, and CXR
+- Abdominal ultrasound is needed in case of abnormal clinical findings (distension or
+hepatomegaly)
+2.6.6. Exclusion of TB disease in older children <25kg
+Symptom screening
+Figure 2.2: General algorithm for provision of TB preventive therapy in HIV positive individuals
+1
+st evaluation of all
+adults, adolescents and
+children Living with HIV
+All household and
+other close TB
+contacts
+1
+st evaluation of other
+high risk groups
+Evaluate for TB disease
+- Symptom screen (Table 2.9)
+- Clinical examinaon (including weight)
+- Sputum tesng (Xpert and culture for negave Xpert) if can produce sputum
+- Chest radiograph (CXR), if available on site (or sputum not obtained)
+No TB disease TB disease
+Offer TB prevenve
+therapy
+Start TB treatment
+Follow up for adherence support, weight check, dose adjustment, safety,
+and new symptoms or signs of TB
+24
+TB tesng amongst children
+Sputum tesng (TB NAAT) should be aempted in older children who can expectorate spontaneously, and in any
+other children who can expectorate spontaneously. If a young child can expectorate sputum, a sample collecon
+should also be aempted. CXR is a valuable tool to rule out TB disease in children. The absence of a CXR should
+however, not pose a barrier to treatment iniaon in well children. In a well-child with no TB signs or symptoms, a
+CXR is therefore not required to iniate treatment. Clinical follow-up remains important. Test of TB infecon (TST)
+is not a requirement for iniang treatment for TB infecon.
+2.6.7. TPT regimens for children <25kg
+There are three potenal regimens for children: 3RH and 6H. The choice depends on the child's weight, HIV
+status or HIV exposure (maternal HIV) status:
+In HIV-negave children <25kg, the priority regimen is 3RH
+- In children living with HIV and on DTG (dolutegravir) containing ART
+6H to avoid drug-drug interacons with ART
+- In infants born to HIV-posive women (HIV-exposed but HIV-negave infants) on
+nevirapine
+6H is the priority regimen as rifampicin lowers nevirapine levels below efficacy
+All children including infants require pyridoxine (vitamin B6) for the duraon of their TPT as follows: children <5
+years 12.5mg and child ≥5 years 25mg, once daily. Lack of pyridoxine access should not be a barrier to receiving
+TPT.
+Table 2.6 TB symptom screen
+TB symptom screen (adolescents/adults) TB symptom screen (infants and children)
+Current cough of any duration Current cough
+Persistent fever for 2 weeks or more Persistentfever for2 weeksor more(irrespective
+of treatment for < 5 years)
+Unexplained weight loss of >1.5kg in a month, or
+failureto gain weightin pregnant women
+Fatigue/less playful
+Drenching night sweats Weight loss or failure to thrive
+TPT regimen options dosage tables
+Table 2.7: Daily dosage for 3RH in children <25kg
+Child’s weight RH (Daily) fixed dose combinations Duration
+75/50 If dispersed in water
+2-2.9 ½ tablet 5ml 3 months
+3-3.9 ¾ tablet 7.5ml
+4-5.9 1 tablet 10ml
+6-7.9 1 ½ tablet 15ml
+8-11.9 2 tablets 20ml
+12-15.9 3 tablets 30ml
+16-24.9 4 tablets 40ml
+≥25 Use adult formulations and doses
+25
+Table 2.8: Recommended daily dosages for the 6H regimen amongst children < 25kg
+Weight band (kg) Daily INH 100mg tablet Duration
+2 – 3.4 ¼ tablet
+3.5 – 4.9 ½ tablet 6 months
+5 – 7.4 ¾ tablet
+7.5 – 9.9 1 tablet
+10 – 14.9 1 ½ tablet
+15 – 19.9 2 tablets
+20 -24.9 3 tablets (or one 300mg tablet)
+≥25 Use adult formulations (maximum dose 300 mg per day)
+2.6.8. TPT regimens for children, adolescents and adult ≥ 25kg
+HIV negave children, adolescents and adult ≥ 25kg
+There are currently four potenal regimens for children, adolescents and adults ≥ 25kg, 3HP, 3RH, 6H or 12H. The
+short course 3HP regimen should be priorized if possible. If 3HP is not available for HIV- negave children ≥25kg,
+adolescents and adults, use 3RH.
+HIV posive children, adolescents and adult ≥ 25kg
+For adults, adolescents and children ≥25kg living with HIV and iniang dolutegravir -containing ART, 12H is
+preferred.
+For PLHIV who are virally suppressed (VL, <50 copies/mL in the last 6 months,) on a dolutegravir- containing
+regimen, 3HP is preferred.
+2.6.9. TPT regimen opons for pregnant and breaseeding women
+For HIV negave, pregnant and breaseeding women, there are two regimen opons: 3RH or 6H
+- Give TPT once TB disease has been excluded regardless of CD4 cell count
+Pyridoxine (vitamin B6) 25mg daily should be added for the duraon of treatment irrespecve of HIV status.
+TPT Regimen opons dosage opons
+Table 2.9: Recommended regimen for 6H in PLHIV on ART
+Drug Dosage* Number of tablets
+(daily)
+Duration
+Isoniazid 300mg 1 6 months
+Or 100mg 3 6 months
+ If 300mg tablets are not available, use 100mg
+Table 2.10: Recommended regimen for 12H in PLHIV on ART
+Drug Dosage* Number of tablets
+(daily)
+Duration
+Isoniazid 300mg 1 12 months
+Or 100mg 3 12 months
+Table 2.11: 3HP regimen > 25kg
+Body weight
+(kg)
+Rifapentine 150mg
+tablets (weekly)
+Isoniazid 300mg
+tablets (weekly)
+Duration
+25-29.9kg 4 2 12 weeks (3 months)
+30-49.9kg 6 3 12 weeks (3 months)
+>50kg 6 3 12 weeks (3 months)
+26
+How to take 3HP
+- 12 weekly doses must be taken at once on the same day every week for 12 weeks
+- If a dose is missed:
+o missed dose should be taken as soon as they remember within 3 days
+o connue the next dose as scheduled or
+o start a new weekly schedule on the day you took the missed dose.
+- A course is considered completed if all doses are taken within 16 weeks (11 doses can be counted
+as complete although not ideal)
+Table 2.12: 3RH for adult, adolescents and children > 25kg
+Body weight RH(150,75) RH(300,150)
+Number of tablets
+(daily)
+Number of tablets (daily)
+25-37kg 2 tabs
+38-54kg 3 tabs
+55-70kg 2 tabs
+>70kg 2 tabs
+Table 2.13: Summary of TPT regimen options by patient type
+PATIENT
+CATEGORY
+WHAT TO DO REGIMEN
+A
+D
+U
+L
+T
+S
+A
+N
+D
+A
+D
+O
+L
+E
+S
+C
+E
+N
+T
+S
+IN
+C
+L
+U
+DIN
+G
+C
+HIL
+D
+R
+E
+N
+≥
+2
+5
+K
+G
+HIV-P
+O
+SITIV
+E
+PLHIV: Test for TB regardless of ART status and give TPT once TB disease
+is excluded. If newly diagnosed with HIV, start ART immediately and TPT
+within 2 weeks.
+3HP* or
+12H
+Post TB treatment: Offer TPT to all PLHIV ≥25 kg after successfully
+completing treatment for TB disease, after active TB disease has again been
+excluded.
+Previously treated with TPT:
+
+If re-exposed to any close contact with TB,
+retest for TB and give TPT once TB disease has been excluded.
+HIV-N
+E
+G
+A
+TIV
+E
+Contacts: Evaluate all HIV-negative adults, adolescents and children ≥25kg
+in close contact with people diagnosed with TB and start TPT once TB
+disease has been excluded.
+3HP, 3RH
+or
+6H
+Evaluate all HIV-negative at-riskgroups (on anti-TNF treatment, on dialysis,
+preparing for organ or haematological transplant, or with silicosis). Once TB
+disease is excluded, start TPT.
+Evaluate HIV-negative adults and adolescents who previously received
+TPT, if re-exposed to a close contact with TB and start TPT once active TB
+has been excluded.
+C
+HIL
+D
+R
+E
+N <2
+5
+K
+G
+HIV
++
+V
+E
+Evaluate all children older than 14 weeks of age living with HIV for TB and
+start TPT once active TB has been excluded. ART should be started
+immediately if newly diagnosed with HIV. TPT should be started within 2
+weeks of ART initiation.
+6H**
+HIV-N
+E
+G
+A
+TIV
+E
+Evaluate HIV-negative children in close contact with a TB patient and start
+TPT after active TB disease has been excluded.
+3RH
+Test other HIV-negative at-risk children (weakened immune system e.g.,
+cancer, autoimmune diseases, transplant patients on immunosuppressive
+drugs, receiving dialysis,or inherited immunodeficiency) for TB and start TPT
+once active TB disease is has been excluded
+27
+*For adults, adolescents and children ≥25kg iniang a dolutegravir-containing ART regimen, 12H is preferred.
+For PLHIV who are virally suppressed (VL<50 VL copies/mL) on a dolutegravir-containing regimen, 3HP is
+preferred.
+**In children <25kg iniang a dolutegravir-containing ART regimen, 6H is preferred.
+Once the dolutegravir levels from the DOLPHIN-2, DOLPHIN-kids and TBTC Study 35 trials are available, 3HP
+will likely be the preferred opon in all PLHIV. If 3HP is not available, use either 6H (children<25kg) or 12H
+(adults, adolescents and children ≥25kg).
+Taking the meds - advice for the paents and caregivers:
+- 3 RH: given on an empty stomach (before a meal).
+- Isoniazid regimen only (6H or 12 H): give on an empty stomach (before a meal). Isoniazid is
+best absorbed on an empty stomach; there is an up to 50% reducon in peak concentraon
+with a fay meal.
+- 3 HP: give with a meal or directly aer a meal (rifapenne is beer absorbed with food).
+All paents starng ART, or already on ART, and who have not yet received TB Prevenve Therapy (TPT) should be
+considered for TPT. Prior to iniang TPT, acve TB should be ruled out by screening for TB symptoms. A TST is not
+required prior to starng TPT. TB tesng strategies will vary by age as younger children cannot spontaneously
+expectorate sputum.
+- In well children without symptoms, neither sputum tesng nor CXR are therefore requirementsto start TPT.
+- Sputum tesng should be aempted in children who can expectorate spontaneously (typically > 25kg), but if
+they are well (without symptoms) and unable to expectorate, they should start TPT, even if no CXR or sputum
+tesng is available.
+Treatment of latent TB infecon with INH (IPT) in child contact.
+The recommended dose of Isoniazid in children is INH10mg/kg/day. The maximum daily dose of INH must not
+exceed 300mg. The table below shows the recommended dose per wait band.
+Children should be weighed at every visit and dosages adjusted based on actual weight to prevent under- or
+overdosing.
+Adding pyridoxine (vitaminB6)
+Paents receiving TPT should be offered pyridoxine (vitamin B6) for the duraon of their TPT: 25mg/day if 5 years
+or older, 12,5mg/day if younger than 5 years of age. Lack of pyridoxine supply should not be a reason to withhold
+or postpone treatment.
+28
+2.6.10. Educaon and counselling of eligible individuals
+Paent educaon should cover the following areas:
+· What is TB exposure and infecon?
+· Why is it important to treat TB infecon?
+· Who must be treated for TB infecon?
+· What are the benefits and risks of taking treatment for TB infecon?
+· What are the treatment opons for TB infecon and the duraon?
+· The importance of adhering to treatment.
+· How and when to take their treatment?
+· How to administer the treatment to a child for a parent/ caregiver?
+a) 3 RH: given on an empty stomach (before a meal)
+b) Isoniazid regimen only (6H or 12 H): give on an empty stomach (before a meal). Isoniazid is best
+absorbed on an empty stomach; there is an up to 50% reducon in peak concentraon with a
+fay meal.
+c) 3 HP: give with a meal or directly aer a meal (rifapenne is beer absorbed with food)
+· Possible side effects such as unexplained loss of appete, nausea, voming, abdominal discomfort,
+persistent fague or weakness, dark-coloured urine, pale stools, and jaundice.
+· What to do when the paent experiences side effects?
+· Infecon control, including cough hygiene and adequate venlaon.
+· Undesirable effects of using alcohol and smoking while on treatment.
+· Symptoms of TB and what to do when they experience them.
+2.6.11. Follow-up visits
+Individuals may be monitored monthly, 3-monthly, or 6-monthly depending on the duraon of treatment. For
+individuals with comorbidies, try to align appointments with other scheduled chronic disease or ART visits to
+avoid individuals making mulple visits for care.
+· TB symptom screening must be conducted at each visit. If symptomac, invesgate for TB.
+· Provide on-going counselling and educaon.
+· Monitor adherence (including pill count and missed appointments).
+· For poor treatment adherence or treatment interrupon, ask about the possible reasons and counsel
+the individual or parent/guardian.
+· Assess individual for side effects if any are present manage them.
+· People who are on long-term treatment (6 and 12 months) can be enrolled on Centralised Chronic
+Medicine Dispensing and Delivery (CCMDD) to receive treatment through that mechanism as follows:
+a. Newly diagnosed HIV paent that has completed the first 6 months of ART with a VL
+<50 copies/ml
+b. Contacts of people with confirmed TB who have completed 2 months of treatment
+c. People with confirmed Silicosis who have completed 2 months of TPT
+· People on CCMDD must be advised to present to facilies if they develop TB symptoms, experience side
+effects or if their health deteriorates whilst on treatment.
+· Clinical monitoring must be conducted at 3 or 6 months and during the last month of treatment, at which
+point the treatment outcome will be documented.
+· People on short regimen (3 and 4 months) will benefit from mul-month dispensing (MMD). They may
+be followed up monthly or at 3 months depending on their preference to ensure paent centric care,
+they must be advised to present to facilies if they develop TB symptoms, experience side effects or if
+their health deteriorates whilst on treatment.
+· People at high risk of treatment interrupon must not be enrolled on CCMDD or MMD.
+29
+2.6.12. Adverse Events (AEs)
+While most of the AEs are minor and occur rarely, major adverse events may occur which may require urgent
+aenon even stopping treatment. Paents should be educated about side effects and what to do should they
+occur. The table below shows the management of common side effects.
+Table 2.14: Management of common adverse events
+Adverse event Drug(s)
+responsible
+Signs/symptoms Management
+Peripheral
+neuropathy
+Isoniazid Burning pain,
+pins/needles, or
+numbness of feet
+worse at night
+- Increase B6 (pyridoxine) from 25mg
+to 100mg daily until symptoms
+disappear.
+- If not better with treatment, or
+worsens, then H should be
+discontinued immediately.
+- Consider rifampicin only alternative
+treatment regimen.
+Hepatotoxicity Isoniazid(H),
+Rifapentine(P),
+Rifampicin (R)
+Nausea, vomiting,
+abdominal tenderness,
+discomfort near the
+ribs on the right upper
+abdomen, jaundice
+(yellowing of skin and
+whites of the eyes)
+Signs: Hepatic
+enlargement,
+increased LFTs
+- Stop Isoniazid and rifampicin or
+rifapentine immediately.
+- refer the individual to the
+hospital/medical officer immediately
+for further evaluation.
+Gastrointestinal
+Uncommon at
+recommended daily
+doses
+Isoniazid(H),
+Rifapentine(P),
+Rifampicin (R)
+Nausea, vomiting,
+diarrhoea
+- Rule out other causes.
+- Conduct liver function tests to rule
+out drug-induced hepatic
+dysfunction.
+- Continue treatment based on
+severity of symptoms.
+- Treat symptomatically (if no other
+cause is found.
+Flushing reaction Isoniazid Flushing and/or itching
+of the skin with or
+without a rash, hot
+flushes, palpitations,
+headache Signs:
+increased blood
+pressure
+- Reassure individual and inform
+about avoiding tyramine and
+histamine-containing foods (e.g.,
+tuna, cheese, red wine) while
+receiving Isoniazid.
+- Flushing is usually mild and
+resolves without treatment If
+flushing is bothersome to the
+individual, an antihistamine may be
+given to treat the reaction.
+Mild itching rash Isoniazid(H),
+Rifapentine(P)
+Mild rash and itching - Treat with antihistamine and topical
+steroid creams.
+Hypersensitivity
+uncommon usually
+occurs 3 - 7 weeks
+after initiation of
+treatment
+Isoniazid(H) hives (raised, itchy
+rash) fever (may
+occur)
+- Discontinue treatment until the
+reaction resolves.
+Hypersensitivity
+reaction occurs
+after the first 3 to 4
+doses and begins
+approximately 4
+hours after
+ingestion of
+medication
+Rifapentine(P) flu-like symptoms,
+fever, headache,
+dizziness, shortness of
+breath, wheezing,
+nausea, muscle and
+bone pain, rash,
+itching, red eyes,
+hypotension, or shock
+- If mild reaction e.g., rash, dizziness,
+fever: continue treatment and
+manage the AEs (adverse events).
+- If severe reaction e.g.,
+thrombocytopenia (low platelet
+count) or hypotension, discontinue
+treatment and refer to hospital.
+30
+2.6.13. Drug-drug interacons
+- Daily Rifampicin plus Isoniazid for 3 months (3RH) should not be given to infants and
+children on protease inhibitors (PI) or nevirapine-based ART due to drug-drug interacons.
+- Rifapenne and INH (3HP) should not be offered to ART-naïve individuals starng
+Dolutegravir containing ART due to lack of evidence at this stage. 3HP should be deferred
+unl individuals have been on ART with a dolutegravir containing regimen unl virally
+suppressed.
+Table 2.15: Common Drug-Drug Interactions
+TPT Drug Drug-Drug interaction Recommendation
+Rifampicin decreases the levels
+of:
+Dolutegravir Treat with Isoniazid
+Efavirenz Treat with Isoniazid
+Protease Inhibitors e.g.,
+Lopinavir/Ritonavir
+Treat with Isoniazid
+Rifapentine decreases the levels
+of:
+Protease Inhibitors e.g.,
+Lopinavir/Ritonavir
+Treat with Isoniazid
+Nevirapine Treat with Isoniazid
+Oral and Implantable
+contraceptives
+Use Barrier method
+Offer Injectable contraceptive
+method
+Dolutegravir Treat ART naïve PLHIV with
+Isoniazid
+Treatment interrupon and disconnuaon
+· People who are iniated on the daily Isoniazid monotherapy (6 - 12month regimen) who interrupt
+treatment should be categorised as follows:
+a. interrupted treatment for less than 2 consecuve months
+b. interrupted treatment for more than 2 consecuve months
+c. interrupted treatment for a second me regardless of duraon of interrupon, despite
+adherence counselling
+· People who are iniated on the shorter regimens (3 - 4-month regimens) who interrupt treatment
+should be categorised as follows:
+a. interrupted treatment for less than 4 consecuve weeks
+b. interrupted treatment for more than 4 consecuve weeks
+c. interrupted treatment for a second me regardless of duraon of interrupon, despite
+adherence counselling
+31
+2.6.14. Missed doses
+Paents should be educated on what to do when they miss doses. The table below gives guidance on how
+missed doses should be managed.
+Table 2.16: Management of individuals who miss doses of treatment
+Duration of interruption Management
+If one dose is missed - The individual should take the missed dose as soon as they
+remember within the same day
+- If the day’s dose is missed, take the next scheduled dose
+and continue with the regular schedule. Do not take two
+doses on the same day
+- For the weekly doses, take the missed dose as soon as they
+remember, if this is on the following day, continue the next
+doses on the new day
+If treatment is interrupted for less than
+4 weeks for a short regimen or less
+than 2 consecutive months for a longer
+regimen
+- Enquire about the reasons for treatment interruption
+- Address individual’s concerns
+- Counsel the individual on the importance of adherence.
+- If this is the first interruption and person commit to taking
+treatment.
+a) Screen clinically for TB symptoms
+b) Conduct investigations to exclude TB if signs and
+symptoms of TB are present
+c) If asymptomatic and no signs of TB disease, continue
+treatment to complete the remaining doses
+If treatment is interrupted for more
+than 4 weeks for a short regimen or
+more than 2 consecutive months for a
+longer regimen
+- Enquire about the reasons for treatment interruption
+- Address individual’s concerns
+- Counsel the individual on the importance of adherence
+- If this is the first interruption and person commit to taking
+treatment.
+a) Screen clinically for TB symptoms
+b) Conduct investigations to exclude TB if signs and
+symptoms of TB are present
+c) If asymptomatic and no signs of TB disease restart
+treatment and referred to relevant health workers for
+additional support (i.e., psychologist, dietitian, social
+worker, etc.)
+If treatment is interrupted for a second
+time regardless of duration of
+interruption and despite adherence
+counselling
+- Do not consider for treatment
+32
+2.6.15. Paent categorisaon and treatment outcomes
+Paents offered TPT may be categorised either as new or previously treated as described in Table 2.17 below.
+Table 2.17: Patient category
+Category Definition
+New Never had treatment for TB infection in the past or who took treatment for
+<4 weeks
+Previously treated Treatment for TB infection in the past for ≥4 weeks and either completed or
+stopped for any reason (e.g., due to adverse events, developed TB, lost to
+follow-up)
+Table 2.18: Treatment outcomes
+Outcome Definition
+Treatment completed Treatment taken and completed within the prescribed period.
+Lost to follow-up Treatment interrupted for 4 consecutive weeks or more (if on ≤ 4months)
+OR two consecutive months (if on a course longer than 6 months) during
+the treatment period.
+Treatment stopped Treatment stopped during the treatment period, because of serious adverse
+events or development of TB disease.
+Died Death due to any cause during the treatment period
+Treatment outcomes
+The treatment outcome possibilies for paents on TPT are completed, lost to follow-up, stopped or died as
+described in Table 2.18 below.
+Stopping treatment
+Treatment must be stopped if:
+- Paent develops TB symptoms, collect sputum for TB NAAT tesng or invesgate by other
+means.
+- If TB Posive start TB Treatment.
+- Paent develops symptoms of hepato-toxicity, refer the paent to hospital immediately.
+- Paent develops severe rash, refer paent to hospital urgently.
+- Paent develops mild, connue treatment, add treatment for rash and monitor.
+33
+3. CLINICAL PRESENTATION OF PULMONARY
+AND EXTRA-PULMONARY
+Module overview:
+The module introduces signs and symptoms of TB including definion of Pulmonary and Extra- Pulmonary TB.
+The module also covers the different types of Extra-Pulmonary TB.
+Learning outcomes:
+By the end of this session, parcipants should be able to:
+- Explain the clinical presentaon of TB.
+3.1. Pulmonary TB
+Disease involving the lung parenchyma (poron of the lung involved in gas exchange). A paent with both
+parenchymal lesions in the lungs (Pulmonary TB) and Extra-Pulmonary TB is classified as Pulmonary TB. Miliary or
+disseminated TB is classified as PTB. It results from widespread blood borne disseminaon of TB bacilli in all the
+organs including the lung ssue.
+3.1.1. Symptoms in adults
+The four common symptoms of pulmonary tuberculosis in adults used to screen, are:
+Persistent cough Fever of two weeks or more
+Drenching night sweat
+Unexplained weight loss of
+more than 1.5kg in a month
+Drenching night sweatOther symptoms that may be present are:
+- Shortness of breath
+- Chest pain
+- Coughing up blood
+- Fague
+- Loss of appete
+Note: People with TB disease can present without symptoms.
+34
+3.1.2. Symptoms in children
+The 4 common symptoms of pulmonary tuberculosis in children used to screen are:
+- Persistent non-reming
+cough
+- Persistent fever of 7 days or
+more
+- Documented
+weight loss/failure to thrive
+(check Road to Health
+Booklet)
+- Fague (less playful/always
+red)
+A producve cough is oen accompanied by
+systemic symptoms such as fever, night sweats or
+loss of weight, is the commonest presentaon of
+pulmonary tuberculosis.
+Every paent with a posive symptom screen must
+be invesgated appropriately. Not all those with TB
+will have a cough; therefore, a high index of suspicion
+is required, parcularly in people who are HIV
+posive who may only have one of the above
+symptoms. A history of contact with a person with
+PTB increases the likelihood of a TB diagnosis and
+symptoms such as weight loss need to be
+invesgated.
+3.1.3. Physical signs
+Physical signs refer to abnormalies indicave of a disease detectable by a clinician on examinaon of the
+paent. They may not be apparent to the paent.
+On physical examinaon the signs may be non-specific, making it difficult to disnguish TB from other pulmonary
+o diseases. These may include fever (body temperature high >38 C), increased pulse rate, abnormal chest sounds
+(crackles, wheeze, etc.), dullness on percussion. Physical signs may not be helpful in confirming the diagnosis, but
+it is important to examine the paent carefully. Some of the common signs are:
+0
+- Fever: the body temperature may be high or irregular (greater than 38.5 C)
+- Pulse: the pulse rate may be raised because of fever
+- Chest: there may be no abnormal signs, crackles in the lung apices more pronounced on deep
+breathing; localised wheeze in local obstrucon or pressure; dullness where there is effusion
+and in chronic disease there may be extensive fibrosis with the trachea pulled to one side
+Documented
+loss of weight
+or
+unsasfactory
+weight gain
+Fague or
+reduced
+playfulness
+Fever every day
+for 7 days or
+more
+35
+3.2. Extra-Pulmonary TB (EPTB)
+Extra-pulmonary TB can present with non-specific symptoms such as unintenonal weight loss (more than 1.5 kg
+in a month), night sweats and fever for more than 2 weeks. Other symptoms depend on the site or organ affected.
+The most common types of extra-pulmonary tuberculosis are:
+- TB lymphadenis
+- Tuberculosis pleural effusion (usually single-sided)
+- TB of the bones and joints
+- Tuberculosis pericardial effusion
+- TB meningis
+- Disseminated/miliary tuberculosis
+- TB peritoneal effusion
+3.2.1. TB Meningis
+Tuberculous Meningis (TBM) is a form of meningis characterised by inflammaon of the membranes
+(meninges) around the brain or spinal cord and caused by Mycobacterium tuberculosis.
+Paents present with gradual onset of headache, accompanied by malaise, confusion, decreased consciousness,
+and somemes voming.
+One of the physically demonstrable symptoms of meningis is Kernig's sign.
+Severe sffness of the hamstrings causes an inability to straighten the leg
+when the hip is flexed to 90 degrees.
+Examinaon to check Kernig's sign
+Paent lies in supine posion.
+Flex one of the paent's legs at hip, and knee with the paent lying on back,
+and then slowly extend the leg at the knee/straighten the knee. Posive test
+elicited when:
+- there is resistance to knee extension or
+- pain in the lower back, from stretching of the
+meninges.
+Another physically demonstrable symptom of meningis is
+Brudzinski's sign. Severe neck sffness causes a paent's hips and
+knees to flex when the neck is flexed.
+Examinaon to check Brudzinski's neck sign
+Paent lies in supine examinaon.
+Flex the paent's neck forward slowly, towards the chest. Neck sffness and involuntary bending of the knees and
+hips can indicate meningis.
+Paents presenng with severe neurological impairment (drowsiness, coma) have a greater risk of neurological
+complicaons aer treatment.
+The paent must be referred to hospital as soon as TB meningis is suspected.
+Meningis is the deadliest form of TB, parcularly in persons co-infected with HIV. Early diagnosis and
+treatment can dramacally reduce the high mortality associated with this disease.
+36
+3.2.2. TB Lymphadenis
+TB lymphadenis is among the most frequent presentaons of extra-pulmonary TB. It involves enlargement of
+peripheral TB lymph nodes.
+Cervical lymph node involvement is the most common. Commonly seen in children and young adults Lymph nodes
+are firm to fluctuant, fixed, asymmetrical, discrete or maed, non-tender, and may form an abscess or sinus/
+fistula.
+3.2.2. Disseminated/ Miliary TB
+Miliary TB is a potenally life-threatening type of TB that occurs when a large number of the bacteria travel
+through the bloodstream and spread throughout the body.
+Miliary TB is seen more commonly in infants, children less than 4 years old, and in immunocompromised people.
+Symptoms of miliary tuberculosis can be vague and the paent presenng with general deterioraon in health.
+Disseminated TB usually develops insidiously with systemic symptoms such as fever, weakness, weight loss,
+fague, and anorexia or with symptoms aributable to involvement of one or more organ systems. Cough and
+dyspnoea also may be prominent symptoms. The chest radiograph typically shows the classic “miliary” paern of
+diffuse small nodules.
+37
+3.2.4. TB Pleural Effusion
+Tuberculous (TB) pleural effusion is a build-up of fluid in the space between the lining of the lung and the
+lung ssue (pleural space) aer infecon with tuberculosis. Presentaon is oen acute with nonproducve cough, chest pain, shortness of breath and high temperature. The paent may have pleuric
+pain (sharp, stabbing or burning pain in the chest when inhaling and exhaling, exacerbated by deep
+breathing, coughing, sneezing or laughing).
+Chronic form is found in the elderly with symptoms of weakness, anorexia, weight loss, slight fever, cough
+and chest pain.
+Clinical examinaon shows:
+· Tracheal and mediasnal shi away from the side of the effusion
+· Decreased chest movement
+· Stony dullness on percussion on the side of the effusion
+3.2.5. TB of Bones and Joints
+TB of the bones most commonly affects the vertebral
+column. Children and adults can develop
+neurological symptoms and progressive paralysis.
+Back pain, sffness and reluctance to bend the back
+or walk in children. There may be localised swelling,
+lump or abnormal curvature of the spine. In the early
+stages the physical examinaon can be non-specific.
+Paents with weakness or paraplegia should be
+referred to a specialist urgently.
+3.2.6. Management of paents with EPTB
+- Proper history taking, observaon and physical assessment must be conducted to
+idenfy the site of disease.
+- HIV tesng must be offered to all paents with a previous negave or unknown HIV
+status.
+- Emergency care must be provided for very sick paents at PHC level prior to referral to
+hospital.
+Treatment for EPTB is the same as for PTB; Regimen 1 for 6 months (adults) and Regimen 3A or 3B for 6 months
+(children). In some instances of severe or complicated disease (meningis, TB bones/joints, miliary TB) treatment
+may need to be extended to nine months. The intensive phase remains 2 months and the connuaon phase is
+prolonged to seven months. – 2(RHZE)/7(RH).
+Adherence counselling must be provided to paents. Response to treatment and treatment adherence must be
+monitored during follow up visits. Paents who missed appointments must be traced within 48 hours.
+38
+4. DIAGNOSIS OF TB
+Module Overview:
+The module introduces tesng for TB. All tesng acvies should be accompanied by appropriate follow- up
+medical evaluaon and treatment.
+Learning Outcomes:
+At the end of this module parcipants will be able to:
+- Explain the role of specimens in the diagnosis of TB.
+- Define priority groups for TB tesng.
+- Explain the process for specimen collecon and referral of specimens to the
+laboratory.
+- Explain the role of the laboratory in TB diagnosis.
+Session outline
+Duraon: 60 minutes
+4.1. Priority groups for TB tesng
+The Standard Operang Procedure (SOP) for screening and tesng advocates for TB tesng of the following
+groups:
+- All people presenng with abnormal chest x-ray findings suggesve of TB
+irrespecve of symptoms (DCXR Screening not included here as there is a separate
+document)
+- All people presenng with any one TB symptom through
+a) Self-screening
+b) Screening conducted by HCW/ CHW (community)
+SOP further promotes roune Targeted Universal Tesng for TB (TUTT) in high-risk group irrespecve of TB
+symptoms. The high-risk groups include:
+- People living with HIV.
+Newly diagnosed with HIV.
+Pregnant women newly enrolled in Antenatal care.
+People in HIV care at least once a year – during VL monitoring follow up visits.
+- Household contacts of people diagnosed with DS-TB/ DR-TB. Recent
+contact, within the last 3 months before the start of current treatment. Conducted
+once aer an exposure.
+- People previously treated for TB in the past year.
+With a known outcome of treatment compleon or cure, to detect TB early in case of relapse. Test
+once aer first year post treatment, then followed by symptom/ CXR screening aerwards.
+Topics Methods
+Priority groups for testing Interactive lecture and group discussion
+Role of specimen in TB diagnosis Interactive lecture and group discussion
+Process for specimen collection and referral to the
+laboratory
+Interactive lecture and group discussion
+Role play
+39
+4.2. Specimen for tesng
+4.2.1. Role of specimen in TB diagnosis:
+Laboratory detecon of Mycobacterium TB is dependent on the quality of the specimen provided. If the specimen
+is contaminated by food parcles or not collected following deep breathing, it may result in an unsuccessful test
+result. To enhance the recovery of the Mycobacterium TB and ensure good quality results, the following are very
+important: proper specimen collecon and prompt transportaon to the laboratory.
+4.2.2. Types of specimens
+Mycobacterium TB can be recovered from several specimens, such as sputum, gastric aspirate, lymph node
+aspirates, pleural effusions, biopsies, cerebrospinal fluid, blood etc. However, the specimen usually collected from
+those presenng with symptoms of PTB is sputum. Sputum is mucus or phlegm coughed up from the lower
+airways (trachea and bronchi) in the lungs.
+4.2.3. Factors contribung to rejecon and incorrect test results
+Laboratory tesng of a specimen is a waste of me and resources if the following criteria are not fulfilled:
+- Missing or inadequate idenficaon.
+- Spilled specimen.
+- Insufficient quanty.
+- Specimen collected in an inadequate container.
+- Contaminaon suspected.
+- Inappropriate transportaon or storage.
+These specimens will be rejected, the paent must be recalled, and a second specimen collected.
+Factors contribung to rejecon and incorrect test results include:
+Clinical errors:
+- Empty sputum containers.
+- Specimen jar not properly closed resulng in leakage in transit.
+- Saliva instead of sputum.
+- Inadequate sample.
+- Sputum inappropriately stored.
+- Incorrect labelling of the sample, and mix-up of specimens.
+Laboratory errors:
+- Test failure.
+- Accidental contaminaon in the laboratory.
+40
+4.2.4. Specimen collecon and transportaon
+Process for specimen collecon and referral to the laboratory
+- Sputum specimens must be collected in a private, well-venlated area.
+- Where possible collecon must be observed, the necessary infecon control precauons
+taken.
+Paent instrucon
+- The paent must be informed about
+thesputumcolleconprocess.
+- Rinse your mouth with water.
+- Hold the container with a ssue.
+- Open the container without touching
+the inside of the lid and container.
+- Take two deep breaths and on the
+third me, cough deeply from your
+chest.
+- Hold the sputum container close to
+your mouth.
+- Spit into the container without
+contaminang the outside.
+- Repeat steps 2 and 3 unl at least 5ml
+(1 – 2 tablespoons) of specimen is
+obtained
+- Screw the lid of container ghtly.
+- Wipe clean any spillage on the
+outside of the container.
+Checking quality of sputum specimen
+- Healthcare worker should put on gloves.
+- Check if the container is ghtly closed.
+- Check if the specimen collected is correct and
+adequate
+a) Consistency mucoid, may be clear, purulent or
+blood nged
+b) At least 5ml of specimen must be collected, if less
+the paent should be requested to produce more.
+Quality of sputum specimen
+Post Sputum collecon procedure
+- Label the specimen container with the paent's
+name, folder number, date and me of specimen
+collecon.
+- Peel-off one of the pre-printed barcoded labels from
+the laboratory request form and place horizontally
+on the specimen container.
+41
+Laboratory request form and specimen plasc bag
+- Complete the laboratory request form. Ensure all
+informaon is completed, if there is any missing informaon
+in paent folder verify with paent.
+- Place the specimen container and request form in the
+appropriate compartments of the specimen plasc bag.
+- If more than one specimen is collected from a paent, all the
+specimens should be placed in one bag with the relevant
+request form/s.
+- Inform the paent on esmated date of results and how
+these will be communicated.
+- Provide a follow-up appointment date for TB results.
+42
+Figure4.1: Completion of a laboratory form
+Indicate whether the investigation required is for a patient:
+Presumed to have TB (symptomatic or not)
+New
+Previously treated - Follow up, i.e., patient who is already on treatment
+At conversion (2 months or 3 months)
+End of treatment (5-7 months)
+For RR-TB write number of months on treatment
+Indicate result of previous TB NAAT test and date
+If a repeat TB NAAT test is required (following an unsuccessful test),
+or
+If a culture and DST is required following a negative TB NAAT in
+PLHIV, or
+If a smear microscopy test is required following a positive TB NAAT
+result.
+Tick HIV Status and data tested where it is known
+Include relevant clinical informaon i.e. type of
+TB suspected and type of specimen collected
+43
+Figure 4.2: Continuation of laboratory form
+Tick the test required: - GeneXpert MTB/RIF - TB Smear Microscopy (for TB NAAT
+posive/MTB detected only) - Culture
+If first line DST is required ck - TB Culture and - TB Line Probe Assay (MTBDR)
+For second line DST ck
+44
+Storage and transportaon of the specimen
+- Avoid exposure of specimens to direct sunlight.
+- Specimens can be stored at room temperature (20-25ºC) up to 24 hours.
+- Where room temperature is higher than 25º they should be stored in a fridge.
+- Do not store in a freezer.
+- Transportaon of the specimen should be as soon as possible.
+- During transportaon specimens should be transported upright in a cooler box.
+Role play
+Aim of the role play:
+- Role play to pracce educang paents on the importance of proper sputum collecon
+- To pracce how to provide clear instrucons to paents on the sputum collecon procedure
+Table 4.1: Obtaining sputum specimen in patients who cannot expectorate
+Method Description Advantage Disadvantage
+Nebulisation / sputum
+induction
+Patients inhales a saline
+mist which causes them
+to cough.
+Used to obtain sputum in
+patients with nonproductive cough.
+Easy to perform.
+Specimen may be watery
+and confused with saliva.
+Requires special equipment.
+Gastric aspirate A tube is inserted into
+the stomach through the
+patients nose to obtain
+swallowed sputum.
+Used to obtain sputum in
+children who do not
+cough up sputum.
+Must be done early in the
+morning before eating.
+Patients may need to be
+hospitalised.
+It is an uncomfortable
+procedure for the patient.
+Bronchoscopy A scope is passed
+through the mouth or
+nose to the disease part
+of the lung to obtain
+sputum or lung tissue.
+Used to obtain sputum
+when the patient cannot
+cough and gastric.
+aspirate cannot be done.
+Invasive procedure.
+Requires special equipment.
+Must be done in a hospital
+by a specialist.
+Requires anaesthesia.
+45
+5. TB DIAGNOSTIC TESTS
+Module overview:
+The module is about the diagnosc tests used in idenfying paents with acve TB disease. All tesng acvies should
+be accompanied by appropriate follow-up medical evaluaon and treatment.
+Learning outcomes:
+At the end of this module parcipants will be able to:
+- Explain the role of each test in the diagnosis of TB.
+- Describe steps involved in the diagnosis of TB based on the laboratory test results.
+- Interpret laboratory test results.
+- Describe the steps to follow on receiving laboratory results.
+5.1. Smear Microscopy
+Definion
+Smear microscopy is a visualizaon of stained TB bacilli in clinical specimens, using microscope. Specimens for tesng:
+sputum, gastric aspirate, or another clinical specimen.
+Indicaon for smear microscopy
+Smear microscopy is used as a baseline test for all paents who are TB NAAT posive and for follow up bacteriological
+monitoring.
+Advantages and disadvantages of smear microscopy
+5.2. TB Culture
+Definion
+TB culture is the gold standard in TB diagnosis. It involves growing the Mycobacteria
+in the laboratory from the specimen, either on solid or liquid media.
+Indicaons
+- To diagnose paucibacillary disease in presumpve TB cases
+who have a negave TB NAAT result (MTB not detected),
+despite clinical signs and symptoms suggesve of TB. i.e
+Children, PLHIV, and in people with extra-pulmonary TB
+- Where drug suscepbility tesng (DST) is required.
+- Where confirmaon of live bacteria is required.
+- Paents who remain smear-posive at the end of the intensive/ connuaon phase of treatment or
+who do not improve clinically during treatment.
+Strengths Limitations
+- Identifies the most infectious TB cases (i.e.,
+sputum positive).
+- Relatively easy to perform.
+- Short TAT.
+- Essential for monitoring TB treatment
+response.
+
+- Low sensitivity (Sensitivity in high HIV
+prevalence settings can drop to as low as
+20%).
+- Cannot differentiate between drug-sensitive
+and drug-resistant TB.
+- Variable performance that depends on the
+experience of the technologist.
+Source: CDCPhil.gov
+46
+Table 5.1: Strengths and weaknesses of TB culture
+5.3. Drug Suscepbility Tesng (DST) Definion
+Drug suscepble tesng (DST) is the tesng for sensivity of MTB isolates to several medicines used for the treatment of
+TB. First line DST conducted for Rifampicin and Isoniazid mainly but also available for Ethambutol, Pyrazinamide on
+request. Second line DST conducted for aminoglycosides, fluoroquinolones.
+5.4. TB NUCLEIC ACID AMPLIICATION TESTS (TB NAATs)
+Definion
+TB Nucleic Acid Amplificaon Tests (TB NAATs) are rapid molecular tests in which bacterial genec material (i.e. TB
+DNA) is amplified (copied) in a process known as polymerase chain reacon (PCR). The amplificaon step is
+necessary because in many cases the amount of DNA in a sample is very small. The amplificaon of TB DNA
+therefore enables the TB NAAT tests to detect Mycobacterium tuberculosis material, even if only very small
+amounts are present in the tested sample. In addion to detecng Mycobacterium tuberculosis, they also detect
+the resistance of TB strains to certain TB drugs used to treat the disease.Three TB NAAT assays that have been
+approved by the Naonal TB Programme as first-line (front- line) tests for the invesgaon of TB in clinical
+specimens. They are:
+o Xpert MTB/RIF Ultra,
+o BD MAX MDR-TB and
+o cobas MTB and cobas MTB-RIF/INH assays.
+All three assays are automated TB tesng plaorms.
+o Automated means that most of the steps involved in the processing of clinical specimens with these
+assays occur within the instruments, with minimal or no human intervenon.
+o Only the sample treatment step, where the sample is treated with the sample treatment reagent,
+occurs manually.
+o The rest of the steps which include DNA extracon, DNA amplificaon, detecon and results
+interpretaon, are automated.
+Results are typically available in 24 to 48 hours. This allows for:
+o early diagnosis of TB,
+o early iniaon of appropriate treatment,
+o reduced period of infecousness, and
+o improved paent outcomes.
+Indicaon
+o TB NAAT is the frontline test that we use in the diagnosis of TB in South Africa
+o Used in the primary diagnosis of TB in people eligible for TB tesng (with/out symptoms)
+Strength Limitations
+• High sensitivity,detects a higher
+proportion of cases among patients with
+symptoms.
+• Slow diagnostic technique with a long TAT
+(14 days or more).
+High contamination rate.
+47
+•
+5.4.1 Xpert® MTB/RIF Ultra
+It is a fully automated molecular assay (i.e., PCR test) that is used to detect Mycobacterium tuberculosis and
+Rifampicin resistance from the same specimen at the same me in < 2 hours.
+The test involves three manual steps:
+o addion of reagent to liquefy and inacvate specimen
+o transfer of 2ml of liquefied specimen into the cartridge
+o loading of the cartridge onto the instrument
+Indicaon
+o It is currently one of the TB NAAT assays that have been approved by the NTP as frontline tests for
+invesgaon of TB in clinical specimens.
+o Used in the inial diagnosis of TB in people eligible for TB tesng (with/out symptoms)
+o It can be used on the following specimens other than sputum:
+– Any specimen type of respiratory origin, including gastric washings/aspirates
+– Lymph node biopsies or fine needle aspirates
+– Tissue biopsies
+– Fluids (joint, pleural, ascic, peritoneal, pus collecon)
+– Cerebrospinal fluid (CSF)
+Strengths and Weaknesses
+Strengths Weaknesses
+• It is specific for the MTB complex
+Short Turnaround Time (TAT)
+Detects MTB and RIF Resistance (High
+sensitivity for RIF Resistance)
+• ·Reduced sensitivity in smear negative
+cases
+·Does not detect INH resistance
+Itcannotbeusedfor monitoring response
+to treatment
+•
+•
+48
+•
+•
+5.4.2 BD MAX MDR-TB Assay
+TM The BD MAX MDR-TB assay is a PCR-based molecular diagnosc test that can simultaneously detect the bacteria
+that cause tuberculosis (TB) and determine whether the bacterial strain detected is sensive or resistant to two
+important first-line drugs, rifampicin and isoniazid (INH), in a single test.
+This is important as it helps to decide which treatment regimen should be used in paents diagnosed with TB. The
+system is fully automated, which reduces the possibility of human error and increases the speed to result.
+The test is validated for use with sputum samples only. Up to 24 samples can be tested simultaneously per run on
+the computerised benchtop system, with results automacally released within four (4) hours.
+5.4.3 Cobas MTB and Cobas MTB/RIF/INH
+The NHLS has acquired two TB-NAATs from Roche Molecular Systems, the cobas MTB and the cobas MTB-RIF/INH
+assay. Cobas MTB detects the presence of MTB in clinical samples.
+The cobas MTB-RIF/INH assay detects resistance to rifampicin or isoniazid. Samples that are posive with cobas
+MTB are then tested for resistance to rifampicin and isoniazid with cobas MTB-RIF/INH.
+These tests have been validated for use with sputum samples only. Each of these assays can provide results for 96
+tests (including assay controls).
+5.5 Who must be tested for TB?
+A specimen must be collected for TB tesng in the following groups:
+· People (children, adolescents, and adults) with any one of the TB symptoms.
+· People who have been in close contact with a person diagnosed with TB in the past
+year irrespecve of TB symptoms.
+· People who have been treated and completed TB treatment in the past two years
+irrespecve of TB symptoms.
+· Newly diagnosed PLHIV irrespecve of symptoms.
+Frequency of tesng
+1. General populaon
+· Only when they present with any TB symptom or digital chest x-ray changes
+suggesve of TB.
+2. People living with HIV.
+· At the me of HIV diagnosis
+· On enrolment in Antenatal care for pregnant women
+· Annually for PLHIV on treatment linked to VL monitoring follow up visits.
+3. Household contacts of people diagnosed with TB.
+· Recent contact, within the last the 3 months before the start of current treatment
+· Aer each exposure to a person with a confirmed TB diagnosis
+4. People previously treated for TB.
+· Annually for a period of two years
+5.6 Process of invesgang TB in clinical specimens
+In South Africa, the TB-NAAT tests (i.e. Xpert MTB/RIF Ultra, BD MAX MDR-TB, cobas MTB and cobas MTB-RIF-INH
+assays) are first-line (front-line) tests that should be used when tesng for TB in clinical samples. Clinicians must do
+the following:
+· Record the paent in the TB idenficaon register
+· Collect one spot specimen for the TB-NAAT under supervision
+· Label the specimen container correctly
+· Complete the laboratory form and provide all required informaon
+· Send the specimen promptly to the laboratory, preferably in a cooler box and protected from sunlight.
+In-between the annual tesng, PLHIV and people previously treated for TB must be
+screened for TB symptoms and tested only if symptomac.
+49
+Laboratory form
+50
+Role of the laboratory
+· The laboratory will test the specimen, and
+· Communicate results back to the facility
+· Inform paents of their results - SMS noficaon
+· This should be within 48 hours
+5.7 Interpretaon of results and acon to be taken
+5.7.1 Possible TB NAAT results
+There are seven (7) possible TB NAAT results, and they are reported as follows:
+Results TB NAAT ASSAY
+Xpert MTB/RIF BD MAX MDR-TB Cobas MTB & Cobas
+MTB-RIF/INH
+MTB Detected,
+Rifampicin Unsuccessful
+Yes Yes Yes
+MTB Detected,
+Rifampicin Susceptible
+Yes Yes Yes
+MTB Detected,
+Rifampicin Susceptible
+&
+Isoniazid Resistant
+No Yes Yes
+MTB Detected,
+Rifampicin resistant
+Yes Yes Yes
+MTB Detected,
+Rifampicin Resistant &
+Isoniazid Resistant
+No Yes Yes
+Trace Yes Yes Yes
+MTB Not Detected Yes Yes Yes
+Results meaning and follow-up action
+1. Results of test determine presence of absence of Mycobacterium tuberculosis
+(MTB)
+Result Meaning Action by the clinician
+MTB complex
+detected
+• MTB was isolated
+from the specimen
+• The patient has
+bacteriologically
+confirmed TB and
+should be treated.
+• The clinician
+should initiate the
+patient on
+appropriate TB
+treatment
+• Appropriate
+treatment will be
+guided by rifampicin
+and isoniazid
+resistant status
+MTB complex not
+detected
+• MTB was not
+isolated from the
+specimen.
+• It means that TB
+disease could not be
+confirmed
+• Further
+investigations are
+required to confirm
+TB.
+• The clinician
+should request
+bacteriologically another
+specimen, for culture
+51
+• This does not
+exclude TB in people
+with paucibacillary
+disease,
+i.e. children, HIV positive
+and those with
+extrapulmonary TB
+and drug susceptibility
+testing (DST)
+2. Results of test to determine susceptibility or resistance to rifampicin (RIF) only
+(Xpert MTB/RIF Ultra), rifampicin (RIF) and Isoniazid (INH) (BD Max MDR-TB and
+Cobas MTB-RIF/INH)
+Result Meaning Action by the clinician
+Rifampicin unsuccessful • Rifampicin testing
+was unsuccessful for
+the TB strain
+detected.
+• Submit another specimen
+for smear microscopy,
+culture and DST
+• Start the patient on 1st
+line TB treatment and
+monitor response to
+treatment
+• Review culture and DST
+results when they become
+available
+Rifampicin sensitive • The MTB strain isolated
+is sensitive to
+rifampicin
+• For patients tested with
+GXP, this does not exclude
+the possibility of the
+isolated strain being
+resistant to other 1st line
+drugs, Isoniazid,
+pyrazinamide and
+ethambutol.
+• For patients tested with
+BD MAX, this means the
+strain isolated is also
+sensitive to isoniazid.
+However this is not
+reported in the results.
+However this result does
+not exclude the possibility
+of resistance to
+pyrazinamide
+and ethambutol.
+• Submit another sample
+for baseline smear
+microscopy
+• Start the patient on first
+line treatment
+Rifampicin sensitive &
+Isoniazid resistant
+• The strain isolated from
+the patient specimen is
+sensitive to rifampicin but
+resistant to isoniazid,
+• This means
+isoniazid - resistant
+TB has been
+• Submit another specimen
+for DR -TB reflex testing
+• Start the patient on
+isoniazid - resistant TB
+treatment
+• Follow-up DR-TB
+reflex testing results
+detected. for fluoroquinolone status
+52
+Rifampicin resistant • The MTB strain isolated
+was resistant to rifampicin
+• For patients tested with
+GXP, this does not exclude
+to possibility of resistance
+to
+other 1st line drugs,
+• If the health facility is a
+DR- TB treatment
+initiation site, submit a
+specimen for DR - TB
+reflex testing and initiate
+appropriate treatment as
+per DR-TB guidelines.
+Isoniazid, pyrazinamide and
+ethambutol.
+• For patients tested with
+BD MAX, this means the
+strain isolated is sensitive
+to isoniazid, however this
+does not exclude the
+possibility of the strain
+being resistant to
+pyrazinamide and
+ethambutol
+• The patient has rifampicin -
+resistant TB (RR-TB)
+• If the health facility is NOT
+a DR-TB treatment
+initiation site, refer the
+patient to the DR -TB
+treatment initiation site for
+further management.
+Rifampicin resistant &
+Isoniazid resistant
+• The strain isolated from
+the patient’s specimen is
+resistant to both
+rifampicin and isoniazid,
+the two potent 1st line TB
+drugs.
+• An MDR-TB strain has
+been detected in the
+patient’s specimen
+• If the health facility is a
+DR- TB treatment
+initiation site, submit a
+specimen for DR - TB
+reflex testing and initiate
+appropriate treatment as
+per DR-TB guidelines.
+• If the health facility is NOT
+a DR-TB treatment
+initiation site, refer the
+patient to the DR -TB
+treatment initiation
+site for further management
+3. Trace and test unsuccessful
+Result Meaning Acon by the clinician
+Trace • A very low amount of
+MTB DNA was detected
+in the specimen
+• When a low amount of
+MTB DNA is detected, the
+status regarding
+rifampicin and isoniazid
+will be reported as
+rifampicin unsuccessful
+by
+TB NAAT assays.
+• Manage the patient as
+per the TRACE
+diagnostic algorithm
+Test unsuccessful • The test was unsuccessful.
+• This may be due to poor
+quality specimen of
+technical causes
+• A new specimen must
+be collected for a
+repeat TB NAAT testing
+53
+5.7.2 Factoring in previous TB treatment period
+This increased sensivity of TB-NAAT tests can lead to the detecon of residual genec material from dead bacilli in
+paents who have previously been treated for TB.
+Therefore, in individuals who have completed TB treatment in the last two years, a “posive" or “trace" result may indicate
+the presence of either live bacilli (acve TB disease) or dead bacilli (remnants of a previous TB episode).
+The test results must therefore be considered along with the clinical findings before starng treatment and a TB culture
+performed to confirm acve TB disease.
+MTB detected results
+The result “MTB detected” in sputum must be confirmed by culture and DST. This is to avoid unnecessary treatment of
+these paents. The threshold for previously treated paents is two years. This therefore does not apply to paents who
+were treated more than 2 years ago
+Trace results
+For “trace" results where a paent has received TB treatment within the last two years, this result must be confirmed by
+culture and DST. An excepon to this is EPTB samples, where a “trace" result should be treated as “MTB Detected,
+Rifampicin unsuccessful”.
+54
+55
+56
+Collect samples for culture and DST
+Review previous TB history and
+consider previous TB resistance profile.
+treatment
+initiation site or
+if DR-TB
+treatment
+initiation site,
+consult with
+*PCAC or
+*NCAC
+If
+symptomatic
+start DS=TB
+treatment.
+If
+asymptomatic
+defer TB
+treatment
+57
+5.7.3 Follow-up of paent aer receiving laboratory results
+Paent must be given a return date within 2 days for results and iniaon of treatment. If results confirm DS-TB:
+· Inform the paent of the result
+· Educate and inform the paent about the TB disease
+· Take a medical history and assess the paent clinically
+· Obtain sputum for smear microscopy (pre-treatment) for monitoring.
+· Paent does not need to return for pre-treatment smear microscopy results.
+· Iniate TB treatment
+· Inform the paent about the treatment and provide adherence counselling
+· Complete the paent clinical record and keep laboratory results in same folder
+· Inform the paent about the importance of screening of contacts and obtain informaon about close
+contacts
+· Arrange for screening of close contacts
+· Give paent appointment for next follow up visit
+Follow-up paents who do not return on specified date
+58
+5.7.4 Samples of laboratory results
+59
+60
+61
+62
+63
+64
+5.8 Urine lateral flow Lipoarabinomannan Assay (Urine LF-LAM)
+5.8.1 Definion
+Lipoarabinomannan (LAM) is a polysaccharide (i.e. a combinaon of lipid and carbohydrate).
+It is the main component of the mycobacterial cell wall. This compound is released by metabolically acve or degenerang
+mycobacterial cells and appears to be present in people with acve TB disease LAM is an angen (i.e. it is perceived as
+foreign by the immune system) and therefore triggers an immune response.
+It is detectable in the urine aer it has been excreted via the kidneys. The detecon of the TB-LAM angen enables the
+diagnosis of both pulmonary and extrapulmonary TB. The test used to detect LAM is the Determine™ TB LAM Ag Test,
+manufactured by Abbo and distributed locally by Obsidian Health Pty LTD.
+It is a rapid urine-based test which detects LAM in urine and thus enables rapid diagnosis of TB in people living with HIV. It is
+a point-of-care test (POCT) for the diagnosis of acve TB. Point-of-care tests(POCT) refer to tests performed near or at the
+point of paent care. These tests are performed based on clinical observaons to help clinicians promptly diagnose and
+treat paents.
+65
+5.8.2 Strengths and limitaons of U-LAM
+Table 5.2
+5.8.3 Criteria for the use of LF-LAM In-paent seng
+· The test should be used to assist in the diagnosis of acve TB in the following categories of people living with
+HIV.
+o Irrespecve of whether TB is suspected or not (i.e. irrespecve of signs and symptoms of TB), and
+o Irrespecve of the CD4 count, and
+o Irrespecve of whether advanced HIV disease (AHD) is present or not.
+NB: Sputum for the TB-NAAT test should be collected in parallel.
+Out-paent seng
+· The test should be used to assist in the diagnosis of acve TB in the following categories of people living with
+HIV:
+o Signs and symptoms of TB (pulmonary and /or extrapulmonary TB), and
+3
+o CD4 cell count ≤ 200 cells/mm or AHD stage 4, or who are seriously ill.
+Definion of advanced HIV disease (AHD)
+Advanced HIV disease (AHD) is defined as a CD4 cell count of fewer than 200 cells/μL or a World Health Organizaon
+Clinical Stage 3 or 4 at presentaon for care.
+All children with HIV who are aged under 5 years should be considered as having AHD at presentaon. Children under 5
+years who are stable on ART should not be classified as having AHD.
+Stable on ART refers to the following criteria:
+o Receiving ART for at least 12 months.
+o No adverse drug reacons requiring monitoring.
+o No current illnesses and good understanding of lifelong adherence and evidence of treatment
+success (two consecuve undetectable viral load measures or; in the absence of viral load
+monitoring, rising CD4 cell counts or CD4 cell counts exceeding 200 cell/mm and an objecve
+adherence measure).
+Sputum for the TB-NAAT best should be colleted in parallel
+Strengths Limitations
+- It is specific for the MTB complex
+Short Turnaround Time (TAT)
+Detects MTB and RIF Resistance (High
+sensitivity for RIF Resistance)
+- Reduced sensitivity in smear negative cases
+Does not detect INH resistance
+It cannot be used for monitoring response to
+treatment
+-
+-
+3
+66
+-
+-
+Definion of seriously ill paent
+Seriously ill paents (adult norms) are defined based on four danger signs:
+- respiratory rate of more than 30 breaths per minute
+- temperature of more than 39 °C
+- heart rate of more than 120 beats per minute
+- unable to walk unaided and/or have a low BMI (<18.5) and/or severely underweight or wasted
+For children, signs of serious illness include:
+- lethargy or unconsciousness
+- convulsions
+- unable to drink or breaseed
+- repeated voming
+Other clinical condions such as body temperature ≥39 °C and age-defined tachycardia and/or tachypnoea can be
+considered based on clinical judgement.
+5.8.4 Test procedure
+Watch video: Urine LAM, 12 minutes 54 seconds at hps://www.youtube.com/watch?v=F08U1DNSFy8
+Preparaon of the Tesng Staon
+Table 5.3: Preparaon for conducng urine LAM test. Materials required:
+Collecon of urine specimen
+Clear instrucons must be provided to the paent on the collecon of urine Paent instructed to:
+- clean and wipe the urogenital area before collecng urine
+- allow the first stream of urine to flow and collect mid-stream urine into the container provided
+- wipe the sides of the container and wash hands aer collecng urine
+- early morning urine is preferred where it is feasible to obtain, i.e., hospital sengs
+Materials required:
+- Test kit with the following:
+- 5 Abbott Determine TB LAM Ag test
+card (each with 5 test strips, total = 25
+strips)
+- Reference scale card
+- A desiccant to keep the contents of the kit
+dry & stable.
+- Disposable 60µL pipettes
+Materials not supplied but required.
+- Sterile urine specimen container
+- Disposable gloves
+- Timer
+- Blotting paper sheet
+Station Preparation
+• Check the condition of the test kit and
+strips for damage and defects.
+• Check expiry date of the test kit.
+• The test should not be used if:
+- the packaging is damaged,
+- test strips are wet,
+- beyond its expiry date
+• Remove the required test strip and
+place the remaining ones back into the
+packaging and reseal.
+67
+Remove the test strip starng from the right by
+bending and tearing at the perforaon.
+This is to ensure that the Lot Number on the
+le side of the card is always available.
+Remove the protecve foil cover by pulling from
+the top to expose the test strip.
+1
+Place the test strip flat on the counter/ table
+where the test is to be performed facing up.
+Draw urine from the specimen bole/ jar using
+the pipee by squeezing and releasing the upper
+bulb of the pipee.
+Place about 60 µL of urine in the white pad marked
+by arrows (sample pad), by squeezing the upper
+bulb of the pipee.
+Wait for 25 minutes and read the results.
+2
+3
+4
+Figure 5.1: Performing the test
+68
+The reference scale card is supplied
+with all test kits.
+It is used to assist in reading the
+results by holding it next to the
+result window on the test strip.
+Aer use, it must be stored in the
+sealed test kit pouch and protected
+from heat and direct sunlight.
+It must not be used a
+er the expiry
+date.
+Hold the card alongside the paent
+window.
+Match the intensity of the band in
+the paent window of the test strip
+against the reference scale card to
+determine the posivity.
+Figure 5.2: Reading of Result
+69
+CONTROL
+PATIENT
+(Two bars – Control and Patient Bars)
+Purple/grey bars appears in both the control window
+(labelled “Control”).
+LINE POSITIVE LAM ANTIGEN POSITIVE
+The Patient window (labelled “Patient”) of the strip.
+Colour intensity should be equal to or stronger than any
+of the coloured bars in the positive range on the
+reference scale card.
+5.8.5 Urine LF-LAM test result Table 5.4: LF-LAM POSITIVE
+AND
+Table 5.5: LF-LAM NEGATIVE
+Table5.6: LF-LAM Invalid
+CONTROL
+(One bar – Control Bar)
+One Purple/grey bar appears in the control window of the
+strip (labelled “Control”).
+LINE NEGATIVE LAM ANTIGEN NEGATIVE
+No purple/grey bar appears in the Patient window of the
+strip (labelled ‘Patient”).
+PATIENT
+CONTROL
+PATIENT
+If the problem persists, contact Technical Support or your
+local Abbott representative.
+(No Control Bar)
+If there is no purple/ grey bar in the control window of the strip,
+even if a purple /grey bar appears in the patient window of the
+strip, the results is invalid and the test should be repeated.
+LINE INVALID LAM ANTIGEN INVALID
+70
+Table 5.7: LF-LAM Equivocal/Indefinite
+Individual exercise 1
+Below are the test strips aer conducng urine LF_LAM test.
+Right the result for each strip on the cell next to the strip.
+Indicate what acon should be taken.
+Acng on the LF-LAM results LF-LAM Posive
+- Start the paent on TB treatment- first-line TB treatment.
+- Review the TB NAAT results once they become available.
+- If MTB detected, review the resistance paern.
+o If Rifampicin sensive, connue with first-line TB treatment (Regimen 1 or 3)
+o If Rifampicin resistant, stop DS-TB treatment, record paent as RR-TB and refer to
+DR-TB treatment site for iniaon of second-line TB treatment.
+- If MTB not detected, collect a sputum specimen for culture and DST.
+o Connue with first line TB treatment, review the culture and DST results once they
+become available.
+o If TB culture posive, review the resistance results.
+o If drug suscepble, connue with first-line TB treatment.
+o If drug resistant, stop DS-TB treatment, record paent as RR/MDR-TB, refer to the
+DR-TB treatment site for iniaon of second-line TB treatment.
+LINE INDEFINITE
+CONTROL
+PATIENT
+The colour of the bar in the Patient window is lower than
+coloured bars in the Positive range on the reference
+scale card. For a better clinical decision, the test should
+be repeated. Alternatively, collect a new urine sample in
+the following day from the patient and test. First or early
+morning urine is recommended.
+OR
+(One bar – Control Bar)
+One Purple/grey bar appears in the control window of the
+strip (labelled “Control”) with unclear or incomplete
+(broken line or dot) purple /grey bar in the Patient window
+of the strip (labelled “Patient”).
+LAM ANTIGEN EQUIVOCAL/INDEFINITE
+Top window in all the strip is the control Note window and the bottom window is the patient window
+71
+LF LAM negave
+- Review the TB NAAT results once they become available.
+o If MTB Detected, review resistance paern.
+o If Rifampicin sensive, start the paent on first-line TB treatment (Regimen 1 or 3).
+o If Rifampicin resistant, refer to DR-TB treatment site for iniaon of second-line TB
+treatment.
+o If MTB not detected, collect a sputum specimen for Culture and DST.
+o Clinically assess the paent and conduct chest X- ray, if available.
+o If abnormal chest X-ray suggesve of TB or TB is clinically suspected, treat with first-line TB
+treatment:
+o If the paent is clinically stable and chest x-rays normal, follow up for culture and DST result.
+o Review the culture and DST results
+o If culture posive and sensive to Rifampicin and Isoniazid, start first-line TB treatment.
+o If culture posive and Rifampicin/muldrug resistant, refer to DR-TB treatment site for
+iniaon of second line TB treatment.
+Table 5.8: Summary of action steps to take
+72
+Individual exercise 2
+3 elements to consider at PHC level before conducng LF-LAM test:________________________________________
+_______________________________________________________________________________________________________
+Define advanced disease for HIV posive adults and children______________________________________________
+_______________________________________________________________________________________________________
+Define seriously ill for HIV posive paents____________________________________________________________
+_______________________________________________________________________________________________________
+True or false
+o LAM test is conducted together with sputum collecon for TB NAAT.
+o Negave urine LAM means the paent does not have TB.
+o Posive urine LAM results means that you can iniate a paent on TB treatment.
+o Wait for TB NAAT results before starng paent on treatment in case the TB NAAT results comes negave.
+5.9 Tuberculin Skin Test
+5.9.1 Definion of Tuberculin Skin Test (TST)
+The Tuberculin Skin Test (TST) is also known as the Mantoux Test. It is a skin test to determine whether a person
+is infected with a bacterium, Mycobacterium and is the most reliable skin test available. The test involves
+injecng tuberculin purified protein derivave (PPD) into the skin.
+5.9.2 Indicaons
+- To diagnose latent infecon in children and adults
+- To support the diagnosis of TB in children
+The test requires:
+- 2 units of tuberculin purified protein derivave PPD-RT23 2TU or
+- 5 units of PPD-S 5TU
+5.9.3 Tuberculin Skin Test – Procedure
+- A single-dose tuberculin syringe and a short 27-gauge needle with a short bevel must
+be used.
+- Draw up 0.1ml of PPD into the syringe.
+- Clean an area of skin in the mid anterior secon of the forearm.
+- The PPD is injected between layers of skin (intradermal).
+- Keep the needle almost parallel to the skin, with the bevel poinng upwards during
+inseron.
+o It is important to ensure that the injecon goes into and not under the skin.
+- A small papule should form at the injecon site; if it does not, the PPD has been
+injected too deeply and the test should be repeated at a different site.
+5.9.4 Reading of results
+- The reacon to the test at the site of the injecon is measured 48-72 hours later by
+nong the widest transverse point across the edges of the raised, thickened area.
+- This area of induraon and not redness is measured.
+- To help measure accurately, mark the edges of the induraon at the widest point with a
+pen and measure the exact distance between the two points in millimetres.
+- There are two cut off points for defining a posive tuberculin reacon: >5 mm and
+>10 mm, based on the risk i.e. immune status of the paent.
+- For high-risk paents such as those who are HIV posive, malnourished, with severe
+illness (immunosuppressive disease or on immunosuppressive treatment), a reading ≥
+5mm is considered posive.
+- For all other paents, a reading of ≥ 10mm is considered posive.
+73
+Acon on TST Results
+The following paent groups must be assessed for TPT eligibility if they have a posive TST and no
+symptoms or signs of TB
+- Children under the age of 5 years who are contacts
+- HIV posive children of any age
+Child contacts with a posive TST, signs and symptoms of TB, chest x-ray abnormalies suggesve of TB
+disease or both, must be treated for TB
+Children with a negave TST, signs and symptoms of TB, chest x-ray abnormalies suggesve of TB disease or
+both, must be treated for TB
+Individual Exercise 3
+Which of the following paents have a posive TST reacon? Circle the best answer(s)
+6/
+a. Phindile Mthon 2 12 yrs. old, HIV posive, 8 mm induraon Posive
+b. Dakalo Makhuvha, 18 months old, 7mm induraon
+c. Avhavhudzani Khoza 4 yrs. old, 0 mm induraon
+d. Bina Thebe girl, HIV unknown, 3yrs old, 13 mm induraon
+e. Joele Mlambo 5yrs, old, HIV posive, 6mm induraon
+f. Mulweri Ndau 2yrs old, 9 mm of induraon
+Positive TST Negative TST
+Table 5.9: Reading TST
+Table 5.10: TST result interpretation
+A positive TSTindicates infection with TB, but
+not necessarily TB disease.
+- In a child under 5 years or HIV-infected
+child of any age, a positive skin test
+indicates recent infection and is a risk
+factor for progression to disease.
+- In the presence of a history of a TB
+contact, signs and symptoms of TB and
+chest x -ray changes, a positive
+tuberculin skin test is suggestive of TB
+disease in children.
+A negative TST does not exclude TB
+because various conditions may cause a
+false negative reaction such as:
+- HIV infection
+- Malnutrition
+- Severe viral infections (e.g. measles,
+chicken pox)
+- Cancer
+- Immuno -suppressive drugs (e.g. steroids)
+- Severe disseminated TB
+74
+Individual Exercise 4
+75
+Ms Dineo
+Mokoena,
+18 years
+old, female
+Asymptomatic, HIV
+positive, pregnant,
+first antenatal visit.
+No previous history
+of TB treatment.
+MTB detected, Rif
+sensitive
+Nkule, 23
+years
+old,
+female
+Asymptomatic, HIV
+positive, pregnant,
+first antenatal visit.
+History of TB within
+the past 2 years.
+TB NAAT result -
+Trace
+Mr Larry
+Smith,
+47 years
+old
+male.
+HIV Positive, Last CD4 U-LAM
+Positive count = 150. Cough,
+lost weight in the
+past month and has
+fever. No previous
+history of TB
+treatment.
+Ms
+Nandy
+Chule, 4
+years old
+female
+Asymptomatic
+contact. Index patient
+started on regimen1,
+2 weeks ago.
+Mr
+Goodman
+Grootboom, 66
+years old male
+Presented with
+cough, loss of
+appetite and
+general body
+malaise, for 3
+weeks.
+Treated for TB
+3 years ago.
+MTB Trace detected
+Mr Mkhize, 35 Presenting with MTB detected, Rif
+years
+old, male
+persistent cough for
+1 month and loss of
+weight. Completed
+TB treatment 19
+months ago.
+susceptible
+Patient Reason for testing Investigation and Action to be taken results
+6.TREATMENT, SIDE EFFECTS AND DRUG
+INTERACTION
+Module overview:
+The module covers treatment regimens, side effects and drug interacon.
+Learning outcomes:
+By the end of this session, parcipants should be able to:
+- List the aims of TB treatment.
+- Explain the properes of TB drugs.
+- Describe the properes of each individual TB drug.
+- Explain the TB Regimen.
+- Describe the standardised regimen for new and previously treated paents.
+- Describe the side effects of TB treatment.
+- Explain other drug interacon with TB treatment.
+6.1. Baseline clinical evaluaon
+An appropriate clinical assessment should be made at the start of tuberculosis treatment to idenfy other
+exisng comorbidies and to ensure appropriate comprehensive individualised care for each paent.
+Table 6.1 Baseline evaluaon for paents with TB
+6.2. Properes of TB treatment
+The aim of TB treatment is to:
+- cure the paent of TB
+- decrease transmission of TB to others
+- prevent the development of acquired drug resistance
+- prevent relapse
+- prevent complicaons of TB
+- prevent death
+Investigations Recommended frequency
+Microscopy All patients with MTB
+detected results
+Baseline, 7 weeks and 23
+weeks
+Height All patients Baseline
+Weight All paents Baseline and at treatment
+collecon intervals
+Body mass index All paents Baseline
+HIV test Paents with unknown HIV
+status
+Baseline
+Blood glucose Urine glucose and ketones
+(All paents)
+Baseline
+Blood glucose (symptomac
+paents)
+Baseline and monthly for
+diabec paents
+Pregnancy test Women of childbearing age,
+presenng with history of
+amenorrheoa and not on
+contracepon
+Baseline
+Alcohol use screening Paents with a history of
+alcohol use
+Baseline
+Mental health screening All paents Baseline
+Liverfuncon tests In paents with a history of
+liver disease, excessive
+alcohol use
+Baseline
+Serum creanine In paents with a history of
+kidney disease
+Baseline, monthly
+76
+Properes of TB treatment
+TB drugs are bactericidal and bacteriostac. They differ in the ability to act against the various populaon of
+bacilli found in TB lesions, metabolically acve bacilli, semi-dormant bacilli (persisters), and dormant bacilli
+(that may become acve). Some TB drugs act best in an acid environment, others beer in alkaline
+environment. Bacilli can be found in extracellular spaces where the PH is usually neutral or alkaline and
+intracellular where the PH is acidic.
+Table 6.1: Properes of TB drugs
+6.3. Standardised treatment/drug regimen for DS-TB
+A drug regimen is a prescribed systemac form of treatment for a course of drug(s). Treatment regimens for TB have a
+standardcode.EachTBmedicine/drughasanabbreviaoni.e.Isoniazid(H);rifampicinpyrazinamide(Z);ethambutol(E).
+The three regimens used in the country are:
+- Regimen 1: For new and previously treated adults and children >8 yrs. and >25kg.
+- Regimen 3A: For children <8yrs and < 25kg with uncomplicated TB disease.
+- Regimen 3B: For children <8yrs and <25kg with complicated TB disease.
+A TB treatment regimen consist of two phases:
+- 2 months of intensive phase with a Fixed Dose Combinaon (FDC) of the following drugs: Rifampicin,
+Isoniazid, Pyrazinamide and Ethambutol (RHZE).
+- 4 months of Connuaon Phase (CP) phase in the FDC of the following drugs: Rifampicin and Isoniazid
+(RH). RH has a sterilizing effect on remaining bacilli and prevents subsequent relapses.
+Properties of the individual TB Drugs
+Drugs Drug Property Target Bacilli pH Site of Action
+Isoniazid High potency Rapid and Alkaline and Acid Intra and
+(H) Bactericidal after intermediate media extracellular
+24hrs - kills 90% growing bacilli
+bacilli in first few
+days of Rx
+Rifampicin High potency All populations Alkaline and Acid Intra and
+(R) Bactericidal within
+1
+including dormant media extracellular
+hour. bacilli
+Most effective
+sterilising agent.
+Pyrazinamide (Z) Low potency Slow growing
+bacilli
+Acid media Intracellular bacilli
+Bactericidal only macrophages
+Achieves its
+sterilising effect 2-
+3
+months.
+Ethambutol (E) Low potency All bacterial Alkaline and Acid Intra and
+Bacteriostatic population media extracellular
+Minimises the
+emergence of drug
+resistance.
+77
+Treatment is taken for 7 days. The recommended standard treatment is 6 months which is equal to 168 doses,
+56 doses intensive phase and 112 doses connuaon phase. It is important to ensure the paent receives the
+correct number of doses even if this takes longer than 6 months, i.e., if a paent misses a dose(s) for any reason,
+these doses should sll be taken, thereby 'lengthening' the treatment me but not the actual number of doses.
+Treatment is prescribed according to the weight. Paents during intensive phase must be weighed monthly, and
+the dose adjusted according to their current weight. Monitoring of response to treatment is important. Good
+response to treatment will be reflected by: clinical improvement, weight gain, or/and conversion of smear from
+posive to negave.
+Paent educaon
+The key to controlling the spread of TB in a community is to treat the paents with infecous TB disease and cure
+them at the first aempt. Effecve management of TB disease depends on standardized and correct treatment
+regimen for the duraon of 6 months.
+Educaon for paent with TB on treatment should include the following:
+- Take tablets on an empty stomach. This means at least 30 minutes before food or 2
+hours aer food. They are best taken at least 30 minutes before breakfast.
+- If it irritates your stomach, you may take the tablets with a light meal.
+- Swallow the tablets whole, with water.
+- Take all your tablets together each day, as a single dose.
+- You should usually take all the day's tablets at the same me each day and only stop taking
+them if your doctor tells you to.
+- If you forget to take your tablets, take them as soon as you remember on the same day. If it
+is nearly me for the next dose, then take the next dose as usual. Do not take a double
+dose to make up for the forgoen tablets.
+- Antacids used for indigeson can make TB medicine work less well. Give TB medicine at
+least 1 hour before or 2 hours aer taking antacids.
+- Do not give this medicine to children.
+- If you feel the effect of your medicine is too weak or too strong, do not change the dose
+yourself, but ask your doctor.
+1. TB Treatment Regimen 1
+Regimen 1 should be used for children more than 8 years, weighing 25kg or more, adolescents and adults.
+Table: 6.2 Regimen 1
+Pre-treatment
+body weight
+2 months intensive phase4 months continuation phase given daily
+given daily
+kg RHZE (150,75,400,275) RH (150,75) RH (300,150)
+25–37.9 kg
+38–54.9 kg
+55–70.9 kg
+2 tablets 2 tablets
+3 tablets 3 tablets
+4 tablets 2 tablets
+>70.9 kg 5 tablets 2 tablets
+78
+st
+Individual exercise 1 1 Visit
+Fani Dumakude is a 52-year-old male paent, diagnosed with TB two days ago and is now at the facility for
+iniaon of treatment. Fani weighs 57kg.
+How many RHZE tablets will Fani take per day?..............
+What is the return date for Fani?.....................................
+nd 2 Visit
+Fani reports back at your facility aer 27 days. Treatment is well tolerated. No side effects reported. Give
+Fani another month of treatment and record on the treatment card
+Total number of tablets given to Fani?...................
+Treatment of TB in children
+The treatment of tuberculosis in children < 25 kg is covered in the training course "Management of
+tuberculosis in children".
+2. Minor Side effects
+Table 6.7: Minor side effects
+Side effects Most likely
+causative drug
+Management
+Anorexia,
+nausea,
+abdominal pain
+Rifampicin
+Ethionamide
+- Exclude other possible causes e.g. Alcohol, Nonsteroidal anti -inflammatory drugs (NSAIDs).
+- Ask patient about history of gastritis, gastric
+ulcers, gastro -oesophageal reflux, pancreatitis,
+etc.
+- Give TB treatment with small meals or just before
+bedtime (do not give on an empty stomach).
+- Advise the patient to stagger the tablets, swallow
+one tablet at a time with small sips of water in
+between tablets, over longer period of time.
+- Note: Take required dose within 30 minutes.
+- Give antacid and anti- emetic.
+- If the above fails, refer.
+Orange /red
+coloured
+urine
+Rifampicin - Reassurance.
+- Patients should be told when starting treatment that
+this may happen and is normal.
+Joint pains Pyrazinamide - Reassure the patient that it is a self-limiting condition.
+79
+Side effects Most likely
+causative drug
+Management
+- Low dose pain medication can be given e.g.
+Paracetamol and Ibuprofen.
+- If severe, refer.
+Tingling / Burning
+/ numbness
+sensation in the
+hands and feet
+Isoniazid
+Ethionamide
+- Prevention.
+- In high- risk groups, give Pyridoxine 25 mg
+daily for prevention.
+- Alcohol abusers.
+- Pregnant (Never exceed the recommended dose).
+- Diabetic or epileptic.
+- Management.
+- Pyridoxine 50-75mg daily.
+- HIV+ Recommended dose is 100mg.
+3. Major Side Effects
+Table 6.8: Major side effects
+Side effects Most likely causative
+drug
+Management
+Visual impairment/ loss (other
+causes excluded).
+Blurred vision (decrease in the
+“sharpness” of objects)
+“spots "present in the patient’s field
+of vision.
+Red/green colour blindness.
+Difficulty in reading.
+Ethambutol
+Ethionamide
+- Stop treatment immediately
+- Refer
+Medicine induced Hepatotoxicity
+Signs and symptoms: Loss of
+appetite, nausea, jaundice, dark
+urine, discoloured stools, pain and
+tenderness in the upper right
+abdomen.
+Isoniazid
+Rifampicin
+Pyrazinamide
+Ethionamide
+- Rule out other causes e.g.
+Excessive alcohol use, other
+medication the patient is
+taking, pre -existing liver
+disease and viral hepatitis
+- Stop all medicines the patient
+is taking (TB treatment,
+cotrimaxazole, ART)
+- Refer
+Confusion Isoniazid,
+Rifampicin,
+Pyrazinamide
+- Stop TB drugs/FDC
+- Refer
+Generalised purpura, shock Rifampicin - Stop Rifampicin/FDC
+- Refer
+80
+Rash
+Table 6.9: Rash
+All TB drugs can cause rash. The management depends on the severity
+Mild itching rash - Give antihistamine
+- A topical cream may be added
+Petechial rash - Mainly due to Rifampicin
+- Conduct Platelet count, if below normal range (150,000-450,000
+per microliter), stop Rifampicin and exclude from regimen
+- Monitor platelet count until it returns to normal
+Erythematous rash
+with fever
+If rash improves, the drugs can be re-introduced one by one every 2-3
+days:
+- Start with Rifampicin (potent least likely cause)
+- Follow by Isoniazid
+- Then Pyrazinamide
+- And Ethambutol
+Monitor signs and symptoms. If rash occurs, last drug added should be
+stopped
+4. Shared side effects between TB and HIV
+Table 6.10: TB&HIV
+Side effects Most likely causative drug Management
+Nausea and vomiting Didanosine, Zidovudine (AZT),
+Protease Inhibitors (PI)
+Pyrazinamide
+Hepatitis Nevirapine,
+Efavirenz protease
+inhibitors
+when dose is increased to
+overcome Rifampicin induction
+Rifampicin,
+Isoniazid,
+Pyrazinamide
+Neuropsychiatric side effects Efavirenz Isoniazid,
+Renal toxicity Tenofovir Rifampicin
+Rash Nevirapine, Efavirenz Rifampicin, Isoniazid,
+Pyrazinamide, Ethambutol and
+6.4. Drug Interacon
+Drug interacon refers to the possibility of one drug may altering the pharmacological effects of another drug given
+concomitantly. The net result may be enhanced or diminished effects of one or both drugs, or the appearance of a new
+effect that is not seen with either drug alone. If not sure of possible drug interacon with any other medicine that the
+paent is taking, always check with pharmacist.
+Before iniang a client on TB treatment (and at every subsequent visit), it is important to take a thorough medicaonrelated history to idenfy any potenal drug-drug interacons. Ask about TB medicaons, treatment for NonCommunicable Diseases (hypertension, diabetes, epilepsy, mental illness) and any other prescribed medicaon. Also
+ask about over the counter (OTC) medicaons and tradional remedies.
+1. TB and contracepon
+Women who are on enzyme inducing drug (e.g. rifampicin) should not use progesn subdermal implants (Implanon).
+Use IUCDs or DMPA
+The effecveness of combined oral contracepves may be impaired by rifampicin Could be used together with condoms
+if women prefer this method.
+Women who are on rifampicin and already have the progesn subdermal implants (Implanon) inserted should be
+covered with another non-hormonal contracepve method (IUCD or condoms) for the duraon of their TB treatment.
+81
+2. TB and ART
+Dual treatment of both HIV and acve TB in co-infected paents has various implicaons which includes:
+- The ming of ART iniaon
+- Drug selecon in clients who are not yet on ART when TB treatment is iniated
+- Drug levels due to significant drug interacon that reduce ART concentraon in the
+blood
+- Adherence due to increased pill burden
+- Side effects due to overlapping toxicies, e.g. hepac toxicity
+Clinicians should provide integrated TB and ART management at clinical consultaon visits. Failure to combine care
+leads to increased visits and significantly increases the risk of disengagement.
+6.4.2.1. TB/HIV Drug interacon
+82
+Table 6.11: Co-treatment of HIV and active TB in neonates, infants, children, adolescents and adults
+1. The timing of
+ART initiation
+2. Drug selection in clients who are not
+yet on ART when TB treatment is
+initiated
+3. Drug levels, due to significant drug
+interactions that reduce ART
+concentration in the blood
+4. Adherence due to
+increase pill burden
+5. Side eects due to
+overlapping toxicities
+e.g. hepatic toxicity
+Drug interaction with DTG and Rifampicin-containing TB Treatment
+Rifampicin-containing TB treatment has significant drug interaction with all paediatric ART regimens, as well as with adult/adolescent
+regimens containing DTG:
+Clients who are not yet on ART when TB
+treatment is initiated
+Children and adolescents should initiate ART
+with a DTG-containing regimen, with boosting of
+DTG as explained below.
+Adults should initiate ART with either:
+- a DTG -containing regimen, with boosting of
+DTG as explained below, or
+- an EFV-containing regimen, provided the client
+is ART treatment -naïve. EFV has no significant
+drug interaction with rifampicin and has the
+benefit of being a once-daily regimen which
+supports adherence.
+Clients who are already on ART when TB treatment
+is initiated
+All clients who are already on a DTG-containing
+regimen when TB treatment is initiated should continue
+the DTG-containing regimen whilst also taking TB
+treatment, with boosting of DTG as explained below.
+Clients who are already virally suppressed on an EFVcontaining regimen when TB treatment is initiated
+should continue the EFV-containing regimen whilst also
+taking TB treatment. The EFV-containing regimen
+should be continued until two weeks after TB treatment
+is completed. Thereafter, EFV can be switched to DTG.
+Significant
+drug
+interaction
+! Rifampicin + NVP ! Rifampicin + DTG
+ART
+Regimen
+Neonates
+AZT + 3TC + NVP
+Infants and Children
+ABC + 3TC + DTG
+Adolescents and Adults
+TDF + 3TC + DTG
+Measures to
+counteract
+drug
+interactions
+with
+rifampicin
+Seek expert
+advice
+Boosting of DTG required
+In adults and adolescents, the dosing frequency of DTG should be increased to
+50mg 12-hourly. If on TLD FDC, then add DTG 50mg 12
+
+hours after TLD dose.
+For DTG-boosting in children, refer to drug dosing chart
+Continue boosting the ART regimen until 2 weeks after stopping rifampicin
+2.0 kg 3 kg 30 kg
+Drug interactions with Protease inhibitors, e.g. Lopinavir/ritonavir
+Every eort should be made to switch clients to DTG-containing regimens. However, during the transition process, some clients may still be on PI-containing regimens and may also
+require TB treatment. Rifampicin cannot be given with ATV/r or DRV/r. Significantdrug interactions between LPV/r and rifampicin should be managed as follows:
+LPV/r tablets: Double-dose LPV/r tablets in adults, adolescents and children able to swallow whole LPV/r tablets. Tablet must not be crushed, broken or chewed. If the client is
+unable to tolerate LPV/r at double doses, consult one of the “Helplines”.
+LPV/r solution or pellets or 4 in 1 (ABC/3TC/LPV/r): Super-boosting with additional ritonavir powder: maintain standard LPV/r dose but add additional ritonavir twice daily as per “Drug
+dosing chart”. If no powder is available, consult an expert for a suitable alternative. Ritonavir powder has a shelf -life of 36 months. Note that ritonavir 100mg tablets must not be
+crushed, broken or chewed
+TB/HIV co- infecon impacts on ART in a number of ways. It affects:
+! Clinicians should
+provide integrated TB
+and ARTmanagement at
+clinical consultation
+visits. Failure to
+combine care leads to
+increased visits and
+significantly increases
+the risk of
+disengagement
+6.4.2.2. Integraon of TB/HIV visits
+· Cliniciansshouldprovide integratedTBmanagement at clinical consultaonvisits. Failure tocombine care leadsto
+increasedvisitschedulesandsignificantlyincreasestheriskofdisengagementandloss-to-follow-up(LTF).
+· This schedule is for a standard DS-TB treatment (Rx) regimen consisng of 2 months of intensive phase Rx (IP)
+and 4 months of connuaon phase (CP) Rx aer a negave smear at the end of the IP.
+· This schedule applies to a client already on ART when diagnosed with drug-sensive TB. A client diagnosed with
+HIV and TB can also benefit from 2 months' supply of ART and TB connuaon phase to support adherence and
+retenon.
+Table 6.12 Integrated visit schedule for a client on ART who develops DS-TB
+6.4.2.3. Timing of ART for TB/HIV co-infected paents
+Table 6.13 Timing of ART
+Indication Action
+Diagnosis of drug -sensitive
+(DS) TB
+at a non -neurological site (e.g.
+pulmonary TB, abdominal TB,
+or TB
+lymphadenitis)
+Defer ART initiation as follows:
+• If CD4 < 50 cells/ μL – initiate ART within 2 weeks of
+starting TB treatment, when the client’s symptoms are
+improving, and TB treatment is tolerated
+• If CD4 ≥ 50 cells/ μL – initiate ART 8 weeks after starting
+TB treatment
+• In pregnant and breastfeeding women (PBFW) initiate
+ART within 2 weeks of starting TB treatment, when the
+client’s symptoms are improving, and TB treatment is
+tolerated. Defer
+ART for 4-6 weeks if symptoms of meningitis are present.
+Diagnosis of drug -resistant
+(DR) TB at a non -neurological
+site (e.g. pulmonary TB,
+abdominal TB, or TB
+lymphadenitis)
+Initiate ART after 2 weeks of TB treatment, when the client’s
+symptoms are improving, and TB treatment is tolerated
+Diagnosis of DS-TB or DR-TB
+at a neurological site (e.g. TB
+meningitis or tuberculoma)
+Defer ART until 4-8 weeks after start of TB treatment
+Note: Clients already on ART should NOT have their treatment interrupted
+upon diagnosis of TB
+83
+Integrated visit schedule for a client
+on ART who develops DS-TB (not in
+RPCs)
+Months (M) on TB treatment (Rx)
+Intensive Phase (IP) (months 1-2) Continuation Phase (CP) (months 3-6)
+TB M0 TB M1
+(4 completed
+weeks)
+7 wks TB M2
+(8 completed
+weeks)
+TB M4
+(16
+completed
+weeks)
+23 wks TB M6
+(24 completed weeks)
+Integrated
+TB/ART clinical
+consult
+TB screening as
+part of routine care
+TB
+diagnosis
+and TB Rx
+initiation
+Clinicianmanaged
+care at
+facility
+Assess smear
+conversion and
+transition to
+CP of TB Rx, if
+smear result is
+negative
+Clinicianmanaged
+care at
+facility
+Confirm TB Rx completion,
+assess for RPCs enrolment
+Investigations TB NAAT and any
+other
+investigations as
+clinically indicated
+Review
+result
+Smear Review result Smear Review end-of-Rx result
+ART/TB script Script ART for 1
+month
+Combined
+script for 1
+month of
+IP TB Rx
+and ART
+Combined
+script for 1
+month of IP
+TB Rx and
+ART
+Combined
+script for 2
+months** of
+CP TB Rx and
+ART
+Combined
+script for 2
+months**
+CP of TB Rx
+and ART
+If eligible for RPCs: RPCs ART
+script for 6 months
+ART-TB drug
+supply
+dispensed by
+facility
+Dispense ART for 1
+month
+Dispense
+1 month of
+IP TB Rx
+and DTG
+boosted
+ART
+Dispense 1
+month of IP
+TB Rx and
+DTG
+boosted ART
+Dispense 2
+months of CP
+TB Rx and 2
+months DTG
+boosted ART
+Dispense 2
+months of
+CP TB Rx
+and 2
+months
+DTG
+boosted
+ART
+Dispense 3 months of ART
+Ask client to
+return:
+If client has TB
+symptoms or is
+unwell, ask client
+to return in 5-7
+days for review*
+After 4
+weeks for
+clinical
+review
+After 3
+weeks for
+sputum
+smear
+After 1
+week
+for
+smear
+results
+After 8 weeks
+for clinical
+review
+After 7
+weeks for
+end of Rx
+smear
+After 1
+week for
+smear
+results
+If eligible and enrolled in RPCs:
+return for next ART supply at
+RPCs pick-up point after 3
+months
+7.PATIENT EDUCATION AND ADHERENCE TO
+ TREATMENT
+Learning outcomes:
+By the end of this session, parcipants should be able to:
+- Explain paent educaon.
+- Describe the content to be included in paent and family educaon.
+- Explain the importance of effecve communicaon with paents.
+- Define adherence.
+- Explain factors that influence treatment outcome.
+- Explain the role of a paent in successful treatment.
+7.1. Paent Educaon Definion
+Paent educaon is the process by which healthcare workers impart informaon to paents and their families
+that will alter their health behaviour and health status. Educaon is provided to encourage and empower
+paent to adhere.
+Paent educaon and counselling sessions During each session
+Sessions can be provided individually or as a group:
+- The atude of the counsellor or healthcare worker providing counselling is extremely important in
+supporng adherence.
+- Each counselling session should start with an introducon.
+- The counsellor or healthcare worker providing counselling should use their counselling skills to build
+trust with the paent and ensure that the paent is comfortable.
+- Create a warm environment and promote paent's openness by establishing language reference and
+informing about their right to confidenality.
+- Show your appreciaon to the paent for aending scheduled appointment at facility.
+- Ask quesons to help understand the paent's situaon and make me to listen carefully to their answer
+and discuss misunderstandings regarding treatment.
+- Encourage and provide me for the paent to ask quesons and discuss their concerns.
+- Discuss immediate concerns and help paent decide who in their social network may be available to
+provide immediate support.
+- Provide referrals to other services if needed.
+At the end of the visit:
+- Provide encouraging messages explaining the next steps on treatment at the end of the session.
+- Discuss any further quesons or concerns that the paent may have.
+- Schedule a follow-up visit for a date and me the paent is available, for next clinical or treatment
+supply visit date.
+- Write the date of the follow-up visit in the paent's treatment folder, TB treatment card and facility
+appointment register.
+- Encourage paent to adhere to treatment and return to facility as scheduled.
+- Inform the paent that they will be traced if they miss appointments and obtain consent for paent to
+be visited at home or to be called. Confirm the paent's contact details.
+- Provide IEC materials to the paent, if available, aer making sure that the paent understands the
+informaon in the IEC material in their language.
+- Provide health facility telephone numbers for paent to contact if necessary.
+84
+7.2 Adherence counselling session
+Content to be included in paent and family educaon
+Examples of quesons to understand the paent's current knowledge about TB:
+- What do you understand about tuberculosis?
+- What do you think causes TB? How is it spread?
+- Do you know of anyone who had TB? What happened to that person?
+- What have you heard about curing TB?
+Asking this queson may assist you to:
+- Tailor the messages to the needs of the paent.
+- Build on accurate informaon that the paent already knows and believes about the
+disease.
+- Concentrate on giving new informaon.
+- Correct wrong beliefs and mispercepons.
+Inform paents and their families about TB disease, treatment, adverse events following treatment, infecon
+prevenon and importance of sputum examinaons. Correct any myth or misinformaon the paents may
+have, e.g. a paent may believe that TB is caused by the “evil spirit” and cannot be cured. The inial messages
+for this paent should focus on the causes of TB, prevenon and the fact that it can be cured with TB medicines.
+Effecve communicaon
+Effecve communicaon should begin when the healthcare workers (CHWs) engage with the paent for the
+first me and during subsequent visits. Every engagement with a paent from the me of diagnosis and
+throughout the course of treatment unl the treatment is completed, is an opportunity to provide informaon
+and support. HCWs must communicate with paents and families clearly preferably in their local language.
+Creang good rapport with paents:
+- Speak slowly enough to be understood. Do not rush through instrucons.
+- Use a kind tone of voice and choose words that are caring rather than accusing. For
+example, if a paent misses a day: Do not say: “You missed treatment yesterday, do you
+want your whole family to catch TB?” Instead, say: “I missed you yesterday. What
+happened?”
+- Demonstrate empathy with the paent if there are problems.
+- Assess the barriers to adherence and discuss strategies with the paent on how to
+overcome them.
+- Help the paent to find soluons. Soluons may involve arranging transportaon, talking
+with the paent's family or employer.
+Encourage paents to ask quesons:
+- Make sure that the paent feels comfortable enough to ask quesons. Aer giving
+instrucons or an explanaon, pause and ask, “Do you have any quesons? I know this is a
+lot of informaon at once.”
+- Paents may be mid and concerned about appearing uneducated. Or they may be
+nervous and simply want to leave the health facility in a hurry.
+- It may take courage for them to ask quesons.
+- Praise paents for asking quesons and answer them thoughully and carefully. For
+example, say: “I'm glad you asked that queson....” “Good queson. ”
+85
+Adherence
+Definion of adherence
+Adherence means the extent to which a person's behaviour corresponds with agreed recommendaons from a
+healthcare worker in respect to taking medicaon, following a diet and/or implemenng lifestyle changes.
+Objecves of adherence guidelines
+· to strengthen access to appropriate services and intervenons to
+improve clinical outcomes
+· to assist service providers to ensure that people with chronic
+diseases are linked to care, retained in care and supported in
+adhering to treatment
+· to address client and service-provider barriers
+Differenated care approach
+A differenated approach to care, known as Differenated Models of Care (DMOC), is recommended, which
+aims to improve adherence and retenon in care through a paent-centred approach. Longer duraon of
+treatment, i.e. mul-month dispensing to reduce paent burden and encourage connued parcipaon in
+treatment, should be priorised. Repeat prescripon collecon (RPC) strategies are ideal for those already
+parcipang in this model of care.
+Exercise 1:
+- Go through the paent adherence plan, annexure 3.
+- Work in groups of 3s, taking turns in different roles, i.e., a nurse, paent and an observer in a role
+play.
+- Using the paent adherence plan, counsel a newly diagnosed paent starng TB treatment.
+86
+8.MONITORING RESPONSE TO TREATMENT
+This module provides an overview on how response to treatment is monitored.
+Learning Outcomes:
+At the end of this module, parcipants will be able to:
+- Explain the difference between clinical monitoring and bacteriological monitoring.
+- Describe the clinical monitoring and management of a paent throughout intensive phase.
+- Describe the clinical monitoring and management of a paent throughout connuaon phase.
+- Describe the management of paents interrupng treatment for:
+o less than 1 month
+o 1-2 months
+o 2 months and more
+8.1. Monitoring response to treatment
+Monitoring of response to treatment is important for clinical care. Paent with bacteriological confirmaon of PTB must
+be assessed clinically and bacteriologically. Paents diagnosed with TB NAAT must have baseline smear results and
+followed up bacteriologically. Paents with smear –posive or smear –negave are monitored by smear examinaon.
+Paents diagnosed without bacteriological confirmaon (u-LAM, chest x-rays, TST or other tests and based on clinical
+assessment) monitored clinically – improvement of clinical signs and symptoms, weight gain.
+1. Bacteriological monitoring
+· One 'on spot' sputum specimen is taken aer diagnosis with TB NAAT for baseline smear microscopy
+· One 'on spot' sputum specimen is taken at the end of week 7 for smear conversion
+· One 'on spot' sputum specimen is taken at the end of the 23rd week for confirmaon of cure
+· There should be no interrupon of treatment whilst the smears are evaluated
+· Timely collecon of sputum is important, and collecon and result dates captured in the paent record
+The table below summarises the bacteriological monitoring of paents.
+Table 8.1: Bacteriological monitoring
+Timing of test Aim Action Comments
+One week
+before the end
+of the 2
+months
+intensive
+phase of
+treatment (at 7
+weeks)
+To determine smear
+conversion a sign of
+good clinical
+progress.
+To guide the
+healthcare worker on
+whether to change
+the patient to
+continuation phase
+of treatment or
+If negative, change to the
+continuation phase of treatment
+at the end of the 8th week of
+intensive phase treatment.
+Register the patient as
+“negative”
+This means the patient is
+responding well to treatment.
+Educate and counsel patient
+about importance of treatment
+compliance
+extend the intensive
+phase
+End of intensive phase
+87
+If positive, check for treatment
+adherence, re -assess patient
+clinically
+1) Conduct culture and DST.
+Change to the continuation
+phase.
+2) Register the patient
+as “positive”
+3) Review the drug
+susceptibility results when
+available
+4) Address treatment
+adherence by counselling the
+patient and identifying a
+treatment supporter where
+necessary
+This indicates the following:
+1) That the initial phase of
+therapy was poorly
+monitored, and treatment
+adherence was poor.
+2) That there is a slow rate of
+improvement due to extensive
+TB disease or high bacillary
+load at diagnosis.
+3) That the patient may have
+resistance to the other TB
+drugs
+i.e. Isoniazid or may have
+been re -infected with a drug
+resistant strain.
+4) The patient may have
+another condition or taking
+other medication that affects
+the absorption or effectiveness
+of the TB drugs
+End of continuation phase
+One week
+before the end
+of the 4
+months
+To determine the
+outcome of treatment
+for the patient.
+If negative Stop treatment at the
+end of the 24th week of
+treatment. Allocate outcome.
+Educate the patient about TB
+prevention and healthy
+lifestyle.
+Continuation
+phase (at 23
+weeks)
+If positive
+Stop TB treatment.
+Register patient as “treatment
+failure”
+Conduct culture and DST for
+first line pyrazinamide and
+second line drugs
+Review the results when
+available.
+If drug susceptible , re-start TB
+treatment, counsel the patient
+and provide adherence support.
+This indicates the following:
+1) That the patient was
+re- infected with a
+sensitive or resistant
+strain
+2) The treatment during
+the continuation phase
+was unsupervised and
+patient compliance was
+poor
+If drug resistant , refer to the
+MDR-TB treatment initiation
+facility for assessment and
+treatment
+88
+Patients remaining positive at 6 months
+Aim Action
+To determine further management - If drug susceptible, re-start TB
+treatment, of the patient counsel the patient and provide
+treatment support
+- If drug resistant, refer to the MDR-TB
+treatment initiation facility for assessment
+and treatment
+Continuation
+phase
+If positive
+Stop TB treatment.
+Register patient as “treatment
+failure”
+Conduct culture and DST for
+first line pyrazinamide and
+second line drugs
+Review the results when
+available.
+If drug susceptible , re-start TB
+treatment, counsel the patient
+and provide adherence support.
+This indicates the following:
+1) That the patient was
+re- infected with a
+sensitive or resistant
+strain
+2) The treatment during
+the continuation phase
+was unsupervised and
+patient compliance was
+poor
+If drug resistant , refer to the
+MDR-TB treatment initiation
+facility for assessment and
+treatment
+Patients remaining positive at 6 months
+Aim Action
+To determine further management - If drug susceptible, re -start TB
+treatment, of the patient counsel the patient and provide
+treatment support
+- If drug resistant, refer to the MDR-TB
+treatment initiation facility for assessment
+and treatment
+89
+1. Clinical monitoring
+· EPTB and clinically diagnosed paents must be monitored clinically over the duraon of
+treatment period.
+· Bacteriological monitoring should also be accompanied by clinical monitoring.
+· Weight is a useful indicator of clinical improvement therefore it should be monitored during
+the follow up visits
+– Refer TB paent to the doctor within a week if losing weight
+– Adjust the treatment dosage on connuaon phase
+· Assessment of TB symptoms and signs must be conducted during the follow up visits:
+- Refer to the doctor or next level of care if symptoms are worsening or not improving
+· Side effects to medicines must be monitored regularly:
+– Any side effect should be noted and aended to
+– Adverse events form is completed
+· HIV tesng for status negave if HIV status unknown:
+– Provide counselling and test for HIV to ensure that paents know their status by end of
+TB treatment. HIV posive TB paents must be started on ART, following ART guideline.
+· Adherence:
+– Review paent treatment card/green card
+– Conduct pill count
+8.2. Management of treatment interrupters
+1. Minimising treatment interrupters
+· Early detecon of paents who interrupt treatment is essenal in prevenng loss to follow up
+– When a paent doesn't keep a scheduled appointment
+– A healthcare worker must call, enquire about the paent using the paent contact
+details provided
+– Send the tracer team member or community healthcare workers to the paent's
+home as per address provided
+– Use next of kin or employer contact details to contact the paent if available
+· On paent retrieval
+– Find out why the paent interrupted treatment and address paent concerns/
+ challenges
+– Jointly develop an acon plan to address the problem
+2. Management of paents who interrupt treatment for less than 1 month
+· Trace the paent
+· Establish the cause for interrupon of treatment
+– Address problems or concerns and counsel the paent
+· If interrupon occurred during the intensive phase,
+– add the missing doses before changing to connuaon phase
+· If interrupon occurred during the connuaon phase
+– add the missing doses at the end of the connuaon phase
+90
+Table 8.2: Treatment interruption
+Management of patients who interrupted for 1-2 months
+Action TB NAAT Results Action 2
+- Trace the patient
+- Establish the cause
+for interruption of
+MTB detected and
+Rif sensitive
+- Continue treatment
+and add the missed
+doses at the end of the
+treatment phase
+Monitor
+until
+treatment
+- Address the problem
+or concerns
+- Provide
+adherence
+counselling
+- Collect sputum for
+TB NAAT
+- Continue treatment
+- Review TB NAAT results.
+MTB Detected and
+Rif resistant
+- Stop treatment
+- Register patient as
+RR- TB.
+- Refer to DR -TB
+treatment initiating
+site for further
+management
+Follow up to ensure
+that the patient has
+been successfully
+referred
+Patient who interrupted treatment for 2 months or more (LTFU)
+- Trace the patient.
+- Establish the cause
+for interruption of
+treatment.
+- Address the problem
+or concerns and
+provide counselling.
+- Collect sputum for
+TB NAAT.
+- Do not start
+treatment, wait for
+the results
+MTB detected
+and Rif sensitive
+- Register as
+“Treatment after loss
+to follow up”
+- Re-start Regimen 1
+- Monitor as usual
+until treatment
+is completed.
+- MTB detected
+and Rif resistant
+- Register patient as
+RR- TB.
+- Collect sputum
+specimen for
+DRTB Reflex
+testing
+- Refer to DR - TB
+treatment initiating
+site
+for further
+management.
+Follow up to ensure
+that the patient has
+been successfully
+referred.
+3. Management of clinically diagnosed paents who interrupted treatment for 1-2 months
+- Every effort must be made to collect a sputum specimen in paents who were clinically
+diagnosed, i.e., diagnosed made based on other tests or based on clinical assessment and
+EPTB.
+- If paent cannot expectorate, connue treatment, and add the missed doses at the end of
+the treatment phase.
+o Provide adherence counselling
+o Educate paent on side effects of medicines
+o Clinically monitor the paents closely
+91
+Appendix 1
+PHC RISK ASSESSMENT TOOL
+TUBERCULOSIS INFECTION PREVENTION AND CONTROL RISK ASSESSMENT FORM FOR
+CLINICS AND COMMUNITY HEALTH CENTRES
+FACILITY DATA SHEET
+Facility Identification
+Facility Name:
+Facility Type:
+Physical Address
+Building Name:
+Street Number:
+Street Name:
+Suburb:
+Town/City:
+Location
+Province:
+District:
+Local Authority
+Information Source / Lead facility representative
+Name:
+Designation:
+Contact Numbers:
+Email Address:
+Data Control
+Lead Assessors Name:
+Designation:
+Contact Numbers:
+Email:
+Assessment Date:
+Section 1: Facility Staff Details
+Section 2: Facility Patient/ Occupancy Data
+Patient Visits per Quarter (Number of Patients): Year:
+First Quarter Second Quarter Third Quarter Fourth Quarter
+Total visits (all): Total visits (all): Total visits (all): Total visits (all):
+No. screened No. screened No. screened No. screened
+No. TB
+presumptive
+No. TB
+presumptive
+No. TB
+presumptive
+No. TB
+presumptive
+New Susceptible
+TB
+New Susceptible
+TB
+New
+Susceptible TB
+New
+Susceptible TB
+New Drug
+Resistant TB
+New Drug
+Resistant TB
+New Drug
+Resistant
+TB
+New Drug
+Resistant
+TB
+Total Drug
+Resistant
+TB
+Total Drug
+Resistant TB
+Total Drug
+Resistant
+TB
+Total Drug
+Resistant
+TB
+Facility Staff Complement
+92
+3.1. Is there a TB screening programme in place for facility staff? Yes No
+3.2. Are base-line chest X-ray undertaken for facility staff? Yes No
+3.3. Is sputum collected for all identified facility staff? Yes No
+3.4. Is completing a screening questionnaire part of the program? Yes No
+3.5. How frequently are the facility staff screened? Every Months
+Section 4: TB Among Staff
+4.1.1. How many staff members have been diagnosed with TB in the past 12
+months?
+4.1.2. How many staff members have been diagnosed with TB in the past 3 years?
+4.1.3. Did you submit occupational illness report(s) to the compensation
+commission?
+Yes No
+4.1.4. Have you investigated the case(s) of occupational illness & took corrective
+actions?
+Yes No
+4.1.5 Do you have access to occupational health services and advice? Yes No
+4.1.6. Are you aware of support services available to help you with staff health
+matters?
+Yes No
+Section 5: Management of Infection Control (IC) Program
+5.1. TB Infection Control Policy Yes No
+5.1.1. Is there a facility -specific infection control policy for airborne infections? Yes No
+5.1.2. Do (all) staff have access to the infection control policy? Yes No
+5.1.3. Are the HCWs being routinely trained on TB IC practices and requirements? Yes No
+5.1.4. Is there someone appointed in writing to be in-charge of infection control? Yes No
+5.1.5. Is there a functional infection control committee? Yes No
+5.1.6. Are the infection control committee members appointed in writing? Yes No
+5.2. Is the IC Policy supported by an IC Plan that allows implementation of the following?
+5.2.1. Screening of all patients arriving at the hospital? Yes No
+5.2.2. Separation of patients with presumptive TB or confirmed TB disease? Yes No
+5.2.3. Fast-tracking of patients with presumptive TB or confirmed TB disease? Yes No
+5.2.4. Appointment of person(s) to assist in triaging & fast-tracking patients with
+presumptive TB?
+Yes No
+5.2.5. Provision of surgical masks to patients? Yes No
+5.2.6. Health education and cough etiquette? Yes No
+5.2.7. Inclusion of respiratory protection programme? Yes No
+5.2.8. Inclusion of an open window policy (If not relying fully on mechanical
+ventilation)?
+Yes No
+5.2.9. Appointment of open window marshals with access to “open window
+registers”?
+Yes No
+5.2.10. Integration of TB screening with HCT and TB/HIV in general? Yes No
+5.2.11. Conducting a TB risk assessment frequently Yes No
+5.2.12. If yes, when was the last assessment undertaken? Date
+Comments:
+Section 3: Staff Screening for TB
+93
+Section 6: Turn-Around Times (average number of days it takes for the following)
+6.1. Collection of patient sputum until laboratory test results are returned to the
+facility?
+Days
+6.2. Time between receipt of tests until initiation of anti-tuberculosis treatment? Days
+6.3. Time taken by laboratory to provide outcome of culture results. Days
+Section 7: Additional Comments
+Section 8: Summary of Recommendations
+ENVIRONMENTAL CONTROLS
+Section 1: Sputum Collection
+o Where is sputum collection undertaken? (Tick all that apply)
+o An inside room or other (toilet, consulting room, ward etc.)
+o Designated, purpose made outside area for sputum induction
+o No designated area (outside etc.) – Just an open space
+o Local exhaust ventilation booth
+Section 2: Natural Ventilation
+2.1. If facility relies on natural ventilation, are the spaces open directly to the
+outside?
+Yes No
+2.2. If naturally ventilated, are all openable windows always open? Yes No
+2.3. Does the facility have “open window stickers and register”? Yes No
+Section 3: Mechanical Ventilation (where applicable)
+3.1. Are air changes per hour measured in this facility of unit? Yes No
+3.2. Are any of the air changes per hour measured below 12 ACH? Yes No
+3.3. Are ventilation systems regularly checked, maintained & maintenance logbook
+kept?
+Yes No
+3.4. Are these results readily available? Yes No
+Comments:
+Comments:
+Comments:
+Comments:
+Comments:
+Comments:
+94
+4.1. Were the UVGI units installed using an electrical engineer? (if by supplier state
+No).
+Yes No
+4.2. Were the UVGI units validated for operation by an independent authority? Yes No
+4.3. Are the UVGI units regularly checked and maintained? Yes No
+4.4. Are each of the UVGI unit performance results recorded in maintenance logs? Yes No
+4.5. Has the staff been trained to ensure safe operation of the UVGI units? Yes No
+Section 5: Additional Comments
+Section 6: Summary of Recommendations
+PERSONAL PROTECTITIVE EQUIPMENT
+Section 1: Respiratory Protection Programme(RPP)
+o Does the facility has a respiratory protection programme (RPP) Yes No
+o Are respiratory protection equipment used in this setting for all
+healthcare workers who may be at risk?
+Yes No
+o If YES, specify manufacturer, model and specific application below.
+Manufacturer:
+Class: (NIOSH – N95 or CEN-FFP2)
+Serial Number
+(e.g. TC number for NIOSH approved respirators)
+Describe the practice and method of respirator donning, use and storing:
+o Is respiratory -protection training conducted for HCWs? Yes No
+o If yes, is it conducted every six months? Yes No
+o After direct observation of selected staff, can they perform fit checking? Yes No
+o Have the relevant health -care workers undergone fit -testing for respirator
+use?
+Yes No
+Section 2: Summary of Recommendations
+Comments:
+Comments:
+Comments:
+Comments:
+Comments:
+Section 4: Air Disinfecting Systems by Upper Room UVGI (where applicable)
+95
+Annexure 2
+INITIATION COUNSELLING GUIDE
+Explain the purpose of your session:
+- Acknowledge that as facility staff you are there to support paents in this process.
+- Explain that the first step of the adherence plan is to receive educaon on illness and treatment.
+- Explain to paents that you will assist them by discussing together any barriers they or those close
+to them may have and to assist them in creang an individualised adherence plan to help them take
+their treatment correctly.
+Educaon on illness and treatment: individual or group
+- Provide educaon on illness and treatment for paent's condion.
+- Be open and alert to any personal difficules and struggles with aspects of the informaon.
+- Ask quesons to assess understanding.
+Idenfy life goals
+Explain the reason for discussing life goals
+- Ask paent to think about things that make them want to stay healthy and to live fully.
+- Ask them to think about the important people in their lives, what projects or goals they have in
+their future.
+- Ask them to idenfy 3 specific things such as things they really want that others may not even know
+about. It may be goals common to many of us for example, geng married, go to school or work or
+taking care of my family or very specific to the person.
+Idenfy support system
+Assist the paent to idenfy support system by asking the following quesons:
+- Who could support you in taking your treatment?
+- Do you have access to other support structures such as church, school and friends?
+- How important do you think it is to disclose your health status?
+- Would you be willing to be visited at home or contacted by phone?
+- Please confirm the telephone number where we can reach you. We will not disclose the reason for
+our call if someone else answers.
+- Who will help you to keep track of your next appointment?
+Plan for future appointments
+Assist the paent to plan for future appointments by asking the following quesons:
+- How will you travel to your appointments?
+- What will you do if something prevents you from coming to your appointment such as no money for
+transport, raining when you usually walk, taxi strike or a sick child or any other reason?
+Assess the readiness of the paent to start treatment
+Ask the paent the following quesons to assess if they have any concerns regarding starng treatment
+- How do you feel about starng TB treatment?
+- Do you have any concerns regarding starng TB treatment? Provide paent with informaon that will
+help them correct the misconcepons or myths about treatment.
+MEDICATION SCHEDULE
+Ask the paent the following:
+- According to your schedule, what would be the best me for you to take your treatment?
+MANAGING MISSED DOSE
+Ask the paent the following:
+- What will you do in case you forget to take a dose?
+Advise paent to take the treatment as soon as they remember.
+96
+ADHERENCE STRATEGIES
+Ask the paent the following:
+- What reminder strategy will you have in place to avoid forgeng treatment?
+Advise on seng watch, cell phone alarm, using pill box or ask someone to remind to take treatment.
+STORING MEDICATION AND EXTRA MEDICATION DOSES
+Ask the paent the following:
+- Who are you worried may see you taking treatment? Offer possibilies such as maybe your
+children or a neighbour; invite them to share why this is so.
+- What safe place could you idenfy to store your treatment?
+- In case you do not have access to your treatment at the me you are supposed to take it, how can you
+always carry 1 or 2 doses with you?
+DEALING WITH SIDE EFFECTS
+Remind the paent side effects can occur and are a normal part of adjusng to treatment. Ask paent:
+- Do you know about possible side effects?
+- What will you do if you are experiencing side effects?
+Reassure and support paent explaining that:
+- People react differently to medicines.
+- Like all medicines, the medicines for treang TB can have side effects, however, severe side
+effects are rare.
+- You may noce, orange discolouraon of urine and possible other body fluids and it is normal
+- Report to a health facility, if you think you are having any reacon to your treatment. Adverse
+reacon may include:
+o loss of appete accompanied by nausea, voming or yellowing of the skin or
+eyes
+o persistent ngling, numbness, or burning of hand or feet
+o persistent weakness, fague or abdominal tenderness
+o blurred vision or change in vision
+STEP 11: EXPLAIN TREATMENT PATHWAY AHEAD
+Explain to the paent that if they take their treatment well, they will be eligible for longer treatment supply
+and easier collecon systems.
+STEP 12: PLAN FOR TRAVELS
+Ask the paent the following:
+- Do you plan to travel in the coming weeks or months?
+- What would you do to make sure you can connue your treatment if you go away?
+- What could you do in case you have an unplanned trip and cannot come to the facility?
+Inform paents that:
+- Things can happen suddenly, try to remember the best approach would be to come to the facility
+before travelling to inform them of your travel locaon and length of me away so that you can
+receive a referral leer and sufficient treatment supply.
+- If the trip is not planned and you cannot come to the facility, it is important to go to the nearest
+facility in the travel area as soon as you arrive to make sure you can access treatment there. It is
+important to carry evidence of your condion and evidence of the treatment you are taking.
+- While referral/transfer leers make it easier for the staff at the new facility, it is important to know
+that the new facility may not require you to obtain a referral/transfer leer before providing
+treatment to you. Treatment should be provided on the day you present at the new facility to ensure
+you do not interrupt treatment.
+97
+STEP 13: DEALING WITH SUBSTANCE AND TRADITIONAL MEDICINE USE
+Explain that:
+- Ideally, it is beer to moderate alcohol or substance consumpon when you are on treatment. But if
+you have difficules liming your consumpon to 1 or 2 drinks, it is sll important to make sure that
+you do not forget to take your treatment.
+Ask the paent:
+- In case you are going to drink alcohol or use drugs, what could you do to make sure you
+remember to take your treatment?
+Support the paent to make a plan by assessing if someone could help make sure they take their
+medicaon in case they use drugs or alcohol or if they should rather take it at another me when they
+are less likely to forget.
+- If the paent is planning to use alcohol or drug, it might be more appropriate to take the treatment
+before as this decreases the risk to forget to take it.
+- If the paent recognises that they have a substance abuse disorder, propose referral to a specific
+support structure (refer to list of organisaons who could assist with psychosocial support). Bear in
+mind that passing judgment is not helpful. It is important to adopt a supporve atude.
+Explain to paent that it is beer not to use tradional medicines that could interfere with the
+treatment. If the paent takes tradional medicine, they should make a plan with the clinician to sll
+take their treatment.
+Encourage paents to think about their three reasons to stay healthy to re-movate them when they experience
+difficulty in taking their treatment.
+TREATMENT PATHWAY
+- Check the paent folder for type of TB and treatment duraon and explain to the paent.
+- For drug sensive TB with 6 months' treatment duraon explain:
+o You will be taking 4 drugs in combinaon for the first two months (intensive phase) and if the
+treatment is working change to two drugs in combinaon (connuaon phase) for the remaining
+4 months of treatment.
+o A follow-up sputum test called a smear microscopy will be done at 7 weeks on treatment.
+o If the smear microscopy is negave and you are well, it means the treatment is working and you
+can change from intensive to connuaon phase of TB treatment. You can ask and the
+nurse/doctor could offer longer treatment supply to reduce the number of follow-up visits to the
+clinic.
+o Another follow-up sputum test will be taken at 23 weeks on treatment and reviewed a week later.
+If again negave, you have successfully completed TB treatment and it can be stopped.
+o If the smear microscopy is posive, further tests will be done and dependent on the results, you
+may require changes to the TB drugs prescribed. Your clinician will provide more detailed
+informaon in this regard.
+· Explain the importance of connuing and adhering to treatment unl compleng the course of
+treatment.
+· Advise paents with TB, on how to prevent infecng other people by opening windows and
+covering their mouth when coughing.
+· Agree on a goal with the paent to complete the TB treatment and be cured.
+98
+99
+Annexure 3
+PATIENT ADHERENCE PLAN
+Name and Surname:
+FTIC Session 1 after chronic disease education session (date):
+Adherence step 1: education on HIV TB Hypertension Diabetes Other ……….......................
+Adherence step 2: Life goals:
+My motivations to stay healthy are: (1)……………………………….…. (2)……………………………….…. (3)……………………………….…..
+I will maintain a healthy lifestyle by adopting healthy eating habits getting regular exercise managing my stress
+Adherence Step 3: Patient Support system
+Agree for home visit: Yes No Preferred means of contact: SMS WhatsAapp Phone call Other ...............................
+Who can support me in my treatment: Family Friends Work School Church Other:
+Adherence Step 4: Getting to appointments
+I will come to my appointments by: walk public transport own transport
+If I face a difficulty to come (money,transport, etc.), my alternative plan will be to ask for assistance from:
+family friends neighbour other …………………………………
+I will inform clinic I am unable to come to set appointment and request for an alternative appointment
+Adherence step 5: My readiness to start treatment
+I feel ready and will start treatment:
+Yes
+I am ready today Yes No but will be on ................ (insert date)
+I do not feel ready and would like to discuss more with:
+peer family member other …………………………
+Adherence Step 6: Medication schedule
+The best time for me to take my treatment is: Morning Afternoon Evening
+Adherence step 7: Managing missed doses
+If I miss a dose, my plan is: (1) to take treatment as soon as I remember
+Adherence Step 8: Reminder strategies
+To remind me to take medication I will use: watch cell phone alarm pill box buddy other …………………………...
+Adherence Step 9: Storing medication and extra doses
+I will store my medication in: Safe place ..............................................................................Far from reach of children
+I will carry extra supply in: a bag pill box other:…..………...... I will keep it in my: handbag pocket other:…..……….....
+Adherence Step 10: Dealing with side-effects
+If I experience side effects, I will: Referto treatment adherence pamphlet
+Inform clinic if side effects do not go away or are too worrying
+FTIC Session 2 (date):
+Adherence Step 11: Understanding the treatment pathway ahead of me if I take my treatment well
+I understand the options for multi month - treatment supply and simplified collection available after one normal assessment result.
+Adherence Step 12: Planning for trips
+If I have some trips planned, before going away I will:
+Inform health facility before travelling to receive referral letter and treatment Get enough supply of treatment for trip
+In case I cannot come to the facility before going away:
+I will report to the nearest health facility in the travel area as soon as I arrive to get access to treatment
+Carry evidence of my condition and evidence of the treatment I am taking
+Adherence Step 13: Dealing with substance use
+My plan to make sure I take my medication if I used alcohol or drugs is:
+To make sure I take treatment before starting to use drugs or alcohol
+Arrange for someone to remind me to take treatment in case I am intoxicated
+Education on assessment: Viral load Sputum HbA1c BP Other: ………………………..……………………...............
+I understand that I can access multi-month treatment supply and simplified collection if my results are normal
+Patients signature …………………………………………………… Date of signature ……………………………………………………
+EAC Session 1 (date):
+EAC Session 2 (date):
+NOTES
+NOTES
+NOTES
+National Department of Health
+Switchboard: 012 395 9150
+DR AB Xuma Building | 1112 Voortrekker Road | Pretoria Townlands 351-JR | Pretoria | 0187
+Private Bag X828 | Pretoria | 0001
+Published by the Department of Health, Private Bag X828, Pretoria, 0001, South Africa
+© Department of Health, Republic of South Africa | 2024
+www.doh.gov.za

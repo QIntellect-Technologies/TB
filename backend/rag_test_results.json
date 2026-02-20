@@ -1,0 +1,63 @@
+{
+  "total": 173,
+  "success": 173,
+  "error": 0,
+  "by_category": {
+    "Basic TB Knowledge": {
+      "success": 20,
+      "error": 0,
+      "avg_relevance": 0.7419000000000001
+    },
+    "Symptoms & Diagnosis": {
+      "success": 25,
+      "error": 0,
+      "avg_relevance": 0.72896
+    },
+    "Treatment & Drugs": {
+      "success": 25,
+      "error": 0,
+      "avg_relevance": 0.7684000000000001
+    },
+    "Drug-Resistant TB": {
+      "success": 15,
+      "error": 0,
+      "avg_relevance": 0.7350666666666666
+    },
+    "Special Populations": {
+      "success": 13,
+      "error": 0,
+      "avg_relevance": 0.7305384615384616
+    },
+    "Prevention & Control": {
+      "success": 15,
+      "error": 0,
+      "avg_relevance": 0.7654
+    },
+    "Conversational Queries": {
+      "success": 15,
+      "error": 0,
+      "avg_relevance": 0.7391333333333333
+    },
+    "Complex Multi-Part": {
+      "success": 10,
+      "error": 0,
+      "avg_relevance": 0.7285000000000001
+    },
+    "Urdu Queries": {
+      "success": 10,
+      "error": 0,
+      "avg_relevance": 0.7442
+    },
+    "Edge Cases & Short Queries": {
+      "success": 15,
+      "error": 0,
+      "avg_relevance": 0.5841999999999998
+    },
+    "Clinical Scenarios": {
+      "success": 10,
+      "error": 0,
+      "avg_relevance": 0.7261
+    }
+  },
+  "failed_questions": []
+}

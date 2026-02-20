@@ -1,0 +1,70 @@
+================================================================================
+CONVERSATION LOGIC TEST
+================================================================================
+
+[QUERY]: 'Hi'
+----------------------------------------
+[Classified Intent]: [GREETING]
+[Method Used]: greeting
+[Answer]: Hello! I am Dr. TB Expert. How can I assist you with Tuberculosis today?...
+[FAIL]: 'Hi' should use llm_chat
+
+[QUERY]: 'Hello there'
+----------------------------------------
+[Classified Intent]: [MEDICAL]
+[Method Used]: retrieval_synthesis
+[Answer]: Hello, I'm here to help with your TB-related questions. What would you like to know about tuberculosis? I can provide information on prevention, sympt...
+
+[QUERY]: 'Excuse me'
+----------------------------------------
+[Classified Intent]: [GREETING]
+[Method Used]: greeting
+[Answer]: Hello! I am Dr. TB Expert. How can I assist you with Tuberculosis today?...
+
+[QUERY]: 'How are you?'
+----------------------------------------
+[Classified Intent]: [SMALL_TALK]
+[Method Used]: retrieval_synthesis
+[Answer]: I'm doing well, thank you for asking. As a TB medical expert, I'm focused on helping patients manage their condition and providing them with the best ...
+
+[QUERY]: 'Who are you?'
+----------------------------------------
+[Classified Intent]: [SMALL_TALK]
+[Method Used]: retrieval_synthesis
+[Answer]: I'm a medical expert specializing in Tuberculosis (TB). I've got in-depth knowledge about the disease, including its history, risk factors, and global...
+
+[QUERY]: 'I love Python programming'
+----------------------------------------
+[Classified Intent]: [IRRELEVANT]
+[Method Used]: irrelevant
+[Answer]: I specialize only in Tuberculosis (TB). Please ask me medical questions....
+
+[QUERY]: 'What is the weather in London?'
+----------------------------------------
+[Classified Intent]: [IRRELEVANT]
+[Method Used]: irrelevant
+[Answer]: I specialize only in Tuberculosis (TB). Please ask me medical questions....
+
+[QUERY]: 'You are stupid'
+----------------------------------------
+[Classified Intent]: [ABUSE]
+[Method Used]: retrieval_synthesis
+[Answer]: I'm here to help with your questions about TB. It seems like you've made a statement rather than asking a question, though. If you have any questions ...
+
+[QUERY]: 'Is TB contagious?'
+----------------------------------------
+[Classified Intent]: [MEDICAL]
+[Method Used]: retrieval_synthesis
+[Answer]: Yes, TB is contagious. It spreads through the air when people with lung TB cough, sneeze, or spit. This means that if you're around someone with lung ...
+
+[QUERY]: 'Hi, can TB be cured?'
+----------------------------------------
+[Classified Intent]: [MEDICAL]
+[Method Used]: retrieval_synthesis
+[Answer]: Yes, TB can be cured with proper treatment. The standard treatment is a 6-month course of antibiotics that is highly effective when completed. By taki...
+
+[QUERY]: 'Excuse me, what are the symptoms of TB?'
+----------------------------------------
+[Classified Intent]: [MEDICAL]
+[Method Used]: retrieval_synthesis
+[Answer]: The symptoms of active TB include a persistent cough, chest pain, coughing up blood, fatigue, drenching night sweats, fever, and unexplained weight lo...

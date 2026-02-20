@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Datasets and Large Files
+dataset/
+XRAY_TB/
+PDF Data/
+tb_text_Dataset/
+*.zip
+*.pdf
+*.jsonl
+*.db
+*.sqlite3
+backend/vector_db_chromadb_backup/
+backend/vector_db_faiss/
+backend/models/
+backend/tb_expert.db
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store

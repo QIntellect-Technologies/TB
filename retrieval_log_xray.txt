@@ -1,0 +1,33 @@
+================================================================================
+🚑 X-RAY DIAGNOSTIC
+================================================================================
+
+🔍 QUESTION: 'Can TB be detected with an X-ray?'
+--------------------------------------------------------------------------------
+   Found 5 docs
+   1. [Basic Understanding] (Score: 0.7874)
+      Context: **Definition:** Tuberculosis (TB) is a contagious infectious disease caused by bacteria called *Mycobacterium tuberculosis*. It primarily affects the lungs (Pulmonary TB) but can attack any part of th...
+   2. [Basic Understanding] (Score: 0.7696)
+      Context: **Definition:** Tuberculosis (TB) is a contagious infectious disease caused by bacteria called *Mycobacterium tuberculosis*. It primarily affects the lungs (Pulmonary TB) but can attack any part of th...
+   3. [Basic Understanding] (Score: 0.7360)
+      Context: **Definition:** Tuberculosis (TB) is a contagious infectious disease caused by bacteria called *Mycobacterium tuberculosis*. It primarily affects the lungs (Pulmonary TB) but can attack any part of th...
+   4. [Basic Understanding] (Score: 0.7351)
+      Context: **Definition:** Tuberculosis (TB) is a contagious infectious disease caused by bacteria called *Mycobacterium tuberculosis*. It primarily affects the lungs (Pulmonary TB) but can attack any part of th...
+   5. [Diagnosis] (Score: 0.7299)
+      Context: **TB Diagnosis Methods:** 1. **Skin Test (Mantoux/TST):** Checks immune reaction. 2. **Blood Test (IGRA):** More specific than skin test. 3. **Sputum Smear/Culture:** Lab tests mucus from lungs. 4. **...
+      ✅ FOUND X-RAY IN THIS DOC
+
+🔍 QUESTION: 'Chest X-ray for TB diagnosis'
+--------------------------------------------------------------------------------
+   Found 5 docs
+   1. [Diagnosis] (Score: 0.7795)
+      Context: **TB Diagnosis Methods:** 1. **Skin Test (Mantoux/TST):** Checks immune reaction. 2. **Blood Test (IGRA):** More specific than skin test. 3. **Sputum Smear/Culture:** Lab tests mucus from lungs. 4. **...
+      ✅ FOUND X-RAY IN THIS DOC
+   2. [Symptoms & Clinical Presentation] (Score: 0.7754)
+      Context: **Symptom: Chest pain** Pleuritic chest pain may indicate pleural involvement. *Clinical Note:* Investigate further....
+   3. [Symptoms & Clinical Presentation] (Score: 0.7676)
+      Context: **Symptom: Chest pain** Pleuritic chest pain may indicate pleural involvement. *Clinical Note:* Investigate further....
+   4. [Symptoms & Clinical Presentation] (Score: 0.7651)
+      Context: **Symptom: Chest pain** Pleuritic chest pain may indicate pleural involvement. *Clinical Note:* Investigate further....
+   5. [Symptoms & Clinical Presentation] (Score: 0.7607)
+      Context: **Symptom: Chest pain** Pleuritic chest pain may indicate pleural involvement. *Clinical Note:* Investigate further....
