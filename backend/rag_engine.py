@@ -461,87 +461,43 @@ class RAGEngine:
         
         if language == "English":
             system_instruction = (
-                "You are a Senior TB Specialist and Clinical Educator with 20+ years of experience. "
-                "You think like a clinician, not just an information retriever. "
-                "For scenario-based questions: provide step-by-step clinical management. "
-                "For 'explain' questions: provide in-depth pathophysiology including granuloma formation, "
-                "Th1 immune response, IFN-gamma role, caseous necrosis, and latency mechanisms where relevant. "
-                "For MDR-TB: include DST, GeneXpert, second-line drugs, isolation, and public health notification. "
-                "Never repeat a symptom checklist when the question asks for management or clinical action. "
-                "WHATSAPP FORMATTING RULES (STRICT): "
-                "Use *single asterisk* for bold text (e.g. *Definition:*). "
-                "NEVER use **double asterisks** anywhere — they show as raw symbols on WhatsApp. "
-                "NEVER use #, ##, ###, backticks, underscores for formatting. "
-                "Use - or • for bullet points. Keep formatting clean and simple."
+                "You are a friendly, supportive, and medically responsible AI assistant specialized in Tuberculosis (TB). "
+                "Your goal is to provide accurate, clear, and easy-to-understand information about TB while maintaining a warm, human, and conversational tone. "
+                "You are not robotic. You speak naturally, like a knowledgeable friend who genuinely wants to help.\n\n"
+                "When responding:\n"
+                "- Always match the user’s tone. If the user is casual, be casual but respectful. If the user is worried, respond with empathy first.\n"
+                "- For emotional messages: Acknowledge feelings first, then provide helpful information. Never dismiss fear.\n"
+                "- For TB questions: Provide accurate, structured answers using simple language unless advanced detail is requested. Avoid jargon and textbook copy-pasting.\n"
+                "- For clinical scenarios: Think step-by-step and suggestive medical consultation. Never give unsafe advice.\n"
+                "- WHATSAPP FORMATTING (STRICT): Use *single asterisk* for bold ONLY. NEVER use **double asterisks**. No # or backticks. Use simple bullets (• or -)."
             )
 
             if intent == "clinical_scenario":
-                approach_instruction = (
-                    "CLINICAL SCENARIO RULES:\n"
-                    "- Identify the clinical problem clearly\n"
-                    "- Provide a structured management plan with numbered steps\n"
-                    "- Include investigations (Mantoux, IGRA, GeneXpert, CXR, sputum smear etc.) where relevant\n"
-                    "- Include treatment options (IPT, standard regimen, second-line etc.) where relevant\n"
-                    "- Mention risks, drug resistance concerns, and public health aspects if applicable\n"
-                    "- DO NOT list generic TB symptoms — answer the management question directly"
-                )
+                approach_instruction = "Give a simple, natural response with a step-by-step logic."
             elif intent == "detailed":
-                approach_instruction = (
-                    "DETAILED EXPLANATION RULES:\n"
-                    "- Provide a thorough, multi-paragraph explanation\n"
-                    "- Include mechanism, pathophysiology, or immunology as relevant\n"
-                    "- For immune response: cover Th1, macrophage activation, IFN-gamma, granuloma, TNF-alpha, latency\n"
-                    "- For MDR-TB management: cover DST, GeneXpert, second-line drugs, isolation protocols\n"
-                    "- Use medical terminology with brief explanations for clarity"
-                )
+                approach_instruction = "Explain in easy words but cover the depth. Avoid being overly clinical."
             else:
-                approach_instruction = (
-                    "BRIEF ANSWER RULES:\n"
-                    "- Answer in 1-3 sentences maximum\n"
-                    "- Be direct, medically accurate, and clear"
-                )
+                approach_instruction = "Keep it clear, warm, and natural. 1-3 sentences max."
 
-            empathy_note = "Begin with brief reassurance: 'With proper treatment, most people fully recover.' before the clinical answer." if is_scared else ""
-
-            prompt = f"""MEDICAL KNOWLEDGE BASE:
+            prompt = f"""KNOWLEDGE BASE:
 {context_text}
 
-CLINICAL QUESTION: {query}
+USER QUESTION: {query}
 
-{approach_instruction}
-{empathy_note}
-
-ADDITIONAL RULES:
-- Never suggest MDR-TB drugs (BPaL, BPaLM, Linezolid) unless MDR is explicitly mentioned
-- For general TB, refer to 'standard 6-month HRZE/HR regimen'
-- Cite specific investigations and management steps for clinical scenarios
-- Format clearly for WhatsApp using *bold* headers and bullet points
+INSTRUCTIONS: {approach_instruction}
+Rules: No robotic phrasing. No unnecessary jargon. Keep it warm.
 """
         else:  # Urdu
             system_instruction = (
-                "آپ ٹی بی کے سینئر طبی ماہر اور کلینیکل معلم ہیں۔ "
-                "کلینیکل سیناریو سوالوں کے لیے قدم بہ قدم انتظام فراہم کریں۔ "
-                "تفصیلی سوالوں کے لیے گہری pathophysiology بیان کریں۔ "
-                "WhatsApp فارمیٹ (سخت قوانین): "
-                "صرف *ایک asterisk* بولڈ کے لیے استعمال کریں (مثلاً *تعریف:*)۔ "
-                "**دو asterisks** بالکل استعمال نہ کریں — یہ WhatsApp پر علامات کے طور پر نظر آتے ہیں۔ "
-                "#، ##، backticks، underscores بالکل استعمال نہ کریں۔"
+                "آپ ایک دوستانہ، مددگار، اور طبی طور پر ذمہ دار AI معاون ہیں جو ٹی بی (TB) میں مہارت رکھتے ہیں۔ "
+                "آپ کا مقصد ٹی بی کے بارے میں درست، واضح اور سمجھنے میں آسان معلومات فراہم کرنا ہے جبکہ ایک گرمجوشی، انسانی اور بات چیت کا لہجہ برقرار رکھنا ہے۔ "
+                "WhatsApp فارمیٹ (سخت قوانین): صرف *ایک asterisk* بولڈ کے لیے استعمال کریں۔ **دو asterisks** بالکل استعمال نہ کریں۔"
             )
-
-            if intent == "clinical_scenario":
-                approach_instruction = "یہ ایک کلینیکل کیس ہے۔ قدم بہ قدم انتظامی منصوبہ دیں، جانچ اور علاج شامل کریں۔"
-            elif intent == "detailed":
-                approach_instruction = "تفصیلی وضاحت دیں، بشمول میکانزم، pathophysiology اور طبی پہلو۔"
-            else:
-                approach_instruction = "صرف 1-2 مختصر جملوں میں جواب دیں۔"
-
+            approach_instruction = "سادہ اور دوستانہ جواب دیں، طبی پیچیدگیوں سے گریز کریں۔"
             prompt = f"""طبی معلومات:
 {context_text}
-
 سوال: {query}
-
 ہدایت: {approach_instruction}
-علاج: صرف اس وقت MDR ادویات کا ذکر کریں جب صارف MDR کا ذکر کرے۔
 """
 
         result = self._call_llm_with_failover(prompt, system_instruction=system_instruction, max_tokens=max_output_tokens, temperature=0.4)
@@ -620,9 +576,27 @@ Answer:"""
         
         # --- PHASE 3: HANDLE TB SYMPTOMS QUERY (SPECIAL CASE) ---
         if self._is_symptom_query(check_query):
-            symptom_response = self._get_formatted_symptoms(language)
+            symptoms_text = (
+                "*Common Symptoms of TB:*\n"
+                "• Persistent cough (>2 weeks)\n"
+                "• Chest pain or shortness of breath\n"
+                "• Coughing up blood\n"
+                "• Unexplained weight loss\n"
+                "• Night sweats and fever\n"
+                "• Fatigue or weakness\n\n"
+                "These symptoms can vary depending on where TB is in the body. Are you currently facing any of these? I'm here to listen."
+                if language == "English" else
+                "*ٹی بی کی عام علامات:*\n"
+                "• مسلسل کھانسی (2 ہفتے سے زیادہ)\n"
+                "• سینے میں درد یا سانس لینے میں دشواری\n"
+                "• کھانسی میں خون آنا\n"
+                "• غیر واضح وزن میں کمی\n"
+                "• رات کو پسینہ آنا اور بخار\n"
+                "• تھکاوٹ یا کمزوری\n\n"
+                "یہ علامات اس بنیاد پر مختلف ہو سکتی ہیں کہ جسم میں ٹی بی کہاں ہے۔ کیا آپ اس وقت ان میں سے کسی کا سامنا کر رہے ہیں؟ میں آپ کی بات سننے کے لیے یہاں ہوں۔"
+            )
             result = {
-                "answer": symptom_response,
+                "answer": symptoms_text,
                 "sources": [],
                 "method": "symptom_template",
                 "category": "Symptoms"
