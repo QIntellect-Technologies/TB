@@ -564,6 +564,7 @@ Answer:"""
         
         start_time = time.time()
         check_query = original_query if original_query else query
+        final_result = None
         
         # --- PHASE 1: CHECK IF USER IS RESPONDING TO SYMPTOM QUESTION ---
         if conversation_history:
@@ -986,7 +987,21 @@ Tell me, from all of these which symptoms do you have?"""
                 return "یہ میرے دائرہ کار سے باہر ہے 😊 لیکن اگر ٹی بی، اس کی علامات، علاج یا بچاؤ کے بارے میں کچھ جاننا چاہتے ہیں تو میں حاضر ہوں!"
             return "That's outside my area of expertise 😊 But I'm a TB specialist — if you have any questions about Tuberculosis, symptoms, treatment, or prevention, I'm all ears! 🫁"
 
-        # --- Greeting & Small Talk: let LLM respond warmly and naturally ---
+        # --- Greeting & Small Talk: Instant Fast-Path for speed ---
+        greetings_map = {
+            "hi": "Hey there! 👋 I'm the TB Expert AI. How can I help you with Tuberculosis info today?",
+            "hello": "Hello! 😊 I'm your TB Expert assistant. Ask me anything about TB symptoms, treatment, or prevention!",
+            "salam": "Walaikum Assalam! 😊 میں ٹی بی ایکسپرٹ AI ہوں۔ میں آپ کی کیسے مدد کر سکتا ہوں؟",
+            "assalam": "Walaikum Assalam! 😊 میں ٹی بی ایکسپرٹ AI ہوں۔ میں آپ کی کیسے مدد کر سکتا ہوں؟",
+            "hey": "Hey! 👋 Ready to help with any TB-related questions. What's on your mind?",
+            "hi!": "Hi! 👋 How can I help you today regarding Tuberculosis?",
+            "hello!": "Hello! 😊 Ask me anything about TB symptoms or treatment."
+        }
+        
+        if q_lower in greetings_map:
+            return greetings_map[q_lower]
+
+        # --- Greeting & Small Talk: let LLM respond warmly and naturally for everything else ---
         lang_note = "Reply in Urdu." if language == "Urdu" else "Reply in English."
         system_instruction = (
             "You are TB Expert AI — a warm, friendly, and knowledgeable Tuberculosis specialist assistant. "

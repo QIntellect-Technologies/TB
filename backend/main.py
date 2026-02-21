@@ -377,6 +377,31 @@ async def send_whatsapp_message(text: str, to: str):
         print(f"❌ Failed to send WhatsApp message: {e}")
         return None
 
+async def mark_whatsapp_as_read(message_id: str):
+    """Mark an incoming WhatsApp message as 'read'"""
+    access_token = os.getenv("WHATSAPP_ACCESS_TOKEN")
+    phone_number_id = os.getenv("WHATSAPP_PHONE_NUMBER_ID")
+    
+    if not access_token or not phone_number_id or not message_id:
+        return None
+        
+    url = f"https://graph.facebook.com/v18.0/{phone_number_id}/messages"
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "messaging_product": "whatsapp",
+        "status": "read",
+        "message_id": message_id
+    }
+    
+    try:
+        async with httpx.AsyncClient() as client:
+            await client.post(url, headers=headers, json=payload, timeout=5.0)
+    except:
+        pass
+
 @app.get("/whatsapp/webhook")
 def verify_whatsapp_webhook(request: Request):
     """WhatsApp Webhook Verification (Meta Challenge)"""
@@ -414,12 +439,16 @@ async def handle_whatsapp_webhook(request: Request):
             
         msg = messages[0]
         from_number = msg.get("from")
+        msg_id = msg.get("id")
         body = msg.get("text", {}).get("body", "").strip()
         
         if not body:
             return {"status": "empty/non-text message"}
             
         print(f"📱 Upcoming WhatsApp Msg from {from_number}: {body}")
+        
+        # Mark as read immediately for user feedback
+        await mark_whatsapp_as_read(msg_id)
         
         # Process via RAG Engine
         if rag_engine:
