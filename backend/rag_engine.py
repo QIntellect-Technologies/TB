@@ -595,67 +595,66 @@ Answer:"""
                 "• تھکاوٹ یا کمزوری\n\n"
                 "یہ علامات اس بنیاد پر مختلف ہو سکتی ہیں کہ جسم میں ٹی بی کہاں ہے۔ کیا آپ اس وقت ان میں سے کسی کا سامنا کر رہے ہیں؟ میں آپ کی بات سننے کے لیے یہاں ہوں۔"
             )
-            result = {
+            final_result = {
                 "answer": symptoms_text,
                 "sources": [],
                 "method": "symptom_template",
-                "category": "Symptoms"
-            }
-            self.query_cache[cache_key] = result
-            return result
-        
-        # --- PHASE 4: HANDLE NON-MEDICAL CHAT ---
-        if intent_category in ["greeting", "small_talk", "irrelevant", "abuse"]:
-            if self.use_llm:
-                try:
-                    chat_reply = self._llm_conversational_reply(check_query, intent_category, language)
-                    result = {
-                        "answer": chat_reply,
-                        "sources": [],
-                        "method": "llm_chat",
-                        "category": "Chat"
-                    }
-                    self.query_cache[cache_key] = result
-                    return result
-                except: pass
-            
-            # Static Fallback
-            result = {
-                "answer": "I am a TB specialist. How can I help with symptoms or treatment?" if language == "English" else "میں ٹی بی کا ماہر ہوں۔ میں علامات یا علاج میں کیسے مدد کر سکتا ہوں؟",
-                "sources": [], 
-                "method": "intent_fallback"
-            }
-            self.query_cache[cache_key] = result
-            return result
-
-        # --- PHASE 5: MEDICAL RAG ---
-        context = self.retrieve_context(query, language=language, top_k=10)
-        
-        if not context:
-            return {"answer": "No relevant info found.", "sources": [], "method": "no_results"}
-        
-        # Synthesize
-        final_result = None
-        if self.use_llm:
-            try:
-                synthesized = self._llm_synthesize_groq(query, context, language)
-                final_result = {
-                    "answer": synthesized,
-                    "sources": context[:3],
-                    "method": "LLM",
-                    "latency": round(time.time() - start_time, 3)
-                }
-            except Exception as e:
-                print(f"⚠️ LLM fail: {e}")
-        
-        if not final_result:
-            answer = self._synthesize_answer(query, context, language)
-            final_result = {
-                "answer": answer,
-                "sources": context[:3],
-                "method": "Retrieval",
+                "category": "Symptoms",
                 "latency": round(time.time() - start_time, 3)
             }
+        
+        if not final_result:
+            # --- PHASE 4: HANDLE NON-MEDICAL CHAT ---
+            if intent_category in ["greeting", "small_talk", "irrelevant", "abuse"]:
+                if self.use_llm:
+                    try:
+                        chat_reply = self._llm_conversational_reply(check_query, intent_category, language)
+                        final_result = {
+                            "answer": chat_reply,
+                            "sources": [],
+                            "method": "llm_chat",
+                            "category": "Chat",
+                            "latency": round(time.time() - start_time, 3)
+                        }
+                    except Exception as e:
+                        print(f"⚠️ Chat LLM fail: {e}")
+                
+                if not final_result:
+                    final_result = {
+                        "answer": "I am a TB specialist. How can I help with symptoms or treatment?" if language == "English" else "میں ٹی بی کا ماہر ہوں۔ میں علامات یا علاج میں کیسے مدد کر سکتا ہوں؟",
+                        "sources": [], 
+                        "method": "intent_fallback",
+                        "latency": round(time.time() - start_time, 3)
+                    }
+
+        if not final_result:
+            # --- PHASE 5: MEDICAL RAG ---
+            context = self.retrieve_context(query, language=language, top_k=10)
+            
+            if not context:
+                final_result = {"answer": "No relevant info found.", "sources": [], "method": "no_results"}
+            else:
+                # Synthesize
+                if self.use_llm:
+                    try:
+                        synthesized = self._llm_synthesize_groq(query, context, language)
+                        final_result = {
+                            "answer": synthesized,
+                            "sources": context[:3],
+                            "method": "LLM",
+                            "latency": round(time.time() - start_time, 3)
+                        }
+                    except Exception as e:
+                        print(f"⚠️ LLM fail: {e}")
+                
+                if not final_result:
+                    answer = self._synthesize_answer(query, context, language)
+                    final_result = {
+                        "answer": answer,
+                        "sources": context[:3],
+                        "method": "Retrieval",
+                        "latency": round(time.time() - start_time, 3)
+                    }
         
         # 🔥 APPEND PDF PAGE REFERENCE (if found)
         pdf_ref = self._find_pdf_page_reference(check_query)
